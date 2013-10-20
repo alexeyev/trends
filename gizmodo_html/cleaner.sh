@@ -18,7 +18,6 @@ if [ ! -d $f ]; then
 		sed -r "s/\s+/ /g" | \
 		sed -r "s/.*<title>([^<]*)<\/title>.*class=\"show-on-hover\">([^<]*)<\/span>.*post-content\">(.*)/\1\n\2\n\3/g" | \
 		sed -r "s/<script.*//g" | \
-		sed "s/<[^>]*>/ /g" > "$2/$counter"
-	printf "\n";
+		sed "s/<[^>]*>/ /g" > "$2/$counter"	
 fi
 done
