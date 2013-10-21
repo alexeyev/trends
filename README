@@ -1,8 +1,30 @@
-==Week 2==
+**Week 2**
 
 Decided to start downloading blogs.
 
-===Gizmodo===
+***Gizmodo***
 
-Got sitemap.xml, links by ranges => sorted_links.txt -- all posts gizmodo.com provides for easy indexing.
+* Got sitemap.xml, links by ranges => sorted_links.txt -- all posts gizmodo.com provides for easy indexing.
+* Downloaded ALL gizmodo articles with wget (~124,5).
+* Added initial data-of-interest extraction tool (cleaner). 
+* Tried Stanford NER tool, seems to be a cool one.
 
+> Plans
+
+* Data cleaner must work with better 'precision', should be rewritten with JSoup or Beautiful Soup, whatever.
+* Apply Stanford NER and OpenNLP to data.
+* Find out if there are many duplicates cases like 'HP' == 'Hewlett-Packard', 'IBM' == ''
+* Think how to use links to mentioned companies' websites.
+* It seems to be a cool idea to preprocess scientific articles abstracts dataset (using authors' affiliations).
+* And also Anton wants to get TechCrunch.
+
+** Week 3 **
+
+***TechCrunch***
+
+Crawling TC is a bit harder, yet still manageable. Sitemap provides only recent stuff.
+
+1. You get links from http://techcrunch.com/yyyy/MM/dd/page/1, then http://techcrunch.com/yyyy/MM/dd/page/2, etc. until you are told the page of concern is unavailable.
+2. Having collected all URLs, you can wget all pages to your computer.
+3. ???????
+4. PROFIT!
