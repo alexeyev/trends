@@ -20,11 +20,11 @@ do
 	formatted=$(date -d "$current_date" +%Y/%m/%d)
 	current_date=$(date +%Y/%m/%d  -d "$formatted 1 days ago")
 	page=1
-	url="http://techcrunch.com/$current_date/page/$page/"
+	url="http://techcrunch.com/$current_date/"
 	while [[ $(is_blank $url) == 'nope' ]]
 	do
 		# plain regex for extracting URLs of interest
-		curl $url | grep -o 'href=[^<>]*data-omni-sm="gbl_river_headline"' | sed -r 's/.*(http[^"]*)".*/\1/g' >> links.txt
+		curl -L $url | grep -o 'href=[^<>]*data-omni-sm="gbl_river_headline"' | sed -r 's/.*(http[^"]*)".*/\1/g' >> links.txt
 		echo "DONE WITH: $current_date, page $page, url: $url"
 		page=$(($page+1))
 		url="http://techcrunch.com/$current_date/page/$page/"
