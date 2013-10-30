@@ -1,3 +1,5 @@
+package ru.compscicenter.trends.ner;
+
 import org.junit.Test;
 import ru.compscicenter.trends.ner.EnglishNEExtractor;
 import ru.compscicenter.trends.ner.model.NamedEntity;
