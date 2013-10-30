@@ -1,0 +1,2678 @@
+3G Radio Access Network 1
+7th Framework Programme 1
+AAA 8
+AAAI 1
+AAPC 3
+AAPS 2
+AAR 1
+AAV 1
+ABAC 5
+ABACUS 2
+ABB 7
+ABB Inc. 1
+ABC 3
+ABCD 1
+ABCM 1
+ABDM 1
+ABHA 1
+ABMs 1
+ABPA 1
+ABR 1
+AC 9
+ACAP 1
+ACBL 2
+ACBM 1
+ACCA 3
+ACIS 1
+ACM Press 1
+ACM Special Interest Group on Data Communications 1
+ACMA 3
+ACME 2
+ACMF 2
+ACORN 1
+ACP 5
+ACR 1
+ACS 1
+ADC 9
+ADCA 2
+ADDC 1
+ADF 2
+ADL 12
+ADM 2
+ADSR 2
+AEC 2
+AECM 2
+AEF 2
+AEP 1
+AER 1
+AES 16
+AF PHB 1
+AFI 2
+AFN 3
+AFRL 1
+AG 1
+AGIR 1
+AGWL 5
+AHCA 4
+AHP 7
+AIC 3
+AICC 2
+AIFS 6
+AIIS Inc. 1
+AIP 1
+ALC 1
+ALCA 3
+AMBA 1
+AMCBC 1
+AMD 2
+AMOR 6
+AMP 1
+ANC 1
+ANET 2
+ANN 13
+ANOVA 1
+ANSI 3
+ANSYS 5
+AOC 2
+AODV 7
+AOP 8
+AOSD 1
+AP 14
+APA 1
+APC 2
+APD 1
+APF 3
+APL 10
+APMC 1
+APS 5
+APSS 1
+APTIA 1
+APTM 2
+AR 5
+AR Mask 1
+ARAS 1
+ARC 2
+ARDA 1
+AREL 4
+ARIA 1
+ARMP 1
+AROB 1
+ARPA 2
+ARU 1
+ARV 1
+ASC 2
+ASCII 3
+ASDL 1
+ASEM 1
+ASERTA 1
+ASF 1
+ASG 1
+ASGT 1
+ASIP 1
+ASL 4
+ASM 11
+ASML 5
+ASR 5
+ASTI 2
+AT&T 3
+ATALANTA 1
+ATAM 5
+ATC 3
+ATG 3
+ATHENA 1
+ATI 1
+ATLAS 1
+ATN 3
+ATP 1
+ATPG 31
+ATR 6
+ATRM 1
+AUFLIC 1
+AUML 1
+AVC 3
+AVF 3
+AVS 1
+AWBI 2
+AWG 7
+AWM 1
+Abacus 2
+Abloy Oy 1
+Abu Dhabi Distribution Company 1
+Academy of Fine Arts 1
+Actel 1
+Action Control 1
+Admission Control 1
+Advanced Grid Technologies 1
+Advanced Mobile Phone Service 1
+Advanced Surface Movement Guidance and Control 1
+Advanced Telecommunications Research Institute 1
+Advanced Traffic Management Systems 1
+Advantest Corporation 1
+Affymetrix 1
+Agenda Digital 1
+Agenda Service 1
+Agent Service 1
+Agile Software Development 1
+Ahlberg & Shneiderman 1
+Air Force 3
+Air Force Research Laboratory 1
+Air Force Research Laboratory Information Directorate 1
+Air Traffic Control 1
+Air Transport 1
+Air Transportation System 1
+Airline Companies 1
+Ajax 1
+Ajiro Program Circuit 1
+Akamai Technologies 1
+Alcoa 1
+Algonquin College 1
+Alpha Data ADM-XRC-II 1
+Altera 3
+Altera FPGA 1
+Altera Stratix 2
+Alvis Consortium 1
+Amazon 1
+Amazon.com 1
+Ambient Technology Group 2
+Amdahl 2
+American Computer Museum 1
+American Sign Language 1
+American University of 1
+American University of Beirut 1
+Ames Research Center 1
+Anderson & Archer?s Community of Inquiry 1
+Ant Colony Optimization 2
+Apple 3
+Application Specific Integrated Circuit 1
+Archive Workflow Network 1
+Argonne National Laboratory 1
+Army 1
+Arrows 1
+Ars Electronica Festival 1
+Artificial Neural Network 2
+Associated Press 1
+Atacama Project 1
+Athabasca University 1
+Athlon 2
+Atlantic Systems Guild System Designers 1
+Atmel 1
+Australian Stock Exchange 1
+Authorization Service 1
+Autodesk Mechanical Desktop 1
+Avaya 2
+Aviculture & Simulation 1
+Avionics Mission Computing 1
+Azar & Epstein 1
+BAA 2
+BAE Systems 1
+BAGA 3
+BAP 4
+BATR 2
+BBC 2
+BBL 1
+BBN Byblos OCR 1
+BCA 1
+BDI 19
+BES 2
+BESK 1
+BET 3
+BFL 3
+BG 1
+BH 1
+BHC 1
+BIAT 1
+BIC 3
+BITK 1
+BLAS 1
+BLS 2
+BMC 1
+BMW Group 2
+BNM 2
+BNP Paribas 2
+BODA 1
+BP 4
+BPC 3
+BPEL 11
+BPI 3
+BPSM 3
+BPSS 1
+BPTM 1
+BRDF 2
+BSB 3
+BSK 1
+BSP 3
+BSR 2
+BSS 2
+BTC 3
+BTF 4
+BU 1
+BVR 5
+BWT 1
+Ball Aerospace 1
+Baltimore Veterans Administration Medical Center 1
+Barrett WAM 1
+Basic Electronic 1
+Bayesian Belief Network 1
+Bayesian Nash 1
+Bayesian Networks 1
+Bayesian-Belief Networks 1
+Bell Laboratories 1
+Bell Labs 3
+BellSouth 1
+Benjamin Alfonsi University of Maryland 1
+Bentley College 1
+Berkeley Drosophila Transcription Network Project 1
+Berkeley Media Benchmark 1
+Berkeley Motes 1
+BioSpice 1
+Biomolecular Interaction Network Database 1
+BitTorrent 5
+Blinkx 2
+Bloom 2
+Boeing Bold Stroke 1
+Boost Logic 2
+Boston University 1
+Botafogo 1
+Boundary Chord 1
+Brachydanio Rerio 1
+BrainBank 1
+Brazilian National Education and Research Network 1
+Brazilian Research Network 1
+British Deaf Association 1
+British Educational Communications 1
+Broadband Internetworking Technologies 1
+Broadcast Incremental Power 1
+Broadcom Corp. 1
+Brown University 1
+Bureau of Labor Statistics 1
+Bush Babies Broadband 1
+Business Intelligence 2
+Business Management 1
+C&C 1
+CAA 1
+CAI 1
+CAIC 1
+CAM 2
+CARENA 2
+CAS 3
+CASN 1
+CATV 1
+CBA 1
+CBAM 2
+CBIR 3
+CBL 2
+CBMC 1
+CBML 1
+CBN 2
+CBP 1
+CBQ 1
+CBR 22
+CBS 4
+CBSD 1
+CBSE 1
+CCA 4
+CCCI 1
+CCDB 1
+CCE 2
+CCF 1
+CCFF 2
+CCM 5
+CCP 2
+CCR 2
+CCTV 3
+CDA 1
+CDC 6
+CDFG 1
+CDI 1
+CDR 3
+CEDB 1
+CERN 3
+CERNET 1
+CESC 1
+CFAR 1
+CFM 1
+CGA 1
+CGB 1
+CHIL 2
+CIC 5
+CICO 2
+CICQ 2
+CIDS 1
+CIDT 3
+CIM 3
+CIMA 1
+CINECA 1
+CIO Institute 1
+CIOQ 1
+CIP 1
+CIS 4
+CITO Lights 1
+CKBA 1
+CL 2
+CLB 5
+CLC 1
+CLDC 1
+CLGP 1
+CLOB 1
+CLP 1
+CLUGO 2
+CMA 2
+CMAC 6
+CMC 17
+CMDA 1
+CML 1
+CMM 2
+CMM Level 1
+CMMI 1
+CMML 1
+CMP 22
+CMS 1
+CMSA 1
+CMSM 4
+CMT 1
+CMU 1
+CNC 3
+CNF 5
+CNL 2
+CNN 4
+CNNs 1
+CNP 1
+CNR 1
+CNRS 1
+COLQUIDE 1
+CORBA 3
+CORBA Audio/Video Streaming Service 1
+CORBA Event Service 1
+COSL 2
+CPAN Branch & Bound 1
+CPC 4
+CPD 1
+CPDM 1
+CPL 1
+CPM 1
+CPRS 1
+CPS 2
+CRC 9
+CRCTOL 1
+CRCs 2
+CRE 2
+CRF 1
+CRL 1
+CRLA 5
+CRT 2
+CS 2
+CSC 1
+CSCL 6
+CSCW 4
+CSE 5
+CSFQ 1
+CSG 5
+CSIDC 1
+CSK 1
+CSL 3
+CSM 7
+CSP 10
+CSR 3
+CSS 3
+CSTM 1
+CTC 4
+CTD 2
+CTIA 2
+CTM 1
+CU 3
+CVS 7
+CW 3
+CWA 1
+CWC 1
+Calgary Corpus 1
+California Institute of Technology's Jet Propulsion Laboratory 1
+Caltech 1
+Canadian Space Agency 1
+Canterbury Corpus 1
+Caravaggio 1
+Carl Kesselman Handbooks for Software Managers Fernando Berzal Reviews of Software Engineering Handbook 1
+Carnegie Mellon 1
+Carnegie Mellon University 7
+Cellular Neural Network 1
+Central Control Unit 1
+CerTification Authority 1
+Certificate Authority 3
+Channel State Information 1
+Chilean National Council for Drug Prevention 1
+China Academy of Traditional Chinese Medicine 1
+China Central Radio&TV University 1
+China Education and Research NETwork 1
+China Education and Research Network 1
+China Educational and Research Network 1
+China National Institute of Standardization 1
+China Research 1
+ChinaNet 1
+Chinese Academy of Sciences 3
+Chinese VW 1
+Cigital 1
+Circular Location Area 1
+Cisco 4
+Cisco Systems 1
+Cisco Systems Inc. 1
+Clarens Grid Services Framework 1
+Classification Association Rule Mining 1
+Clifford Processor 1
+Cocktail Party 1
+Cognitive Agency and Robotics Laboratory 1
+Collaborative Information Portal 1
+Collaborative Information Retrieval Research 1
+Collaborative Technologies and Solution Group 1
+College of Electrical Engineering and Computer Science 1
+Colorado State University?s 1
+Colored Petri Nets 1
+Columba 1
+Columbia University 1
+ComRank 1
+Commission 1
+Communication Technologies 2
+Communication Technology 1
+Communications 2
+Communications Technologies 1
+Community Resource for Archiving Wireless Data 1
+Companhia Hidrel?trica 1
+Compaq 1
+Complutense University of Madrid 1
+Composite Service 1
+Computational Federation Service 1
+Computational Federations 1
+Computational Grids 1
+Computer Graphics 1
+Computer Organization 1
+Computer Science 2
+Computer Science of University of Tsukuba 1
+Computer Sciences 1
+Computer Security Institute 1
+Computer Society 8
+Computer Society Web 1
+Computer Virus Research and Defense 1
+Computerworld 1
+Computing Research Association 1
+ConSGapMiner 1
+Concordia 1
+Concrete Service 1
+Conference Servers 1
+Conformance Technical Committee 1
+Congress 4
+Consultative Committee on International Telegraphy and Telephony 1
+Content-Addressable Network 1
+Continuous Time Recurrent Neural Network 1
+Control Circuit 2
+Control Information Exchange Data Model 1
+Control Systems 1
+Cooperative Knowledge Acquisition 1
+Corel 2
+Cosine 1
+Covisint 1
+Coyote Annotation 1
+Cray Cascade 1
+Cray Red Storm 1
+Crypto Corner 1
+Cu 2
+Curtiss-Wright 1
+Customer Contact Management 1
+Customer Satisfaction Management 1
+Customization of Telecommunication Services 1
+Cyber Conflict Studies Association 1
+Cybermedia Center 1
+Cybernetics 2
+D 1
+DAC 2
+DAME 1
+DAR 1
+DARPA 5
+DARPA Intrusion Detection Evaluation 1
+DBBM 1
+DBFE 1
+DBM 1
+DBMS 4
+DC 9
+DCA 1
+DCDM 1
+DCE 3
+DCF 10
+DCPS 1
+DCT 25
+DD 1
+DDA 1
+DDD 1
+DDF 1
+DDJ 2
+DDP 1
+DDSI 1
+DDVMA 3
+DELL 1
+DEP 1
+DERI 2
+DETF 1
+DEUCON 2
+DEVS 3
+DEX 1
+DFA 6
+DFCS 2
+DFG 2
+DFM 13
+DG 2
+DGM 1
+DHA 1
+DHCP 4
+DHT 1
+DIFS 1
+DIMI 2
+DISE 4
+DLB 2
+DLC 1
+DLDA 1
+DLM 4
+DLP 1
+DLV 1
+DMA 2
+DMARICA 1
+DMB 2
+DMC 1
+DMFQ 1
+DMPC 1
+DOD Net Centric Enterprise Services 1
+DOF 5
+DORA 3
+DORGA 1
+DPA 2
+DPC 2
+DPG 1
+DPM 8
+DPN 2
+DPSS 3
+DRAC 1
+DRAM 1
+DRC 2
+DRCE 1
+DRE 1
+DRF 2
+DRKH 1
+DRP 1
+DRT 2
+DSA 6
+DSC 2
+DSFS 1
+DSI 10
+DSM 38
+DSP 18
+DSR 4
+DSS 1
+DSSS 1
+DST 4
+DSVPWM 1
+DTE Energy 1
+DTI 1
+DTM 2
+DUSI 2
+DVS 12
+DWRR 1
+DXEC 2
+DaimlerChrysler 1
+Dartmouth 1
+Dartmouth College 1
+Data Mining 1
+Data Mining & Statistics Analysis 1
+Data Mining and Neural Networks 1
+Data Retrieval 1
+Data Stream 1
+Data Stream Management System 1
+Data Warehousing and Business Intelligence for E-Commerce 1
+Datamonitor 1
+De Bruijn 1
+Defense 2
+Defense Advance Research Projects Agency 1
+Defense Department of Defense 1
+Defense Research Agency 1
+Deferrable Servers 1
+Delft University of Technology 2
+Dell 1
+Delphi 4
+Delphi Technique 1
+Delta 8
+Democratic Party 1
+Denial of Service 5
+Denodo Corporation 1
+Deontic Logic 1
+Department of Computer Science 2
+Department of Defence 1
+Department of Defense 4
+Department of Defense Architectural Framework 1
+Department of Electrical and Computer Engineering 1
+Department of Energy 1
+Department of Genetics of the St. Louis Washington University 1
+Department of Justice 1
+Derived Data Services 1
+Design Automation Conference 1
+Design Automation Technical Committee 1
+Detection of Distributed Denial of Service 1
+Deutsches Institut 1
+Development Research 1
+Dhofar University 1
+Differential Power Analysis 1
+Differentiated Service 1
+Differentiated Services 1
+Digital 2
+Digital ASIC 1
+Digital Archives 1
+Digital Economy 1
+Digital Elevation Models 1
+Digital Enterprise Group 2
+Digital Enterprise Research Institute 1
+Digital Imaging Communications 1
+Digital Libraries 1
+Digital Library 1
+Digital Museum Information Retrieval System 1
+Digital Reading Room 1
+Digital Rights Management 6
+Digital Video Broadcast 1
+Digital Video Broadcasting 2
+Digital Video Transport System 1
+Diomidis Spinellis Technological Account of Grid Computing Shubhashis Sengupta Review of Grid Computing 1
+Directional Communications 1
+Directory Service 1
+Discrete Logarithm Problem 1
+Disseminador Multicast de Informacoes 1
+Distributed Denial of Service 3
+Distributed Power Control 1
+Distributed Systems and Services Group 1
+Drexel University 1
+Duke 1
+Dun & Bradstreet 1
+Dynamic Bayesian Network 1
+Dynamic Data Mining Process 1
+Dynamic Hardware Multiplexing 1
+Dynamic Mining of Association 1
+Dynamic Mining of Association Rules 1
+EA 5
+EAC 2
+EADS 1
+EAF 1
+EAI 26
+EARA 2
+EAWA 1
+EBSE 1
+EC 35
+ECA 12
+ECAR 1
+ECBS 1
+ECBS Executive Committee 1
+ECC 26
+ECLS 1
+ECM 3
+EDA 2
+EDAC 1
+EDCA 7
+EDCF 7
+EDF 11
+EDFS 1
+EDIFACT 1
+EDL 3
+EDOC 2
+EDP 4
+EDSM 1
+EEMBC 1
+EEP 1
+EEPROM 4
+EFM 2
+EFSM 1
+EGFR 1
+EHS 2
+EIFS 1
+EII 1
+EIS 2
+ELA 1
+ELFN 1
+ELIN 1
+ELN 2
+EM 1
+EMC Centera 1
+EML 3
+EMP 2
+EMPS 1
+EMS 1
+EMU 2
+EMV 2
+EON 1
+EPAS 2
+EPC 6
+EPEC 1
+EPG 1
+EPI 3
+EPL 1
+EPM 4
+EPR 1
+EPSO 1
+EPSRC 1
+EREC 1
+ERLE 2
+ERM 2
+ERP 20
+ESA 3
+ESA Earthcare MSI 1
+ESM 2
+ESRI 1
+ESS 3
+ESTC 2
+ESTEREL 1
+ESVC 1
+ETCMM 1
+ETS 1
+ETSI 1
+EU 5
+EU Referral Guideline for Imaging 1
+EUA 4
+EUCON 1
+EVA 1
+EVOH 2
+EVRM 2
+EVS 1
+EXOR 2
+Educational Portals 1
+Educational Technology & Society 1
+Educause Center for Applied Research 1
+Eighth International Conference on Software Reuse 1
+Election Commission 1
+Electronic Data Interchange 2
+Email Service Providers 1
+Enhance Network 1
+Enron 2
+Enterprise Security 1
+Enterprise Service 1
+Enterprise Total Cost Management Model 1
+Eon 1
+Erlangen Slot Machine 1
+Essex Junction 1
+European Center of Parallelism of Barcelona 1
+European Commission 1
+European Higher Education Area 1
+European Institute Center for Anti-Virus Research 1
+European Laboratory for Particle Physics 1
+European Optical Network 1
+European Research Area 1
+European Space Agency 1
+European Traffic Observatory 1
+European Union 5
+European Union Information Society Technologies 1
+European Union Restriction of Hazardous Substances 1
+Evaluation of Collaborative Information Systems 1
+Event Notification Service 1
+F.B.I. 1
+FA 2
+FALCON 1
+FBG 3
+FBI 3
+FBL 3
+FBP 2
+FC 1
+FCA 1
+FCC 4
+FCMs 1
+FCR 1
+FCS 4
+FCSR 1
+FDA 1
+FDAF 1
+FDPM 1
+FDU 3
+FEC 18
+FEM 2
+FGAC 1
+FHAG 1
+FIFA 1
+FIFO 6
+FIFOMS 1
+FIPA 5
+FIR 2
+FIS 3
+FISS 2
+FLC 1
+FLI 1
+FLP 1
+FLRS 2
+FMA 1
+FMM 2
+FMT 2
+FNN 1
+FNS 1
+FOAF 1
+FPA 3
+FPAA 5
+FPD 1
+FPGA 277
+FPGA Development Board 1
+FPGAA 1
+FPIC 3
+FPM 1
+FPU 4
+FRAM 1
+FRED 1
+FRFT 1
+FRGC 1
+FSM 8
+FSO 1
+FSP 4
+FSS 1
+FSW 2
+FT 1
+FTA 1
+FTC 2
+FTDF 2
+FTF 5
+FTF IDF 1
+FTV 1
+FUP 1
+FW 1
+Facade and Template Method 1
+Face-to-Face 1
+Facit 1
+Faculty Aerospace Engineering 1
+Fanuc 1
+Fault-Tolerant Systems Research Group 1
+Federal Bureau of Investigation 1
+Federal Communications Commission 1
+Federal Institute of Technology 1
+Federal Trade Commission 1
+Federal University of Pernambuco 1
+Federal University of Rio de Janeiro 1
+Felder & Solomon Index of Learning Style 1
+Fermi National Accelerator Laboratory 1
+Fermilab 3
+Fermilab CDF 1
+Fiat 1
+Fibre Channel Data Communication Service 1
+Finite State Machines 2
+Flexible Optical Network Traffic Simulator 1
+Flight Instruments Reuse & Standardization Library 1
+Florida Institute of Technology 1
+Florida State University 1
+Food and Drug Administration 1
+Ford 2
+Ford Motor Co. 1
+Formal Dialogue Management for Shared Control 1
+Foundation for Intelligent Physical Agents 1
+Fraunhofer IPA 1
+Fraunhofer Institute FOKUS 2
+Free Software Foundation 1
+Freescale 2
+Freescale Semiconductor Inc. 1
+French School of Systems Science 1
+Fudan University 1
+Fujitsu 1
+Fujitsu VLIW 1
+Fuzzy Admission Control for Multimedia 1
+Fuzzy Pareto Dominance 1
+GA UT 1
+GAF 1
+GAMA 2
+GANA 4
+GAR 1
+GARD 1
+GARMA 1
+GBL 2
+GBSA 6
+GBSS 1
+GCA 3
+GCC 1
+GCI 1
+GCN 1
+GCP 1
+GCPS 1
+GDNG 1
+GDOA 1
+GEHL 3
+GEMLCA 2
+GFA 5
+GFAM 2
+GHIC 1
+GIC 1
+GLC 5
+GLDA 2
+GM 9
+GMR 5
+GNFS 1
+GNN 1
+GOMS 2
+GOP 5
+GOPS 1
+GPCA 1
+GPD 2
+GPI 1
+GPL 5
+GPU 43
+GRA 3
+GRIA 1
+GSDL 1
+GSI 1
+GSPM 2
+GSR 1
+GSS 6
+GTG 1
+Galileo 1
+Galileo Galilei 1
+Gap Diffie-Hellman 1
+Gartner 2
+Gartner Group 1
+GenBank 1
+Gene Ontology 3
+General Dynamics 1
+General Electric 1
+General Packet Radio Service 1
+General Packet Radio Services 1
+Generic Human Disease Ontology 1
+Generic Media Framework for Interactive Television 1
+Genetic Defects and Chemical Properties 1
+Geneva University Hospital 1
+Geographic Information System 1
+Geographic Information Systems 1
+Georgia Tech 2
+Georgia Tech Network Simulator 1
+German Research Center for Artificial Intelligence 1
+Glasgow University 1
+Global Warp Metric Distance 1
+Globus 13
+Globus Toolkit 6
+Gnutella 1
+Gold Standard 1
+Goldman 1
+Good Programming Stratton Penberthy Review 1
+Google 19
+Google Maps 1
+Google Web Service 2
+Grade of Service 1
+Granular Support Vector Machines 1
+Graz University Hospital 1
+Grid Information Service 4
+Grid Location Service 1
+Grid Service 2
+Grokster 1
+Guided Google 1
+Gujarati OCR 1
+HAKA 2
+HCA 1
+HCI 11
+HDA 1
+HDP 1
+HDR 1
+HDTV 1
+HEC 1
+HET 1
+HGBS 1
+HGTM 2
+HIPAA 1
+HIR 2
+HIRO 1
+HLFF 1
+HONG 1
+HP Dynamo 1
+HPA 3
+HPF 1
+HPP 2
+HPSS 1
+HQSA 1
+HRIC 1
+HRPT 1
+HSAN 2
+HSMM 1
+HSOM 1
+HVC 1
+HVS 1
+Handong Global University 2
+Haptic Workstation™ 1
+Hardware Particle Machine 1
+Harvard 1
+Harvard Business Rev. 1
+Harvard University 1
+Health Level 1
+Hedmark University College 1
+Heisenberg 1
+Hellenic Open University 1
+Helmholtz-Smoluchowski 1
+Heracles 3
+Hermes 1
+Heterogeneous Data Integration 1
+Hewlett Packard NonStop Enterprise Division 1
+Hewlett-Packard 5
+Hidden Markov Models 2
+Hidden Markov Random Fields 1
+High Assurance Computer Systems of the Naval Research Laboratory 1
+Hitachi 1
+Hofstra Engineering Department 1
+Hofstra University 1
+Homeland Security Advanced Research Projects Agency 1
+Hong Kong Police Force 1
+Hong Kong University of Science and Technology 1
+Honolulu Police Department 1
+Horn Logic 1
+Human Computer Interaction 1
+Hungarian Information Society Strategy 1
+Hungarian Teen Wins Computer Society Prize 1
+IA 1
+IAI 1
+IAM 7
+IB 3
+IBC 3
+IBM 65
+IBM Almaden Research Center 1
+IBM ESSL 1
+IBM Power 2
+IBM Rochester 1
+IBS 1
+ICA 20
+ICAO 1
+ICC 4
+ICF 4
+ICI 4
+ICIA 2
+ICL 4
+ICMP 4
+ICP 2
+ICR 2
+ICRC 1
+ICT 24
+IDC 4
+IDCT 1
+IDDQ 1
+IDF 2
+IE Service 1
+IEC 3
+IEEE 1
+IEEE Communications Society Technical Committees 1
+IEEE Computer Society 5
+IEEE Computer Society Board of Governors 1
+IEEE Computer Society Election Update 1
+IEEE Computer Society International Design Competition 1
+IEEE Computer Society Technical Committee 1
+IEEE Computer Society Technical Committee on Microprocessors and Microcomputers 1
+IEEE Computer Society Test Technology Technical Council 1
+IEEE Intelligent Systems 1
+IEEE Security & Privacy 3
+IEEE-USA 1
+IEL Online 1
+IEMAS 1
+IETF 20
+IFC 2
+IFT 2
+IGP 3
+IHC 3
+ILO 1
+ILOG 3
+ILP 15
+IMAP 2
+IMED 4
+IMIX 1
+IMS 18
+IMU 1
+INC 3
+INER 1
+INET 2
+INEX 1
+INL 5
+INTEL MKL 1
+IOPR 1
+IP Security Alliance 1
+IPC 3
+IPR 1
+IPT 4
+IRL 1
+IRS 3
+IRTR 1
+ISAD 1
+ISC 3
+ISCA 1
+ISF 1
+ISI 2
+ISIS 2
+ISMA 2
+ISO 10
+ISO/IEC Common Criteria for Information Technology Security Evaluation 1
+ISS 1
+ISTI 1
+ISVM 1
+ITA 1
+ITAA 3
+ITC 18
+ITM 2
+ITRON 1
+ITU 2
+IXP Network Processor 1
+IXP Network Processors 1
+Icosystem Corp. 1
+Illinois Institute of Technology 1
+Illinois Reliability and Security Engine 1
+Illustration Department 1
+Image Analysis Society 1
+In-Stat 1
+InPhase Technologies 1
+Inc. 1
+Independent Components Analysis ICA 1
+Independent Testing of Iris Recognition Technology 1
+Industry/University Cooperative Research Center 1
+Infineon Technologies 3
+Infineon-ADMTek Inc. 1
+InfiniBand 11
+InfiniBandSM Trade Association 1
+Infiniband 2
+Information Assurance Education 1
+Information Processing Society 1
+Information Retrieval 3
+Information Service 6
+Information Service Grid Toolkit 1
+Information Services 3
+Information Society 3
+Information Society Technologies 2
+Information Technology 2
+Information Technology Association of America 1
+Institute of Applied Mathematics 1
+Institute of Information Systems 1
+Institute of Nuclear Energy Research 1
+Integrity NonStop Servers 1
+Intel 56
+Intel Corporation 1
+Intel International Science 1
+Intel Labs 1
+Intel Mote 1
+Intel Pentium 3
+Intelligence 2
+Intelligent Platform of Virtual Travel Agency 1
+Intelligent Transport Systems 1
+Intelligent Transportation Systems 1
+Inter 3
+Interaction Languge 1
+Interactive Digital 1
+Interface Automata 1
+Interface Equivalence 1
+International Academy of Digital Arts and Sciences 1
+International Alliance for Interoperability 1
+International Association for Cryptologic Research 1
+International Civil Aviation Organization 1
+International Conference on Compilers 1
+International Conference on Computational Science 1
+International Conference on Electronics, Communications and Computers 1
+International Conference on Software Maintenance 1
+International Cryptography Conference 1
+International Standards Organisation 1
+International Technology Roadmap for Semiconductors 2
+International Telecommunication Union 1
+International Telecommunication Union Standardization Sector 1
+International Test Conference 1
+Internet Chess Club 1
+Internet Commerce 1
+Internet Engineering Task Force 1
+Interpreted Petri Nets 1
+Intrepid UPC 1
+Intrusion Detection Data Fusion 1
+Invensys 1
+Iowa State University 2
+IrDA 1
+Iridium Satellite 1
+Iringa University College 1
+Israel Ministry of Trade and Commerce 1
+Istituto Nazionale 1
+JBPM 1
+JDBC 1
+JGNI 2
+JINI 1
+JMS 1
+JPL 1
+JSC 1
+JSP 2
+JVC 1
+JVM 11
+JVT 1
+JXTA 11
+Jackson Laboratory 1
+James Webb Space Telescope 1
+Japan Gigabit Network 1
+Japan Institute of Invention 1
+Japan Society 1
+Java Message Service 2
+Java Standard Library 1
+Jena API 1
+Jini 3
+John Wiley & Sons 1
+Joint Probability Data Association Filter 2
+Joint Working Conference on Communications and Multimedia Security 2
+Justice Information Network 1
+KAOS 1
+KBC 1
+KCA 2
+KCA IRS 1
+KCR 1
+KDD 6
+KDDI 1
+KDSM 2
+KGMM 2
+KIMM 1
+KLPG 1
+KMCA 2
+KNOPPIX 1
+KOALA 1
+KPCA 4
+KPN 1
+KPN Mobile 1
+KQML 1
+KRL 1
+KRS 1
+KSO 1
+KaZaa 1
+Kahn Process Network 1
+Kan & Shen 1
+Kanazawa Institute of Technology 1
+Karlsruhe 1
+Kasumi 1
+Kazaa 1
+Keil C 1
+Kent State University 1
+Kernel Machines 1
+Kernel PCA 1
+Kessler&Neumann 3
+King's College 1
+Kirchhoff 1
+Kluwer Academic Publishers 1
+Knowledge Management and Customer Relationship Management 1
+Koblitz Curves 1
+Kochi University of Technology 1
+Konica Minolta 1
+Korea Association of Software Process Assessors 1
+Korea IT Industry Promotion Agency 1
+Korea Institute of Machinery 1
+Korean Ministry of Information and Communication 1
+Kungpisdan&Permpoontanalarp 1
+Kyoto University 1
+Kyushu University 3
+LAAM 1
+LAF 2
+LAMR 1
+LANMAR 1
+LCEM 4
+LCF 1
+LCMS 13
+LCR 1
+LDA 9
+LDAP 1
+LDI 2
+LDPC 15
+LEDA 1
+LEEM 1
+LEGO 1
+LEO 1
+LFA 3
+LFL 1
+LFSR 4
+LG 1
+LG Electronics 1
+LGA 4
+LGE 2
+LGPL 1
+LHC 3
+LHC Computing Grid 1
+LIBC 1
+LICM 1
+LIGA 2
+LIRS 3
+LISA 1
+LLC 1
+LLSP 1
+LMIA 1
+LMRL 4
+LMS 10
+LNA 7
+LNS 1
+LOD 1
+LOM 1
+LPCC 1
+LPI 1
+LPP 1
+LQOLSR 1
+LRRM 1
+LRU 18
+LSAL 1
+LSB 5
+LSC 6
+LSE 1
+LSI 9
+LSI Logic 1
+LSR 2
+LSS 1
+LTV 4
+LUNET 1
+LVTSCR 1
+La Laguna University 1
+Lausanne Framework 1
+Law Enforcement and Homeland Security 1
+Lawrence Livermore National Laboratory 1
+Learning Management Systems 1
+Learning Object Metadata 1
+Leeds 1
+Leica Users Group 1
+Lemma Exchange 2
+Lewis & Clark College 2
+Liberty Alliance 2
+Light Transport Constancy 1
+Link Addition Algorithm 1
+Link?ping University 1
+LinkDigger Context Service 1
+Linköping University 1
+Lipschitz 1
+Local Interconnect Network 1
+Local Resource Measurement 1
+Location Service 1
+Lockheed Martin 1
+Lockheed Martin Advanced Technology Center 1
+Lockheed Martin Corporation 1
+Lockheed Martin Space System?s Independent Verification and Validation 1
+Lookup Service 1
+Los Alamos National Laboratory?s 1
+Los Alamos National Laboratory?s Research Library 1
+Los Alamos Neutron Science Center 1
+Los Angeles Criminal Courts 1
+Low Noise Amplifiers 1
+Lucent Technologies Reliable Clustered Computing 1
+Lyra 2
+M&M 1
+M&S 2
+MADGRAF 1
+MAFIA 1
+MAGI 1
+MARDL 1
+MASC 1
+MASL 1
+MATA 1
+MBI 2
+MBTI 1
+MCA 3
+MCAIC 1
+MCAN 2
+MCAR 2
+MCCA 2
+MCDA 1
+MCDS 2
+MCES 1
+MCI 3
+MCI Worldcom 1
+MCML 2
+MCN 1
+MCNC 2
+MCP 2
+MCR 7
+MCT 2
+MDA 23
+MDC 2
+MDCT 2
+MDD 1
+MDR 1
+MDS 8
+MDTC 1
+MDVM 1
+MEC 4
+MECN 2
+MEDLINE 2
+METU 1
+MEX 1
+MFAC 1
+MFS 2
+MGI 3
+MGM 1
+MHP 1
+MIMO 3
+MIPS 7
+MIT 1
+MIT Lincoln Laboratory 1
+MITRE 1
+MLDRAM 1
+MLE 1
+MLF 3
+MLM 1
+MLP 10
+MLS 1
+MMA 2
+MMI 2
+MML 4
+MMOG 1
+MMP 1
+MMR 2
+MMS 1
+MMSP 1
+MNIB 1
+MNP 1
+MOCCA 2
+MOF 1
+MOME 1
+MOSES 1
+MOSFET 2
+MPA 2
+MPC 8
+MPD 3
+MPEG 3
+MPFL 1
+MPI 41
+MPI Standard 1
+MPIL 3
+MPR 2
+MQRD 1
+MRA 1
+MRAM 1
+MRF 2
+MRMC 1
+MRSA 1
+MRT 4
+MSC 2
+MSE 2
+MSG 1
+MSN 2
+MSN Direct Service 1
+MSO 1
+MSP 5
+MSTP 1
+MSU VERIDICOM 1
+MTAISIR 1
+MTB 2
+MTCR 2
+MTI 1
+MTL 2
+MTM 1
+MTPR 1
+MTS 7
+MTTF 1
+MTTG 1
+MUGM 1
+MULTFRC 1
+MUMOC 2
+MVC 6
+MVD 2
+MXQL 1
+Mac Energy 1
+Mac OS X 2
+Mac OSX 1
+Macromedia 2
+Magi 1
+Magic Land 1
+Magneti Marelli Motorsport 1
+Magnetic Force Microscope 1
+Managed Bandwidth Service 1
+Management Web Services 1
+Manpower Bureau 1
+MapQuest 1
+Marconi International Fellowship Foundation 1
+Markets for Computational Services 1
+Markov Chain Monte Carlo 2
+Markov Network 1
+Markov Random Field 1
+Massachusetts Institute of Technology 2
+MatLab 1
+Matlab and Spice 1
+Media Robotics R 1
+Medium Access Control 1
+Medium Enterprises 1
+Medline 1
+Mellon University 1
+Mercator 1
+Merrill Reed 1
+Meta Service 2
+Meta-Object 1
+Meteorological Markup Language 1
+Metrical Task Systems 1
+MetroWeb 1
+Metropolis 1
+Mexican Oil Company 1
+MicroSoft 1
+Microsoft 38
+Microsoft Excel 1
+Microsoft Office 2
+Microsoft Visio 2
+Middlebury 1
+Middlesex University 4
+Military Compass 1
+Millipore 1
+Minas Gerais 1
+Ministry of Education 4
+Ministry of Finance 1
+Ministry of Informatics and Communications 1
+Ministry of Interior 1
+Ministry of National Defense 1
+Mitsubishi 2
+Mobile Communications 1
+Mobile Data Services 2
+Mobile Network Node 1
+Modular General Fuzzy Hypersphere Neural Network 1
+Molecular Dynamics 1
+Monte Carlo 23
+Monte Carlo Simulation 1
+Morgan Kaufmann 1
+Motion Picture Association of America 1
+Motorola 2
+Motorola Inc. 1
+MovieLens 1
+Mozilla 1
+Mozilla Public License 1
+Muti-Area Reliability Simulation 1
+MySQL 2
+Myrinet GM 1
+Mysql 1
+NAA 2
+NAC 2
+NACK 2
+NAL 2
+NAM 1
+NAND 2
+NAOJ 1
+NAPCA 2
+NARA 1
+NAS 12
+NASA 41
+NASA Ames 1
+NASA Ames Research Center 1
+NASA Jet Propulsion Laboratory 1
+NASA?s Jet Propulsion Laboratory 1
+NAT 3
+NATO 1
+NBA 5
+NBS 2
+NC 1
+NCA 4
+NCAR 1
+NCBI 7
+NCI 1
+NCIT 1
+NCMIR 1
+NCO 1
+NCOW 2
+NCP 1
+NCS 2
+NCSA 5
+NCSS 1
+NCW 1
+ND 2
+NDDS 2
+NDI 1
+NDR 3
+NDT 3
+NEC Display Solutions 1
+NETCAP 1
+NFHM 1
+NFR 1
+NFS 16
+NFUP 3
+NGC 1
+NGNI 1
+NIAC 1
+NICE 1
+NICI 1
+NICT 1
+NICU 2
+NICs 1
+NIDS 12
+NII 1
+NIJ 2
+NILS 1
+NIMS 2
+NIR 1
+NIST 17
+NL 1
+NLC 2
+NLFT 1
+NLM 2
+NLP 5
+NLPX 2
+NLSS 1
+NMI 1
+NMOS 3
+NMS 2
+NNC 1
+NOC 4
+NOE 1
+NOLAPS 1
+NP 7
+NPB 1
+NPC 1
+NPCC 1
+NPCC Area 1
+NPL 1
+NPR 1
+NRL 1
+NRS 1
+NRT 4
+NS 1
+NSAA 2
+NSC 3
+NSD 1
+NSF 2
+NSFNET 2
+NSIS 2
+NSRBN 1
+NSS 6
+NTC 1
+NTF 3
+NTNU 1
+NTP 1
+NTRU 6
+NTSC 2
+NTT 1
+NTT Laboratories 1
+NVE 2
+NVIDIA 2
+NWO 1
+NWRC 2
+NWS 1
+NYSE 1
+Nanyang Technological University 1
+Napster 3
+Nash Equilibria 1
+Nash Equilibrium 1
+National Academy of Engineering 2
+National Academy of Sciences 1
+National Aeronautics and Space Administration 1
+National Audiovisual Institute 1
+National Center for Atmospheric Research 1
+National Center for Biotechnology 1
+National Center for Biotechnology Information 2
+National Center for Microscopy and Imaging Research 2
+National Center for Supercomputing Applications 1
+National Commission on State and Local Public Service 1
+National Institute for Education 1
+National Institute of Information and Communications Technology of Japan 1
+National Institute of Justice 3
+National Institute of Multimedia Education 1
+National Institute of Standards and Technology 2
+National Intelligence Community 1
+National Library of Medicine 1
+National Museum of Natural Science 1
+National Research Grid Initiative 1
+National Science Foundation 2
+National Science Museum 1
+National Taiwan University 1
+NavTech 1
+NavTracks 2
+Naval Research 1
+Naval Research Laboratory 1
+Naval Research Laboratory Robertson 1
+Naval Research Laboratory?s Center for High Assurance Computer Systems 1
+Navy 1
+NetSolve 1
+Netscape Navigator 1
+Network Address Translation 1
+Network Architecture 1
+Network Centric Operations 1
+Network Centric Warfare 1
+Network Data Distribution Service 1
+Network Information and Monitoring Service 1
+Network Intrusion Detection and Prevention Systems 1
+Network Management 1
+Network Management System of Community Broadband Integrated Services Network 1
+Network Measurement Infrastructures 1
+Network Processors 1
+Network Processors Application Profile 1
+Network Providers 1
+Network Transferable Computer 1
+Network Weather Service 1
+Neumann Computer Science High School 1
+Neural Network 2
+Night Vision & Electronic Sensors Directorate 1
+Ninth International Conference on Software Engineering 1
+Nitinol 2
+Nobel Appeal Foundation 1
+Nokia 2
+Nokia Research Center 1
+Nokia Smart Traffic Products 1
+Non-Brain Intelligence 1
+North Carolina State University 3
+Northeast Power Coordinating Council 1
+Northeastern University 1
+Northrop Grumman Mission Systems 1
+NovaSys Health 1
+O 1
+OAA 1
+OAC 2
+OBDD 6
+OBS 8
+OCC 1
+OCOP 1
+OCP 2
+OCR 28
+ODC 1
+ODRL 1
+OEO 1
+OFDM 1
+OFM 3
+OGC Web Map Service 1
+OGI School of Science and Engineering 1
+OGSA 2
+OGSI 3
+OLAP 24
+OLSR 2
+OM 1
+OMA 1
+OME 1
+OML 1
+OMRON Corporation 1
+ONPP 2
+ONRL 1
+ONS 1
+OPAL 1
+OPC 8
+OPEX 1
+OPL 1
+OPNET 4
+OPSM 4
+ORP 1
+OSD 9
+OSDL 1
+OSEM 1
+OSI 4
+OSM 3
+OSPF 1
+OSQL 1
+OSS 16
+OTS 3
+OUDA 3
+OWL 1
+Oak Ridge National Laboratories 1
+Object Management Group 2
+Ocean Informatics Environment 1
+Odysseus ORDBMS 1
+Office of Force Transformation 1
+Olympus 1
+Open University 1
+Open University of Israel 1
+OpenBSD 2
+OpenOffice 1
+Openoffice 1
+Operation State Machine 1
+Optical Networks Research Laboratory 1
+Optical Transport Network 1
+Optware Corporation 1
+Oracle 1
+Orbotech 4
+Organization 1
+Organization Based Access Control 1
+Oriented Network Architecture 1
+Orion 2
+Osaka University 2
+Oxford University 1
+PA 17
+PAA 1
+PACDRAM 1
+PAML 1
+PAP 4
+PAPA 1
+PARMA 5
+PBA 4
+PBBF 1
+PBIL 1
+PBL 8
+PBM 3
+PBO 6
+PCA 45
+PCBA 2
+PCC 1
+PCF 1
+PCI Express 1
+PCM 1
+PCMA 1
+PCML 1
+PDB 2
+PDC 1
+PDDL 1
+PDM 5
+PDP 1
+PDPA 6
+PDSN 7
+PEC 1
+PECL 1
+PEEC 2
+PEIC 1
+PEMEX 1
+PEOU 2
+PEPA 3
+PERC 1
+PESFAM 1
+PFT 1
+PGR 4
+PHP 2
+PIC 1
+PICASSO 1
+PICC 4
+PICML 1
+PIMC 2
+PISA 1
+PITO 1
+PKC 1
+PKI 25
+PKI Service 1
+PKIP 2
+PKP 2
+PLC 1
+PLCA 2
+PLI 1
+PLIB 1
+PLL 1
+PLM 5
+PLMN 1
+PLP 1
+PLR 1
+PLSA 1
+PLTO 1
+PMC 1
+PMI Global Congress 1
+PMML 1
+PMO 2
+PMT 1
+PNDRR 1
+PNML 2
+PPA 1
+PPAF 1
+PPDM 1
+PPMH 1
+PPP 10
+PPS 3
+PRC 5
+PRDS 1
+PRM 1
+PRPG 1
+PSC 1
+PSCL 1
+PSD 4
+PSDN 1
+PSE 2
+PSEI 1
+PSG 2
+PSI 1
+PSIC 1
+PSIM 2
+PSL 8
+PSNR 7
+PSO 29
+PSP 1
+PSTD 1
+PSTN 2
+PTC 2
+PTM 9
+PTT 4
+Packaging Service 1
+Parameterized Kahn Process Networks 1
+Parametric 1
+Parametric Fault Tree 1
+Pareto Superior 1
+Paris Stock Exchange 1
+Parks Associates 1
+Parlay Group 1
+Partial Redundancy Elimination 1
+Particle Swarm Optimization 1
+Patel 1
+Patron Control Signals 1
+Patterson & Hennessy 1
+Pegasus 1
+Penn State 1
+Pentium 1
+PeopleSoft 1
+Perceptron 1
+Philips 1
+Philips Research 1
+Philips Research Laboratories 1
+Philips SOC 1
+Physical Sciences Research Council 2
+Pittsburgh Supercomputer Center 1
+Pittsburgh Supercomputing Center 1
+PlanetLab 1
+Point Grey Research 1
+Policy Based Management 1
+Polytech-Lille of University of Lille 1
+Portfolio Optimization 1
+Portland State University 1
+Post PC World 1
+Power 1
+Power Control 2
+Power Distribution Network Design for VLSI 1
+Power Spectrum Signature 1
+Pratt&Whitney 1
+Primavera 1
+Primavera Systems 1
+Princeton 1
+Princeton University 2
+Principle Components Analysis PCA 1
+Probabilistic Computational Tree Logic 1
+Program Committee 1
+Project Management Institute 1
+Propp & Wilson 1
+Protein Data 1
+Protein Data Bank 2
+Protein Data Integration 1
+Protocol State Machine 1
+Public Administration 2
+Public Key Infrastructure 1
+Public Land Mobile Network 1
+Public Switched Data Network 1
+Public Switched Telephone Network 1
+Purdue AR 1
+Purdue University 1
+QBE 3
+QNN 2
+QQHR Railway Rolling Stock Company 1
+QRAM 1
+Qlogic 1
+Qualcomm 2
+Qualcomm Inc. 1
+Quality of Service 5
+Quality of Service RMI 1
+Quizzing Service 1
+Qwest 1
+RABC 1
+RAC 1
+RAIF 3
+RAM 1
+RAMBUS 1
+RBA 1
+RBAC 11
+RBACAM 1
+RBAR 1
+RBF 20
+RCC 1
+RCL 1
+RCM 3
+RCPN 1
+RCR 2
+RDF 42
+RDF Blank Node 1
+RDMA 1
+RDO 2
+RDSS 2
+REIM 2
+RFE 2
+RFM 1
+RGC 3
+RIA 1
+RIES 1
+RIKEN Wako Inst. 1
+RIKEN Yokohama Inst 1
+RISD 1
+RIT 1
+RL 2
+RLC 4
+RLNS 1
+RMA 2
+RMI 10
+RMM 1
+RMT 6
+ROCR 2
+ROMM 2
+ROTC 1
+RPC 11
+RPCC 1
+RPCCL 1
+RPCL 2
+RPEM 1
+RPF 2
+RPR 1
+RPV 1
+RRC 1
+RRF 3
+RRGM 1
+RRL 2
+RSCA 1
+RSL 5
+RSSI 4
+RSVP 1
+RTCP 3
+RTD 3
+RTD Framework Programme 1
+RTI 2
+RTL 17
+RTL ATPG 1
+RTM 1
+RTOS 2
+RTP 1
+RTPG 1
+RTR 2
+RTS 1
+RTSJ 1
+RTSP 1
+RTW 2
+RVM 2
+RWIN 4
+Radian Normal Angle 1
+Radio Network Controller 1
+Radio Resource Management 2
+Radio-Access Network 1
+Rail Cross Control 1
+Random Forest 1
+Rational Presburger Sentences 1
+Raytheon 1
+Recommender Service 1
+Red Cross 1
+Reed 1
+Reed Solomon 2
+Reed-Solomon 4
+Reference Region Group Mobility 1
+Replication Service 1
+Research European Union 1
+Resource Co 1
+Respironics 1
+Reuters 4
+Rhode Island School of Design 1
+Rights Data Dictionary 1
+Road Weather Information Network 1
+RoboCup Small Size League 1
+RoboCup Soccer Simulation League 1
+Robust Temporal Constraint Network 1
+Rochester Institute of Technology 1
+Rockies 1
+Rogers 2
+Rolls-Royce 1
+Roma 1
+Roulette 1
+SAA 2
+SACA 3
+SAEV 1
+SAIR 3
+SAML 2
+SAN 2
+SAP 5
+SAPIENT 1
+SAR 5
+SARA 1
+SARC 1
+SAS 1
+SATA 3
+SBA 1
+SBC 4
+SBC Telecom 3
+SBE 1
+SBST 2
+SC 2
+SCA 3
+SCM 12
+SCOP 1
+SCOR 10
+SCRA 2
+SCS 1
+SCSF 1
+SCSI 3
+SCTP 3
+SDF 2
+SDM 5
+SDP 8
+SDSC 1
+SDSP 1
+SDSS 3
+SDVM 3
+SEC 5
+SECI 2
+SECONDO 1
+SEF 2
+SEFAN 1
+SEKM 1
+SEM 1
+SEPM 2
+SFAM 4
+SFC 5
+SFM 1
+SFS 5
+SGA 1
+SGI 2
+SGI Altix 2
+SGM 1
+SGS 1
+SHEBA 1
+SIGGRAPH 1
+SIMD 1
+SIMG 1
+SIMS 3
+SJAN 5
+SKAION Corp 1
+SLA 27
+SLA NSS 1
+SLAC 1
+SLF 2
+SLH 1
+SLLN 1
+SLM 2
+SLP 1
+SLP Noisy Speech Recognition Evaluation Working Group 1
+SLVM 1
+SMAC 1
+SMC 1
+SMDP 1
+SMER 1
+SMIL 2
+SMP 6
+SMPC 1
+SNA 2
+SNB 6
+SNIA 1
+SNIF 3
+SNMP 1
+SNP 2
+SOA 38
+SOHO 3
+SOLR 2
+SONN 3
+SONY 1
+SOPA 1
+SOSS 3
+SOVA 2
+SPC 1
+SPD 1
+SPECT 2
+SPEM 1
+SPEP 1
+SPH 5
+SPHINX 1
+SPIE 2
+SPKF 1
+SPM 7
+SPMD 1
+SPN 2
+SPS 1
+SPSO 1
+SPSS 1
+SQA 6
+SRAL 1
+SRAM 6
+SRB 3
+SRCM 1
+SRED 2
+SRG 3
+SRGM 1
+SRL 1
+SRM 1
+SRMR 1
+SRP 2
+SRPD 1
+SRPT 3
+SSA 2
+SSE 2
+SSI 1
+SSL 2
+SSMP 1
+SSP 4
+SSRC 1
+SSS 1
+SSTA 2
+SSTD 1
+ST 1
+ST Microelectronics 2
+STB 7
+STBC 2
+STC 6
+STL 1
+STMicroelectronics 1
+STORAGEDB 1
+STPN 1
+STSC 1
+SUNA 1
+SVD 3
+SVFS 2
+SVG 2
+SVM 5
+SVR 3
+SWF 2
+SWS 2
+SYN 1
+Sakamoto Co. 2
+Sakamoto Giken Co. 1
+San Diego Convention and Visitors Bureau 1
+San Diego Supercomputer Center 1
+San Jose State University 1
+Sandia National Labs 1
+Sarcos Treadport 1
+Satori 3
+School of Humanities 1
+Scientific Visualization Studio 1
+Secure Systems 1
+Security Education Community 1
+Segmentation Algorithm 1
+Seismic Entertainment Productions 1
+Semantic Grids of Semantic Grids 1
+Semantic Information Model for Digital Libraries 1
+Semantic Web Service 3
+Semantic Web Services 4
+Senate 1
+Sendmail 2
+Sendmail Data of UNM 1
+SensAble Technologies 1
+Sequential Monte Carlo 1
+Service 1
+Service Group 1
+Service Installation Metaservice 1
+Service Oriented Architectures 3
+Service Publishing 1
+Shanghai Grid 2
+Shanghai Manufacturing Virtual Private Network 1
+Shanghai Transportation Information Service 1
+Shanhua Company 1
+Shaw 1
+Shmoys & Tardos 1
+Short Message Service 1
+Short Messaging Service 1
+Shrine Educational Experience 1
+SiON 1
+Siemens 1
+Siemens Corporate Research 1
+Silicon Graphics 1
+Simple Location Service 1
+Simple Multimedia 1
+Sloan Digital Sky 1
+Small Medium Enterprise 1
+Small Office 1
+Soccer 1
+Society 2
+Software Engineering Education 1
+Software Engineering Institute 2
+Software Products Group 1
+SolidWorks 2
+Solidworks 1
+Sony Aibo 1
+Sony Group 1
+Space Agency 1
+Spatial Telemetric Data Warehouse 1
+Spatio-Temporal Markov Random Field 1
+Specific Human Disease Ontologies 1
+Sporadic and Deferrable Servers 1
+St. 1
+Standard Cost Management 1
+Standard Genetic Algorithm 2
+Standard Object Modeling Language 1
+Standard PSO 1
+Standard Reed-Solomon 1
+Standard Tool Users 1
+Standard for Environmental Assessment of Personal Computer Products 1
+Stanford Linear Accelerator Laboratory 1
+Stanford Medical Center 1
+Stanford University 5
+StarOffice 1
+Starbucks 1
+State Machines 1
+Stiefel's Institute 1
+Stochastic Petri Nets 1
+Stock Exchange 2
+Storage 1
+Stream Control Transmission Protocol 1
+Structural Data Parallel 1
+Structural Domain Family of Protein 1
+Structural Information of Proteins 1
+Sun Microsystems 4
+Superior Council for Public Works of the Ministry of Infrastructure and Transportation 1
+Supervisory Control And Data Acquisition 1
+Support Vector Machine and Genetic Algorithm 1
+Support Vector Machines 1
+Supreme Court 1
+Swiss Federal Institute of Technology Zurich 1
+Sybase 2
+Sydney University Key Centre of Design Computing and Cognition 1
+Synopsys 4
+Syracuse University 1
+System Dynamics 1
+System for Multimedia Communications Traversing NAT/Firewall 1
+Systemic Enterprise Modeling Language 1
+T-VEC Technologies 1
+TBFL 2
+TBL 3
+TC 1
+TCA 1
+TCAM 5
+TCC 7
+TCCA 1
+TCG 1
+TCO 2
+TCP 207
+TCP Trunks 1
+TCP Vegas 3
+TDMA 16
+TECA 1
+TELECABLE 1
+TESH 1
+TEXTAL 3
+TFRC 6
+TFRC Wireless 2
+TGC 5
+THALES 1
+TLA 2
+TLP 1
+TMO 5
+TMPM 2
+TMS 4
+TMW 1
+TNO Science and Industry 1
+TPG 1
+TPR 4
+TPSO 1
+TREC 1
+TSC 1
+TSD 2
+TSDF 1
+TSI 2
+TSM 2
+TSMC 23
+TSS 1
+TT 1
+TTA 3
+TTSS 1
+TTTC 1
+TUTS 2
+TVA 1
+TWPM 1
+Tachyon 4
+Taichung Integrating Grid Environment and Resource 1
+Tallinn University of Technology 1
+Tandem Computers 1
+Tandem Computers Inc. 1
+Tank&Spark 1
+Tat 1
+Technical Committee 1
+Technical Council on Software Engineering 2
+Technical University 1
+Technical University of Valencia 2
+Telecom 1
+Telecommunication Advancement Organization 1
+Telecommunication Management Network 1
+Tensilica Inc 1
+Tensor Decom 1
+The College of Electrical Engineering and Computer Science 1
+The Institute of Automation 1
+The Tutorials & Education Group 1
+The University of Chicago 1
+Time Division Multiplexing 1
+Time Petri Nets 9
+Toshiba 2
+Towson University 2
+Trademark Office 1
+TransCanada 1
+Transmeta 1
+Transmission Control Protocol 1
+Tree Machines 1
+Tree Parity Machines 1
+Trema Laboratories Inc 1
+Triple Modular Redundancy 1
+Trust Authority 1
+Trusted Computing Group 1
+Tsinghua University 1
+Tumaini University 1
+Tyco 1
+U.S. Air Force 1
+U.S. Department of Defense 1
+U.S. Department of Energy 1
+U.S. Department of Veterans Affairs 1
+U.S. Intelligence Community 1
+UA 5
+UAC 1
+UAM 2
+UAP 1
+UAV 1
+UBB 3
+UC Berkeley 2
+UC Berkeley EECS 1
+UC San Diego 2
+UCI 13
+UCLA 2
+UCM 3
+UCS 1
+UCSC 2
+UCSD 2
+UDDI 39
+UDP 26
+UFLIC 1
+UFP 2
+UGC 7
+UIC 1
+UK Department of Trade & Industry 1
+UK National Crystallography Service 1
+ULP 1
+UMA 1
+UMC 3
+UMCA 1
+UML 210
+UML State Machine 1
+UML State Machines 1
+UMLS 1
+UMR 1
+UMTS 28
+UNC 1
+UNHCR 1
+UNSAT 1
+UNSPSC 1
+UNT 1
+UPC 12
+UPR 2
+US Department of Defense 1
+US Department of Homeland Security 1
+US Department of Transportation 1
+US Federal Communications Commission 1
+US General Services Administration?s Federal Technology Service 1
+US Homeland Security 1
+US Military Academy 1
+US National Academy of Sciences 1
+US National Science Foundation 1
+US National Science Foundation Addressing 1
+US National Security Agency?s Centers of Academic Excellence 1
+US National Strategy for Homeland Security 1
+US Navy 1
+US Patent Office 1
+US Supreme Court?s 1
+USAGI 1
+USAR 1
+USDL 8
+USGS 1
+USIE 1
+USMA 1
+UT Nios 2
+UTA 1
+UTL 1
+UTS 1
+UWA 3
+UWB 15
+Unisys 1
+United Nations 2
+United Nations Center for Trade Facilitation and Electronic Business 1
+United Nations Organization 1
+United Nations University 1
+United Optimization of Transceivers Used 1
+United States Department of Defense 1
+Universal Plug & Play 1
+Universal Service Description Language 1
+Universities of York 1
+University 1
+University Melbourne 1
+University of Amsterdam 1
+University of Arizona 1
+University of Arkansas 2
+University of Arts Berlin 1
+University of Ballarat 1
+University of Bath?s 1
+University of California 6
+University of Castilla-La Mancha 1
+University of Central Florida 1
+University of Florida's Mobile and Pervasive Computing Laboratory 1
+University of Freiburg 1
+University of Glasgow 1
+University of Indonesia 1
+University of Ioannina 1
+University of Karlsruhe 1
+University of Leeds 1
+University of London 1
+University of Louisville 1
+University of Lugano 1
+University of Manchester 1
+University of Maryland 1
+University of Massachusetts Amherst 2
+University of Milano 1
+University of Missouri-Columbia's College of Education 1
+University of Nevada 1
+University of New Mexico 1
+University of North Texas 1
+University of Notre Dame 2
+University of Piraeus 2
+University of Pisa 1
+University of Pittsburgh 2
+University of Portsmouth 1
+University of Queensland Information Environments Program 1
+University of Rochester 1
+University of South Florida?s Digital Database 1
+University of Southampton 2
+University of Southern California 1
+University of Southern Queensland 1
+University of St. 1
+University of Strathclyde 1
+University of Stuttgart 1
+University of Sussex 1
+University of Timisoara 1
+University of Tokushima 1
+University of Toronto 1
+University of Twente 1
+University of Ulster 1
+University of Victoria 1
+University of Vienna 1
+University of Virginia 1
+University of Washington 2
+University of Waterloo 1
+University of Wollongong 1
+University of Wolverhampton 1
+User Interface Design Center 1
+VA 1
+VA Software 1
+VAMANA 4
+VARS 1
+VBIC 2
+VCA 6
+VCC 4
+VCE 1
+VCFs 1
+VCG 6
+VCI 2
+VCO 2
+VCP 1
+VCT 1
+VCUA 2
+VDSL 2
+VEML 1
+VEPS 1
+VERL 3
+VESTA 1
+VHDL 14
+VHP 1
+VIDI 1
+VLC 1
+VLIW 53
+VLSI 66
+VMC 3
+VMWare 1
+VNC 1
+VNS 4
+VOD Multimedia Service Grid 1
+VOEU 1
+VPC 3
+VPCE 1
+VPIC 1
+VPN 17
+VRC 1
+VRLS 1
+VRML 3
+VSA 2
+VSM 1
+VSO 1
+VTBR 1
+VTK 1
+VTM 2
+VVA 1
+VW 1
+Vaasa Polytechnic 1
+Vanderbilt University 1
+Vanguard Atlantic Ltd 1
+Vassar College 1
+Vaxjo University 1
+Verisity Design Inc. 1
+Verity Inc. 1
+Verizon 1
+Veterans Administration 1
+Video Computing Group 1
+Vienna University of Technology 1
+Virage Logic 5
+Virginia Tech 2
+Virtual Microscopy 1
+Virtual Network System 1
+Virtual Organization 1
+Virtual Transactional Memory 1
+Visual Arts Data Mining 1
+Voice 5
+Volcano Communications Technologies AB 1
+Volkswagen Jetta 1
+Voxel 1
+Vth 1
+WBC 1
+WBI 1
+WBLE 1
+WBT 1
+WCDMA 15
+WCE 1
+WCET 2
+WDM 24
+WDORA 1
+WEC 1
+WEKA 2
+WGIG 1
+WICSA 2
+WINP 2
+WIPO 1
+WIPPOG 1
+WMS 1
+WNFS 1
+WSCF 1
+WSDL 16
+WSLA 1
+WSMI 2
+WSML 3
+WSMO 1
+WSMX 1
+WSN 13
+WSNB 3
+WSOP 3
+WSRF 5
+WSRM 3
+WSTP 1
+Waikato Environment for Knowledge Analysis 1
+Wal-Mart 3
+Web Service 14
+Web Services 4
+Web-Based Enterprise Management 1
+WebSphere Commerce Suite 1
+Webbys 1
+Wessex Region 1
+Wikipedia 1
+Wilson Dirac Fermion Vector 1
+Wireless Local Area Network 1
+Wireless Sensor Network 1
+Wireless Sensors Network 1
+Workflow Management Coalition 2
+World Bank 1
+World Intellectual Property Organization 1
+Worldcom 1
+Wp 1
+XILINX 1
+XMAX 1
+XML 1
+XML Denial of Service 1
+XMM 1
+XWCH 1
+Xerox 1
+Xerox PARC 1
+Xilinx 21
+Xilinx Alliance CORE 1
+Xilinx FPGA 2
+Xilinx Vertex 1
+Xilinx Virtex 2
+Xilinx Virtex FPGA 1
+Yahoo 7
+Yale 1
+Yale Face Database B 1
+Yangtze River Delta 1
+Yuasa 1
+ZNCC 1
+ZOLC 1
+ZVTM 1
+Ziegler & Nichols 2
+american University 1
