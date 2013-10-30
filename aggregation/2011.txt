@@ -1,2525 +1,2525 @@
-AAC 2
-AADL 2
-AAF 1
-AASL 1
-ABB 5
-ABC 16
-ABCK 1
-ABFT 2
-ABIR 2
-ABMs 1
-ABNF 1
-ABNM 2
-ABP 2
-ABS 1
-ABSS 1
-AC 9
-AC-DC 1
-ACD 3
-ACME 2
-ACO 5
-ACON 1
-ACP 6
-ACQ 1
-ACRP 2
-ACRUM 1
-ACSA 2
-ACSS 2
-ADA 1
-ADANA 1
-ADB 1
-ADC 6
-ADEME 1
-ADG 3
-ADL 2
-ADM 1
-ADP 1
-ADRC 2
-ADSM 1
-ADSP 4
-ADSR 2
-ADT 1
-AEC 1
-AEP 1
-AES 24
-AF 1
-AFS 1
-AGRA 1
-AGRF 1
-AHK 1
-AHP 6
-AIBO 1
-AIC 1
-AIK 1
-AIS 2
-AJAX 1
-AJAX MVC 1
-AJDSD 1
-ALM 3
-ALMD 1
-ALU 1
-AMBA 1
-AMD 16
-AMD Barcelona 1
-AMD GPU 4
-AMD Magny-Cours 1
-AMG 3
-AML 3
-AMPR 1
-AMR 1
-ANL 1
-ANN 11
-ANOVA 1
-ANP 3
-ANR 1
-ANSI 1
-ANSYS 11
-AODV 8
-AOL 1
-AOP 5
-AOSE 1
-AP 10
-APAC 3
-APCDA 1
-APF 1
-APFN 1
-APIDQ 1
-APL 3
-APMS 1
-APPI 2
-APS 1
-APTI 1
-APVIS 1
-AQC 1
-AQEC 1
-ARC RDF 1
-ARCA 1
-ARDS 2
-ARMA 1
-ARPA 6
-ARS 4
-ASC 6
-ASCII 1
-ASDP 1
-ASIIN 1
-ASIP 1
-ASL 2
-ASM 5
-ASML 3
-ASOM 3
-ASPF 2
-ASR 11
-ASSL 1
-AST 1
-ASTC 1
-ASTORIA 1
-AT&T 1
-AT&T Laboratories Cambridge 1
-ATA 1
-ATAM 2
-ATC 1
-ATCA 2
-ATDC 1
-ATEC 1
-ATI 3
-ATI Brook 1
-ATI GPU 1
-ATI Stream 2
-ATN 2
-ATO 2
-ATP 1
-ATPB 1
-ATPG 8
-ATPRA 1
-ATSI 3
-AURORA 1
-AUTOSAR 1
-AUVs 1
-AVCJ 1
-AVF 9
-AVIS 4
-AVS 3
-AVTR 1
-AVX 3
-Aachen University 2
-Academia Sinica 1
-Academy of Broadcasting Science SARFT 1
-Accenture 1
-Accessible Laboratories Universalizing Education 1
-Actel 1
-Adaptive Harris Corner Detector 1
-Aero Space Integrated Information Network 1
-Afaceri Transilvania Business Center 1
-Agencia Regional de Ciencia y Tecnologia 1
-Agile Movement 2
-Agile Service Networks 1
-Agile Software Development R&D Center 1
-Agilent 1
-Air Conditioning 1
-Air Economizer 1
-Air Touch 2
-Ajax 6
-Alibaba 1
-All India Council for Technical Education 1
-Altera 4
-Amazon 36
-Amazon AWS 1
-Amazon Cloud Front 1
-Amazon Elastic Compute Cloud 2
-Amazon Payments 2
-Amazon Web Services 5
-Ambient Intelligence 2
-Amdahl 4
-American College of Radiology 1
-American National Standards Institute 1
-Amrita University 1
-Amrita Vishwa Vidyapeetham University 1
-Analysis and Visualization Environment 1
-Analysis of Computer Algorithms 1
-Anisotropic Network 1
-Ant Colony 1
-Ant Colony Optimization 2
-Apache Software Foundation 1
-Apple 7
-Applied Laboratory for Interactive Visualization 1
-ArchiMate 1
-Archigram 5
-Argo UML 1
-Argonne National Laboratory 6
-Arizona Daily Star 1
-Armonia 1
-Army Research Laboratory 1
-Arnold 2
-Arpanet Host Table 1
-Arpanet Network Information Center 1
-Artemis Cloud 1
-Artificial Intelligence for Ecosystem Services 2
-Artificial Neural Network 1
-Asia Pacific Twentieth Century Conservation Art Research Network 1
-Asia University 1
-Associated Link Network 1
-Associated Press 2
-Atlys Development Board 1
-Audi 1
-Australian Genome Research Foundation 1
-Australian Taxation Office 1
-Azure CDN 1
-BA 1
-BAA 3
-BBC 1
-BBN Byblos OCR 1
-BCA 1
-BCAC 1
-BCC 1
-BCDC 1
-BCH 2
-BDB 1
-BDI 11
-BDI Agent-based Service 1
-BET 1
-BFC 2
-BFO 1
-BFS 3
-BGA 2
-BIC 1
-BICA 1
-BIL 1
-BIOTA 1
-BIS 3
-BIST 1
-BLC 1
-BLEU 1
-BMB 1
-BML 7
-BNL 1
-BNTRP 1
-BOINC 3
-BOV 1
-BP 4
-BP Neural Network 1
-BPA 1
-BPC 3
-BPDC 1
-BPEL 5
-BPMN 3
-BPMS 1
-BRIC 3
-BRICs 2
-BRMS 1
-BSN 10
-BSNL 1
-BSTC 1
-BTC 1
-BTEX 2
-BTF 2
-BTI 1
-BWCG 1
-BWT 1
-BYOB 1
-Backbone Layer Network and Tidbit Layer Network 1
-Bahasa Melayu 1
-Bank 3
-Battle Management Language 1
-Bayer 1
-Bayes Network 1
-Bayesian Network 2
-Baylor 1
-Baylor College of Medicine 1
-Bell 1
-Bell Labs 1
-Belnapian LFI 1
-BitTorrent 14
-BitTorrent Mainline DHT 1
-Bittorrent 1
-Black Sea Catchment Observation 1
-Blog Union 1
-Bloom 1
-Bloom Filters 1
-Blue Dove 2
-Boeing 1
-BoltzRank 1
-Bot Network 1
-Boundary Detection 1
-British Post Office 1
-Brookhaven National Laboratory 1
-Brown University 1
-Bruce Deitrick Price 1
-Buddhist 1
-Buddhist Canon 1
-Burroughs BSP 1
-Business Intelligence 1
-Business Process Management 1
-C&A 3
-C&C 2
-C-MAC 1
-CACAO 1
-CACC 1
-CACI 3
-CAD 2
-CADP 1
-CAE 2
-CAF 5
-CAIDA 1
-CAPTCHA 1
-CAQR 1
-CARA 1
-CAS 6
-CAUI 3
-CBC 1
-CBF 2
-CBFL 3
-CBIR 1
-CBMC 3
-CBMS 3
-CBP 1
-CBR 2
-CBTC 2
-CBTF 1
-CBV 1
-CCA 15
-CCAM 1
-CCCS 2
-CCE 1
-CCEA 2
-CCET 1
-CCF 1
-CCI 1
-CCN 3
-CCRE 1
-CCS 1
-CCSL 1
-CCSP 1
-CCTV 7
-CCWR 1
-CDA 8
-CDC 4
-CDF 1
-CDL 7
-CDN 1
-CDNCA 2
-CDOI 2
-CDPF 1
-CDSA 1
-CEDA 3
-CENTRIA 1
-CERN 5
-CFAR 1
-CFB 1
-CFC 4
-CFE 2
-CFI 3
-CFTL 2
-CGAL 1
-CGLX 4
-CGM 4
-CGRA 2
-CHUD 2
-CHW 3
-CIES 1
-CIM 3
-CIO Corner department 1
-CIP 3
-CLA 2
-CLB 1
-CLBFT 1
-CLCS 1
-CLEM 5
-CLIO 1
-CLNS 1
-CLONALG 1
-CLSM 1
-CMA 2
-CMAC 2
-CMAS 2
-CMCD 2
-CMDB 1
-CMDP 1
-CMIL 1
-CML 1
-CMM 1
-CMMI 1
-CMP 33
-CMPM 1
-CMRR 1
-CMS 2
-CMU 4
-CMYK 1
-CNC 24
-CNET 1
-CNF 1
-CNL 1
-CNM 1
-CNN 1
-CNT 1
-CO 1
-COIR 1
-COKE 1
-COMSATS Institute of Information Technology Islamabad 1
-CORIDC 1
-CPB 2
-CPC 2
-CPCI 1
-CPS 23
-CRC 3
-CRD 3
-CRF 8
-CRIS 1
-CRN 7
-CRP 4
-CRT 3
-CS 2
-CSA 1
-CSC 4
-CSCL 4
-CSCW 1
-CSE 8
-CSI 2
-CSIRO 1
-CSL 4
-CSM 3
-CSMA 2
-CSN 1
-CSP 12
-CSR 10
-CSS 1
-CSV 1
-CTA 1
-CTC 1
-CTO 1
-CTP 1
-CTU 4
-CUDA 40
-CUDA SDK 2
-CVD 2
-CVS 2
-CVSS 2
-CVT 8
-CW 1
-CWA 1
-CYC 1
-Call Admission Control 1
-Caltech 1
-Camera Smart 1
-Caribbean Network Operators 1
-Carnegie Mellon University 4
-Center for Research in Entertainment &amp; Learning 1
-Cerberus 1
-Channel State Information 1
-Chelsea & Westminster Hospital 1
-Chemical 1
-China Medical University Hospital 1
-China Telecom 1
-Chinese Academy of Sciences 3
-Chinese Digital Terrestrial Multimedia Broadcasting 1
-CiSE 1
-Cisco 1
-Citrix Systems 1
-City University 3
-Cleft Lips & Palates 1
-Climatic Research Unit 1
-Clique Partition Algorithm 1
-Cloud Broker GmbH 1
-Cloud Computing 2
-Cloud Data Management Interface 1
-Cloud Security Service 1
-Cloud Service 2
-Club Time Machine 1
-CoReL 5
-Cognitive Radio Sensor Networks 1
-Collision Detection 1
-Color Lens 1
-Colored Petri Nets 1
-Commerce 1
-Communication Society 1
-Communication Technologies 1
-Communication Technology 3
-Community Service 1
-Community Service Phone Platform 1
-Competitive Intelligence 2
-Compliance Analytics Tool 1
-Computational Intelligence 1
-Computer Science 1
-Computer Science and Computer Engineering 1
-Computer Society 2
-Congnitive Wireless Network in Distaster Information Network 1
-Conic Spline 1
-Conic Splines 1
-Consumer Electronics Manufacturers 1
-Content-Addressable Network 1
-Continental 1
-Control Area Network 1
-Control Systems 1
-Controller Area Network 3
-Copernic 1
-Core Components 1
-Cosine 1
-Cosine Correlation Similarity Measure 1
-Coventry University Serious Games Institute 1
-Cox 2
-Cray 5
-Cray Gemini Interconnect 1
-Credit Reference Bureaus 1
-Credit Suisse 2
-Cross Domain Random Walk 1
-Cryptography Research 2
-Cullinae Database Systems 1
-Cyber-Physical Society 1
-D 1
-DAC 2
-DACAR 1
-DACI 3
-DACS 1
-DAF 1
-DAHU 3
-DANA 1
-DANN 1
-DARA 1
-DARPA 2
-DBA 6
-DBCP 1
-DBF 1
-DBM 2
-DBMS 1
-DBS 1
-DBTR 1
-DC 15
-DCBA 1
-DCF 13
-DCQS 1
-DCR 1
-DCT 9
-DDA 1
-DDI 8
-DDL 1
-DDST 1
-DEA 3
-DEAM 1
-DEEC 1
-DESS 1
-DEVS 3
-DEWN 1
-DFA 17
-DFS 2
-DFTM 1
-DG Home Affairs 1
-DGVCS 1
-DIC 2
-DKEA 1
-DLA 2
-DLL 7
-DLM 6
-DLP 1
-DLPT 1
-DMA 13
-DML 1
-DMR 3
-DMTF 1
-DNSSEC 2
-DOF 9
-DOP 1
-DPA 4
-DPAWSC 1
-DPCM 1
-DPL 3
-DPM 3
-DPPM 1
-DPS 2
-DPT 1
-DRAFT Network 1
-DRAR 1
-DREX 1
-DRT 1
-DRTM 1
-DRX 1
-DSA 1
-DSBC 1
-DSC 4
-DSCA 2
-DSCC 1
-DSCF 1
-DSCM 1
-DSE 4
-DSF 1
-DSLR 2
-DSM 16
-DSM-IV 1
-DSML 1
-DSMS 2
-DSO 2
-DSP 20
-DSRC 2
-DSS 5
-DTI 3
-DTM 2
-DTN 5
-DVC 1
-DVS 4
-DYMO 9
-Dadda CC 1
-Daimler AG 1
-Daimler Mercedes 1
-Daimler Trucks 1
-Dartmouth Conference on Artificial Intelligence 1
-Dartmouth Summer Research Project 1
-Data Acquisition 1
-Data Acquisition Card 1
-Data Distribution Service 1
-Data Grid 1
-Data Integrity 1
-Data Placement Service 1
-Data-as-a-Service 1
-Datrmouth College 1
-DeNovo 3
-Defense 1
-Defense Communications Agency 1
-Defense Data Network 1
-Dell 1
-Dell Power Edge 1
-Delphi 2
-Delta 3
-Demeter 4
-Denial of Service 3
-Department of Computer Science 1
-Department of Defense 4
-Department of Defense Information Assurance 1
-Department of Energy 2
-Department of Energy NNSA 1
-Department of Public Health and Environment 1
-Desafio Sebrae 1
-Design and Media 1
-Developmental Turing Machines 1
-Diamond Search 1
-Digital 4
-Digital Asset Protection Association 1
-Digital Business Ecosystem 3
-Digital Circuits 1
-Digital Electronics 1
-Digital Equipment 1
-Digital Forensics 2
-Digital Humanities 1
-Digital Imaging and Communications 1
-Digital Libraries 1
-Digital Manufacturing 1
-Digital Preservation Cloud Service 1
-Digital Rights Management 1
-Digital Television 1
-Direct Yaw Control 1
-Directional Broadcast 1
-Disaster Information Network 3
-Distance Education College 1
-Distributed Management Task Force 1
-Domain Service 2
-Dominion 1
-Dow Chemical 1
-Dream of Red Mansions 1
-Drexel University 1
-Drogoul&Ferber 1
-Dynamic Access Control Infrastructure 1
-Dynamic Bloom 1
-Dynamic Bypass Circuit 2
-Dynamo 1
-E. Machining 1
-EA 17
-EACM 1
-EAD 1
-EADS 1
-EASI 2
-EBAM 1
-EBT 1
-EC 14
-ECA 2
-ECB 1
-ECC 31
-ECCs 1
-ECFN 1
-ECIA 1
-ECM 2
-ECMA 1
-ECP 1
-ECRS 1
-EDCA 5
-EDCF 1
-EDDL 1
-EDF 8
-EDMA 1
-EDP 2
-EDRT 1
-EEOR 1
-EEPROM 1
-EFL 3
-EFM 2
-EFSM 3
-EG CTL 1
-EGMP 1
-EGNOS Data Collection Network 1
-EHS 1
-EIC 8
-EICA 1
-ELIAS 2
-ELN 2
-EMAA 2
-EMBRAER 1
-EMF Trace 1
-EMFS 4
-EMG 3
-EMI 1
-EMR 1
-EMRS 1
-ENISI 1
-EPC 15
-EPC Gen 1
-EPE 1
-EPL 1
-EPM 1
-EPR 1
-EPSAR 1
-ERBAC 1
-ERDAS 1
-ERDB 2
-ERL 2
-ERP 6
-ERVC 1
-ESARC 1
-ESC 2
-ESI 1
-ESS 3
-ESSC 1
-ESSI 2
-ETAMR 2
-ETH Zurich 1
-ETHZ 1
-ETPM 3
-ETS 1
-ETSI 2
-EU 6
-EUCD 3
-EUROCONTROL 2
-EWMA 1
-EXAMCE 1
-Eastern 2
-Echo State Networks 1
-Edinburgh Napier University 1
-Educational Activities Board 1
-Elastic Data Organization 1
-Election Protocol 1
-Electric Power Systems 1
-Electrical Engineering Department 1
-Electronic Control Unit 2
-Electronic Control Units 1
-Electronic Frontier Foundation 1
-Electronic Healthcare Records 1
-Electronic and Telecommunications Research Institute 1
-Embla 2
-Emergency Warning Network 1
-Emperor Wanli of Ming Dynasty 1
-Encoding Heritage 1
-Energy City 1
-Energy Farm 1
-Energy and Environmental Technologies Laboratory 1
-Engineering Projects in Community Service 1
-Enron 2
-Enterprise Architecture University Alliance 1
-Enterprise Data Centers 1
-Enterprise Service 1
-Entropia Universe 2
-Enviro GRIDS 1
-Environmental Protection Agency 1
-Epinions 1
-Erdos 1
-Ericsson 4
-Ericsson AB 1
-Ericsson Research 1
-Esterel 2
-European Commission 5
-European Commission FEDER 1
-European Network and Information Security Agency 1
-European Network of Excellence 1
-European Space Agency Earth Observation Long Term Data Preservation Program 1
-European Union 3
-Evaluation Command 1
-Exformatics A/S 1
-F-Secure Corporation 1
-F.C. Williams 2
-FAA 1
-FAIRIO 1
-FANN 3
-FBG 4
-FBI 4
-FBMC 1
-FCA 2
-FCC 4
-FCGI 1
-FCM 6
-FCS 1
-FDA 3
-FDSR 1
-FEC 6
-FEM 5
-FESMA 1
-FESTO 1
-FFDA 1
-FFS 2
-FHP 2
-FICHS 1
-FIFA 1
-FIFO 8
-FIR 1
-FIS 1
-FLUOR 1
-FMA 1
-FMAC 1
-FMEA 3
-FNN 1
-FOAF 1
-FODA 1
-FON 2
-FORTRAN 1
-FOSS 8
-FPA 2
-FPGA 402
-FPGA GPU 1
-FPS 2
-FPTC 1
-FPU 3
-FSM 9
-FSS 3
-FTA 3
-FTAM 1
-FTC 1
-FTI 2
-FTL 2
-FUJITSU 2
-Facebook 17
-Fact Bank 1
-Federal Communications Commission 1
-Federal University of Ceará 1
-Federal University of Rio de Janeiro 1
-Fem 2
-Fermi 5
-Fermi Tesla 1
-Filter Bank Multi Carrier 1
-Finite State Automata 1
-Firaxis Inc 1
-Fire fox 1
-Firefox 1
-Flexible Organization Structure-Based Access Control 1
-Flexible Radio Kernel 1
-Forest Degradation 1
-Fox Mozilla 1
-Fox News 1
-France Telecom 1
-French Environment and Energy Management Agency 1
-Front Side Bus 1
-Fujitsu 1
-Fundacion Seneca 1
-Fuzzy Logic 1
-G.H.Raisoni College of Engineering 1
-GAAA Toolkit Java 1
-GAC 1
-GAF 1
-GAMESS 1
-GCC 5
-GCO 2
-GDF 2
-GE 4
-GENI 1
-GENTORO 1
-GERC 1
-GFM 1
-GFSS 1
-GGF 1
-GILI 1
-GKA 1
-GLOH 1
-GM 2
-GMAC 1
-GMCM 1
-GME 1
-GMP 1
-GNU General Public License 1
-GPC 1
-GPD 1
-GPGPU 1
-GPL 2
-GPMR 1
-GPP 2
-GPSR 1
-GPU 338
-GPU Accelerators 1
-GRAL 1
-GRC 6
-GRN 2
-GRNN 3
-GSC 1
-GSD 3
-GSN 3
-GSR 4
-GSS 1
-GTC 1
-GTM 1
-GUMO 1
-GWA 2
-Galileo 4
-Gartner 1
-Gator Tech Smart House 1
-Gaussian Channel 1
-Gen 1
-GenBank 1
-Gene Ontology 5
-General High School of Agios Dimitrios 1
-Generarl Electric 1
-Genetic Algorithm 1
-Genetic Algorithms 1
-Geneva Emotion Wheel 1
-Geodynamic Institute 1
-Georgia Tech 2
-Georgia Wild 1
-German Research Center for Artificial Intelligence 1
-German Society for Computer Scientists 1
-Global Enforcement Of Data Assurance Controls 1
-Global Environment for Network Innovation 1
-Global Force Management Data Initiative 1
-Global Humanitarian Technology Conference 1
-Global Information Logistics Infrastructure 1
-Globus Online 1
-Globus Toolkit 1
-Golden Eagle 1
-Google 71
-Google AJAX 1
-Google App Engine 1
-Google Books n-gram Corpus 1
-Google Buzz 1
-Google Checkout 1
-Google Checkout Service 1
-Google Cloud Services 1
-Google Distance 1
-Google Docs 2
-Google Gears 1
-Google Map 1
-Google Maps 2
-Google Ngram 1
-Google Translate 2
-Google Trends 1
-Greek Education Department 1
-Green Clouds 1
-Green Computing Observatory 1
-Green Data Center 1
-Green ICT 4
-HASL 1
-HBPA 3
-HBS 1
-HCA 3
-HCCA 4
-HCI 2
-HDP 2
-HEMS 1
-HERMES 1
-HES 1
-HETA 1
-HHC 2
-HHNEC 1
-HIPAA 1
-HIX 2
-HLC 2
-HLS 1
-HMI 3
-HOLTEK 1
-HPC Resource Management Systems 1
-HPL 5
-HRO 4
-HSA 1
-HSF 1
-HSH 2
-HSK 2
-HTC 1
-HVS 3
-HYDI 1
-Handheld Interagency Identity Detection Equipment 1
-Hannover Messe Industrie 1
-HapMap 1
-Hapmap 1
-Harmonia 1
-Harris Corner Detector 1
-Harvard 1
-Harz University 1
-Hasselblad 3
-Hastily Formed Networks 1
-Hausdorff Voronoi 2
-Health Management 1
-Healthcare 3
-Healthcare Interchange Exchange 1
-Henry Ford Health System 1
-Heracles 3
-Hertz 1
-Het Nets 1
-Higher Education Institute 1
-Hindu & Sikh 2
-History of Computer Science 1
-Hoare Logic 1
-Hoc Network 2
-Hoc Networks 1
-Holten & van Wijk 1
-Honda 2
-Honeywell 2
-Honeywell FMS 1
-Hospital Emergency Department System 1
-Hospital Episodes Statistics 1
-Hub Node Reinforcement Method 1
-Human Computer Interfaces 1
-Human-Computer Interface 1
-Human-Machine Interfaces 1
-IADE 2
-IAE 2
-IAM 6
-IANA 2
-IB 3
-IBC 1
-IBD 2
-IBDM 1
-IBFF 2
-IBM 58
-IBM Blue Gene/P 1
-IBM Corp 1
-IBM Power Edge of Network 1
-IBM Research 1
-IBM Roadrunner 1
-IBM T.J. Watson Research Center 2
-IBR 4
-ICA 9
-ICAA 1
-ICAO 1
-ICAP 9
-ICC 2
-ICCR 1
-ICIA 2
-ICL 1
-ICMP 2
-ICQ 1
-ICSI 1
-ICT 33
-ICT Intensive Service 1
-ICTs 1
-ICW 1
-IDC 1
-IDDI 1
-IDL Object Graphics 1
-IDRSA 1
-IDS 1
-IDT 1
-IDX 3
-IEC 6
-IEEE 1
-IEEE Computer Society 4
-IEEE Computer Society Board of Governors 1
-IEEE Computer Society Taylor L. Booth Award 1
-IEEE Computer Society Test Technology Technical Council 1
-IEEE S&P 1
-IEEE Security & Privacy 2
-IEEE Visualization and Graphics Technical Committee 1
-IETF 5
-IFC 2
-IFF 2
-IFOC 1
-IIF 5
-ILP 1
-ILTP 1
-ILUT 1
-IMA 1
-IMAC 1
-IMD 1
-IMDB 2
-IMEC 1
-IMF 5
-IMS 7
-IMSI 1
-IMU 5
-INDA 2
-INET 1
-INL 2
-INP 3
-IOCW 1
-IOT 2
-IPEG 1
-IPFC 1
-IPL 4
-IPTV 1
-IPU 1
-IRA 1
-IRB 1
-IRN 2
-IRS 1
-IRSR 1
-IRTG 2
-ISI 3
-ISIS 3
-ISO 7
-ISS 2
-ISVs 1
-ISWC 1
-IT Service Management 1
-ITC 7
-ITIL 5
-ITM 2
-ITRI 1
-ITRS 1
-ITU 3
-IVI 2
-IW Object Service 1
-Illumina 2
-Image Cube 1
-Impact India Foundation 1
-Imperial College London 6
-Improved Magnetic Equivalent Circuit 1
-Indian Institute of Technology 1
-Indian Ministry of Human Resource Development 1
-Indoleamine 1
-InfiniBand 9
-Infiniband 3
-InfoAge Science Center 1
-Information Centric Security 1
-Information Communication Technologies 1
-Information Education 1
-Information Processing Society of Japan 1
-Information Retrieval 2
-Information Sciences 1
-Information Security and Privacy Protection 1
-Information Service Platform 1
-Information Society 1
-Information Systems Security 1
-Information Technology 2
-Information Technology Communication Society 1
-Information and Communication Technologies 1
-Information and Communications Technology 1
-Institute for Forensic Science 1
-Institute of Computing Technology 1
-Integrated Data Store 1
-Integrated Gaps Model of Service Quality 1
-Integrated Ocean Drilling Program 1
-Integrated Services 1
-Integrated Valuation of Ecosystem Services 2
-Integrity Management Service 1
-Intel 68
-Intel Atom 2
-Intel Core 6
-Intel Harpertown 1
-Intel Labs 7
-Intel MKL 2
-Intel Nehalem 2
-Intel OSD 1
-Intel PEBS 1
-Intel Pentium 2
-Intel SCC 1
-Intel Xeon Linux 1
-IntelliDomo 1
-Intelligence 1
-Intelligent Transportation Systems 2
-Inter 2
-Inter-Vehicle Communications 1
-Interactive Digital Media IDM 1
-Interactive Voice Response 1
-Interco 1
-Interconnection Network 1
-Interline Power Flow Controller 1
-Internal Review Board 1
-International Certificate Authority 1
-International Computer Science Institute 1
-International Conference 2
-International Conference on Computer Communication 1
-International Conference on Frontier 1
-International Conference on Pervasive Computing 1
-International Conference on Pervasive Computing Technologies for Healthcare 1
-International Enterprise Computing Conference 1
-International Organization for Standardization 3
-International Packet Network Working Group 1
-International Students 1
-International Telecommunication Union 1
-Internet of Services 1
-Intersil 1
-Intrusion Detection Systems 1
-Israel Museum of Jerusalem 1
-Istituto Nazionale 1
-Italian Ministry of Health 1
-Iwate Prefectural University 1
-JAFFE 1
-JAUS 1
-JCD 1
-JDBC 1
-JFA 2
-JIRA 1
-JREX 1
-JSC 1
-JVM 4
-JXME 2
-JXTA 1
-Jaguar 3
-Jaguar Cray 1
-Jaguar Supercomputer 1
-Japan Aerospace Exploration Agency 1
-Japan Broadcasting Corporation 1
-Japan Meteorological Agency 1
-Japanese Ministry of International Trade and Industry 1
-KAD DHT 1
-KALN 2
-KANO 1
-KAOS 2
-KASUMI 1
-KB 2
-KDD 5
-KEGG 1
-KELL 1
-KMP 1
-KMR 1
-KPB 1
-KPCA 3
-KPN 2
-KPPA 1
-Kagawa Medical 1
-Kahn Process Network 3
-Karlsruhe 1
-Karlsruhe Institute of Technology 1
-Karush-Kuhn-Tucker 1
-Kazaa 1
-Kenting National Park 1
-Kernel PCA 1
-Khronos Compute Working Group 1
-Kingdee International Software Group Company Limited 1
-Knowledge Visualization 1
-Kogge-Stone 1
-Komatsu 1
-Korea Telecom 1
-Kyoto Encyclopedia of Genes 1
-LA 1
-LAMA 1
-LANDMARC 5
-LANL 1
-LAPP 3
-LARA 1
-LBAM 1
-LBI 2
-LBJ School 1
-LBJ School of Public Affairs 1
-LBLC 2
-LCA 3
-LCMS 2
-LDA 12
-LDI 1
-LDMA 2
-LDP 4
-LDPC 11
-LEAR 3
-LEGO Group 1
-LEO 1
-LETSI Foundation 1
-LFDA 3
-LFP 4
-LFSR 1
-LG 1
-LGA 2
-LGC 2
-LGPL 1
-LHC 4
-LHFS 1
-LIA 1
-LIC 3
-LIG 1
-LIG Learner 1
-LISA 1
-LISF 1
-LLC 20
-LLCP 1
-LLNL 1
-LLS 1
-LMA 1
-LMI 2
-LMS 16
-LNA 2
-LNP 1
-LNS 1
-LNS ALU 1
-LNS ALUs 1
-LONI 1
-LOS 3
-LOTUS 2
-LPA 1
-LPC 1
-LPTA 1
-LR 8
-LRU 17
-LSB 7
-LSDF 1
-LSE 1
-LSI 7
-LSPC 1
-LSS 1
-LSU 2
-LTC 3
-LTI 2
-LTSA 1
-LTV 1
-LVRM 1
-Langner Communications 1
-Lanzhou University 1
-Laplace Beltrami 1
-Laplace Transform 1
-Lattice Boltzmann Method 1
-Laurent 1
-Lebesgue 1
-Lego 2
-Lehigh University Benchmark 1
-Leibniz University of Hannover 1
-Leland K. Whittier Virtual Pediatric Intensive Care Unit 1
-Lemelson Foundation 1
-LexRank 1
-Life Sciences 1
-Life Technologies 1
-Light Radio Cubes 1
-Lijia ZHuang 1
-Lila Project 1
-Linden Lab 1
-Linked Data 1
-Liquid Limit 1
-Liu \& Lay 1
-Lloyd's 1
-Lloyd-Max 1
-Loan Approval Service 1
-Local Interconnect Network 1
-Local Stores 1
-Los Alamos National Laboratory 2
-Low Power Wireless Area Networks 1
-Ltd 1
-MADMAC 1
-MAGA 4
-MAMPF 1
-MAPE 2
-MAR 1
-MARL 1
-MATLAB HPC 1
-MBER 1
-MBT 4
-MCB 3
-MCC 7
-MCDB 1
-MCDM 2
-MCE 2
-MCGO 1
-MCIF 1
-MCMC 2
-MCNC 1
-MCPA 1
-MCT 2
-MCU 1
-MCV 1
-MDA 10
-MDD 5
-MDG 1
-MDLC 5
-MDP 6
-MDS 5
-MEC 1
-MEDITO 1
-MEDLINE 3
-MEF 1
-MESI 2
-MFA 2
-MFC 1
-MFCG 1
-MFFV 1
-MFI 1
-MGMC 3
-MHDC 1
-MHP 1
-MHS 1
-MIDF 1
-MIMEL 1
-MIMO 2
-MIPS 8
-MIRO 1
-MISO 1
-MIT 4
-MIT Lincoln Labs 1
-MIT Media Lab 1
-MKBC 1
-MKI 2
-MKSVM 1
-MLE 6
-MLMVN 1
-MLP 6
-MMDA 5
-MMGR 1
-MMI 1
-MML 1
-MMU 1
-MNC 1
-MODGDF 1
-MOOK 1
-MOTEC 1
-MPC 11
-MPCA 4
-MPI 92
-MPI Allreduce 2
-MPI Bcast 3
-MPI Ibcast 1
-MPKI 1
-MPLD 1
-MPR 4
-MPTC 1
-MPWFPF 1
-MQDF 2
-MQLS 1
-MQLX 1
-MQM 2
-MRAC 1
-MRC 3
-MRF 2
-MRIRC 1
-MRP 3
-MRQSA 1
-MRSL 1
-MRT 2
-MSA 5
-MSC 2
-MSF 2
-MSN 3
-MSP 1
-MSRC 5
-MSS 3
-MSSIM 1
-MSTA 1
-MSTG 1
-MSU 1
-MTBDD 1
-MTI 2
-MTM 1
-MTP 3
-MTTR 1
-MUPI 1
-MVA 2
-MVC 4
-MWA 1
-MXML 1
-MYOLAP 1
-Machine Translation 1
-Mackey Glass 1
-Macular Degeneration 1
-Malaysian Institute 1
-Manna Energy Limited 1
-MapReduce 1
-Marine Safety & Security 1
-Marine Safety & Security Operations 1
-Markov Chain Monte Carlo 4
-Markov Chain Monte Carlo Algorithms 1
-Markov Logic Networks 1
-Markov Random Field 1
-Markov Stationary Features 1
-Marquette University Chapter 1
-Mary PSK 1
-Massachusetts General Hospital 1
-Massachusetts Institute of Technology 2
-MatLab 1
-Matlab 1
-Maxwell 2
-McGill University 1
-McMaster University 6
-Media Services 1
-MediaBench 1
-Medium Enterprises 4
-Medline 5
-Mellon University 2
-Memetic Network Algorithms 1
-Mercy Corps 1
-Meteorological and Hydrological Institute 1
-Metro 1
-Metro Area Network 1
-Metropolis-Hastings 1
-Micron 3
-Microsoft 47
-Microsoft Azure 1
-Microsoft Dynamics NAV 1
-Microsoft Research 2
-Microsoft Research Asia 2
-Middlebury 3
-Minimum Energy Reliable Information Gathering 1
-Ministry of Culture 1
-Mobile Communications Networks 1
-Mobile Social Network System 1
-MobileMedia SPL 1
-Model-Predictive Control 1
-Monash University 1
-Monte Carlo 19
-Monte Carlo Filtering 1
-Monte Carlo Sampling 1
-Monte Carlo Tree Search 1
-Moore FSM 2
-Motorola 1
-Movie Lens 1
-Mozilla 1
-Multicore Association Communications API 1
-Multilink PPP 1
-Multiple Interacting Instantiations of Neuronal Dynamics 1
-Municipality of Santander 1
-Museum Victoria 1
-MySQL 5
-NACA 3
-NAFS 2
-NAL 1
-NAMD 2
-NAND 12
-NAND Flash 1
-NAPT 3
-NAQC 3
-NARDA 1
-NAROUTO 2
-NAS 5
-NAS Benchmarks 1
-NAS Parallel Benchmarks 3
-NASA 14
-NASA Goddard Institute for Space Studies 1
-NASA JPL 1
-NASIC 2
-NATO 2
-NATO Coalition BML 1
-NATO Software Engineering Conference 1
-NATs 1
-NBI 2
-NBTI 17
-NC 2
-NCA 1
-NCAR 1
-NCBI 2
-NCBO 1
-NCCS 2
-NCES 1
-NCHC 4
-NCI 3
-NCMA 2
-NCO 1
-NCRP 1
-NCV 1
-NDA 1
-NDGF 1
-NDHC 5
-NDIR 2
-NDIS 1
-NDN 3
-NDPSO 2
-NDT 1
-NDVC 3
-NEC Labs 2
-NECTEC 1
-NEEL 3
-NEES 2
-NELL 3
-NESA 4
-NETSPEAK 1
-NFA 7
-NFC 1
-NFCs 2
-NFL 1
-NFQA 1
-NFS 6
-NGSN 1
-NGVF 1
-NHK 3
-NHK Japan 1
-NHPP 1
-NHS 1
-NIC 2
-NICO & SONIC Complexity Conference 1
-NICU 4
-NICs 3
-NIDS 7
-NILM 1
-NIR 1
-NIRS 3
-NIST 24
-NIST USA 1
-NL 1
-NLANR 1
-NLC 1
-NLP 5
-NMOS 2
-NNG 5
-NOC 1
-NORMA 1
-NP 2
-NPB 12
-NPC 3
-NPN 1
-NPT 1
-NRA 1
-NRMINER 1
-NRT 1
-NSF 1
-NSF Press 1
-NSG 2
-NSP 2
-NTC 1
-NTF 2
-NTP 1
-NTRU 6
-NTSS 1
-NTT 5
-NTT DoCoMo 1
-NUCA 6
-NUM 1
-NUMA 6
-NVE 1
-NVIDIA 43
-NVIDIA CSR 1
-NVIDIA CUDA 1
-NVIDIA Fermi 3
-NVIDIA Fermi GPU 3
-NVIDIA GPU 2
-NVIDIA Graphics Processing Unit 1
-NVIDIA Tesla 4
-NVidia 1
-Naaive Bayes Kernel Estimation 1
-Nagoya Institute of Technology 2
-Nan Gen 1
-Nash Equilibria 1
-National Cancer Institute 3
-National Cancer Institute ALTS 1
-National Center for Biomedical 1
-National Center for Biotechnology Information 1
-National Center for High-Performance Computing 1
-National Center for Supercomputing Applications 2
-National Chiao Tung University 1
-National Electronics and Computer Technology Center 1
-National Institute of Informatics 1
-National Institute of Standards and Technology 5
-National Institutes of Health 1
-National Library of Medicine 1
-National Mapping Agency 1
-National Mission on Education 1
-National Regulatory Agency 1
-National Science Foundation 2
-National Security Council 2
-National Social Science Foundation Grant 1
-National Taiwan University 3
-National Telecommunications Commission 1
-National Tsing Hua University 1
-Netflix 3
-Netherlands Forensic Institute 1
-Network 2
-Network Address Translation 1
-Network Coding 2
-Network Interface Card 1
-Network Interfaces 1
-Network Service Platform 1
-Network Weather Service 1
-Network of Workstations 1
-Neural Network 1
-Niagara 1
-Nielson & Hankin 1
-Nintendo 4
-Nippon Telegraph and Telephone Public Corporation 1
-Nixon Administration 1
-NoC 1
-Nokia 5
-Nokia Ovi 1
-Nokia Push Notification service 1
-NotificationManagerService 1
-Nottingham University Hospitals NHS Trust 1
-Nvidia 6
-Nvidia GTX 1
-Nvidia Research 1
-Nvidia Tesla 1
-OAASVM 1
-OAC 3
-OAMA 1
-OAPR 1
-OBS Network 1
-OBS Networks 1
-OBU 4
-OCM 1
-OCMM 1
-OCP 1
-OCR 40
-OCS 1
-ODA 1
-OECD 3
-OGD 1
-OGF NSI 1
-OLAM 1
-OLAP 26
-OLC 1
-OLHFFM 1
-OLSC 1
-OLSR 4
-OM 1
-OMAP 2
-OMPA 2
-OMPi-psth 1
-ONOE 1
-OOST 1
-OOWA 2
-OPATSI 1
-OPC 5
-OPC UA 4
-OPEX 1
-OPIRA 1
-OPL 1
-OPM 4
-OPNET 3
-ORCA 1
-ORGA 2
-ORSC 1
-OSD 10
-OSG 1
-OSN 1
-OSS 14
-OTV 1
-OWASP 1
-OWL 4
-Oak Ridge National Laboratory 5
-Oaklands High School 1
-Oasis 3
-Oasis XACML 1
-Object-Oriented Bayesian Network 1
-Odin Tools 1
-Ohio State 1
-Open Cirrus 2
-Open Networking Foundation 1
-Optimized Infrastructure Services 1
-Oracle Data Mining 1
-Oral Health Hygiene & Dental Care 1
-Orion 1
-Oryx 1
-Osaka University 1
-Overlay Cloud Computing Service 2
-P&O 1
-PA 10
-PADC 1
-PAF 1
-PAIM 3
-PAIS 1
-PAKE 6
-PARAID 1
-PARSEC 2
-PATC 1
-PATRTCM 1
-PAVD 1
-PAVM 1
-PBCA 1
-PBFS 1
-PBFTL 2
-PBL 3
-PBS 1
-PCA 27
-PCB 5
-PCC 1
-PCF 3
-PCI Express 1
-PCI Express Gen 1
-PCM 53
-PCO 5
-PCRLB 1
-PCSI 3
-PCTL 1
-PDB 1
-PDB Data Bank 1
-PDI 1
-PDL 3
-PDM 1
-PDNN 1
-PEAQ 1
-PEARL 3
-PEDF 1
-PEGASUS 1
-PELS 1
-PEPSC 1
-PESA 1
-PFA 2
-PFC 2
-PGI 1
-PHM 4
-PHP 7
-PHR 1
-PHT 1
-PIDX 2
-PIIH 1
-PKC 1
-PKI 8
-PLA 1
-PLC 8
-PLM 3
-PLR 1
-PLRS 1
-PLSA 1
-PLSR 1
-PLTCDS 1
-PMA 4
-PMBLDCM 1
-PMC 1
-PMOS 1
-PMT 2
-PNA 3
-PNFS 1
-PNN 1
-PNNL 2
-PNP 1
-POI 1
-POLUS 4
-PPA 4
-PPC 2
-PPF 1
-PPFT 1
-PPL 1
-PPR 1
-PPSR 2
-PQMM 3
-PRC 9
-PRISMA 1
-PRM 1
-PRN 1
-PSC 5
-PSD 4
-PSI 1
-PSK 1
-PSL 5
-PSM 1
-PSNR 15
-PSO 45
-PSPM 2
-PSSI 2
-PSSK 2
-PTM 4
-PTP 3
-PTPSC 1
-PTT 1
-PUF 8
-PUM 1
-PUMA 5
-PUMG 1
-PWA 3
-Pacific Northwest National Laboratory 1
-Pakistani Army 2
-Palladio Workbench 1
-Para Fac 1
-Parallel Computing Toolbox 1
-Parametric 3
-Particle Swarm Optimization 1
-Passive Network Appliance 1
-PayPal 1
-Pedersen Commitment Scheme 1
-Perceptron 2
-Perceptron Neural Network 1
-Peregrine 1
-Pervasive Healthcare 1
-Pervavise Computing 1
-Petri Nets 1
-Phase Change Memory 1
-Philips 1
-Phong Tessellation 1
-Pistoia Alliance 1
-Plaid Parliament of Pwning 1
-PlayGen Ltd 1
-Pomona College 1
-Portland State University 1
-Post Detection Integration 1
-Poultry Pharm 1
-Power 1
-Power Control Mechanism 1
-Power Delivery Network 1
-Power Oscillation Damping 1
-Power System Stabilizer 1
-Princeton 7
-Princeton IAS 1
-ProCom 1
-Production Reporting and Enterprise Application Integration 1
-Project Management Institute 1
-Projects Committee 1
-Prop Bank 1
-Property Certification Authority 1
-Protein Residue Distance & Angle Distribution Database for Secondary Structures 1
-Proto Kernel 1
-Public Television Service 1
-Public Travel Information Systems 1
-QBE 1
-QCIF 1
-QRS 1
-QSV 4
-Quake Group 1
-Qualcomm 1
-Quality Assurance Unit Service 1
-Quality of Service 3
-Quante 2
-Queuing Network Models 1
-R & D 1
-RADF 1
-RAND Corporation 1
-RAPM 1
-RAR 1
-RBAC 15
-RBF 7
-RBM 3
-RBNN 1
-RBS 2
-RCI 2
-RCM 2
-RCP 1
-RDF 39
-RDMA 3
-RDO 4
-RDPC 2
-REA 1
-REAM 1
-RFU 2
-RGEM 1
-RIA 2
-RICC 2
-RIKEN 2
-RIR 1
-RL 1
-RLA 1
-RLAA 3
-RLC 1
-RMA 2
-RMAP 1
-RMI 12
-RMSE 1
-RMT 3
-RNC 1
-RO PUF 1
-ROMA 1
-ROMM 1
-RPF 1
-RPP 1
-RRC 6
-RRIT 1
-RRT 1
-RSA 1
-RSL 1
-RSN 3
-RSSI 8
-RTAI 1
-RTCA 1
-RTCP 2
-RTD 1
-RTL 13
-RTM 13
-RTOS 1
-RTR 1
-RTS 1
-RVM 3
-RaVioli 1
-Rachel ECA 1
-Radial Basis Function Neural Network 1
-Radial Basis Neural Network 1
-Radio Network Controllers 1
-Radio Occultation 1
-Random Forest 2
-Random Geometric Graphs 1
-Random Search 1
-Random Subspace Method 1
-Range Lab 1
-Rapid Application Development 1
-Rapid Application Development Framework 1
-Real-Time Dynamic Voltage 1
-Real-Time Inter-Network Defense 1
-Real-Time Transport Protocol 1
-Recurrent Neural Network 1
-Red Hat Enterprise Linux 1
-Region de Murcia 1
-Reliable Data Transmission 1
-Renault SAS 1
-Renmin University of China 1
-Reps & Wilhelm 1
-Residual 1
-Resolute Marine Energy, Inc. 1
-Resources Committee 1
-Restricted Boltzmann Machine 1
-Reuter 2
-Reuters 1
-Reverse Time Migration 1
-Robot Services 1
-Robotics 1
-Rochester Institute of Technology 1
-SAAF 3
-SACA 1
-SADEC 2
-SAHANA 1
-SAP 5
-SAPPHIRE 1
-SAR 4
-SAS 1
-SATURN 2
-SBA 2
-SBES 3
-SBFL 2
-SBGP 1
-SBI 1
-SBR 1
-SBRT 1
-SBS 17
-SBSE 1
-SBVR 1
-SC 6
-SCA 20
-SCAC 1
-SCAP 2
-SCC 7
-SCD 1
-SCEBSS 1
-SCIE 2
-SCM 12
-SCOP 1
-SCS 2
-SDDL 1
-SDF 4
-SDK 3
-SDLC 1
-SDP 5
-SDS 3
-SDSR 1
-SDT 1
-SDU 2
-SEC 6
-SERS 2
-SES 1
-SESA 1
-SESC 1
-SFA 1
-SFAA 3
-SFI 1
-SFM 6
-SFO 2
-SFTM 1
-SGN 3
-SHCR 1
-SHOC 1
-SHP 1
-SIEMENS 1
-SIES 2
-SIF 2
-SIGMICRO 1
-SIMD 1
-SINR 2
-SIOC 1
-SKG 1
-SLA 55
-SLM 4
-SLN 1
-SLPA 1
-SMES 1
-SMIC 2
-SMID 1
-SMM 1
-SMP 2
-SMPI 1
-SMPM 1
-SMT 1
-SMTC 2
-SNA 2
-SNM 1
-SNP 9
-SOA 113
-SOA Innovation Lab 1
-SOBE 8
-SOHO 7
-SOPC 1
-SORA 1
-SOeS 1
-SPARQL 1
-SPD 2
-SPEC OMP 1
-SPEM 2
-SPL UML 1
-SPLE 1
-SPM 5
-SPO 2
-SPORTSBET 1
-SPRINT 1
-SPS 1
-SPSL 2
-SPSS 2
-SPUMONE 2
-SQPR 1
-SQQL 2
-SRAA 1
-SRAM 7
-SRAR 1
-SRB 1
-SRC 11
-SRGM 1
-SRM 1
-SSAM 1
-SSDs 3
-SSE 4
-SSIM 4
-SSKM Hospital 1
-SSO 2
-SSP 1
-SSPA 1
-SSS 2
-SSSA 1
-ST 1
-STAAR 2
-STBDC 1
-STM 1
-STMicroelectronics 1
-STSI 1
-STSP 1
-STT 6
-SUGAL 1
-SVAR 1
-SVD 3
-SVG 2
-SVM 8
-SVMS 1
-SVP 4
-SWAT 2
-SWRL 3
-SYMA 1
-Saint-Petersburg State University 1
-Salt&Pepper 1
-Samsung 2
-Samsung Electronics 1
-San Jose Mercury News 1
-Sandia Lab 1
-Sandia National Laboratories 1
-Satish Dhawan Space Center 1
-Saturn 2
-Scale Power 2
-School of Art 1
-School of Design and Department of Computer Science 1
-Security & Surveillance 1
-Security Audit 1
-Security Service 2
-Semantic Instrumentation 1
-Semantic Unity Graph 1
-Semantic Web Service 2
-Service 5
-Service Oriented Computing 1
-Service Providers 1
-Sharp Frequency Localization 1
-Shiva 1
-Side Channel Attack Resistance 1
-Side Channel Attacks 1
-Side-Channel 1
-Siemens 6
-Siemens IT Solutions 1
-Signature Quadratic Form Distance 1
-Silicon Intellectual Properties 1
-Similarity Data Storage 1
-Simulation Interoperability Standardization Organization 1
-Sine Weibo 1
-Skype 10
-Slovenian Armed Forces 1
-Smart-Phone Digital Evidence Forensics Standard 1
-Snyder 1
-SoCo 1
-Soccer Simulation League 1
-Social Media Cloud Computing Service Environment 1
-Social Network Analysis 1
-Social Network Service 1
-Social Network Services 1
-Social Network Systems 1
-Social Networking Service 1
-Social Trust 1
-Socially-Compliant Trust Management Systems 1
-Software Engineering Center 1
-Software Engineering Institute of East China Normal University 1
-Solid State Disk 1
-Sony 3
-Sounding Board 1
-South African Department of Water Affairs 1
-Space Agency 1
-Sparse Group Lasso 1
-Spatial Data Mining 1
-St. Olav's University Hospital 1
-Stackelberg 1
-Stanford Parser 1
-Stanford Research Institute 1
-Stanford University Medical 1
-Stork 1
-Stork Data Scheduler 1
-Strasbourg University 1
-Strategic Electronics Group of C-DAC 1
-Stream Data Processing 1
-Sub-Symbolic Robotics Intelligence Control System 1
-Sumitomo Electric Industries, Ltd. 1
-Sumitomo Electric Information Systems Co. 1
-Sun 1
-Support Vector Machine 1
-Symbian 2
-Synopsys 1
-T-DNA Tagged Rice Service 1
-TAA 1
-TACC 2
-TACLC 1
-TAEC 3
-TAPA 1
-TASA 5
-TCAM 3
-TCAS 1
-TCG 2
-TCM 2
-TCO 3
-TCP 65
-TCP Hybla 1
-TCP New Reno 1
-TCRR 1
-TDB 1
-TDC 3
-TDF 2
-TDG 1
-TDMA 25
-TDOA 1
-TFC 3
-TIARA 1
-TIMS 2
-TKNN 1
-TLA 2
-TLB 2
-TMB 3
-TMM 1
-TMOC 1
-TOGAF 1
-TREC 3
-TREX 1
-TSMC 2
-TSQR 1
-TSS 3
-TT 2
-TTA 3
-TVM 3
-TVNMHA 2
-Tactical Information Communication Network 1
-Tamkang University 1
-Tarantula 1
-Tata Consultancy Services Limited 1
-Tea Party 1
-Technological Educational Institute 1
-Technological University 1
-Technologie de Compiègne 1
-Telecommunications and Information Policy Institute 1
-Telugu OCR 1
-Tensor Spline 1
-Tesseract 1
-Texas Instruments 2
-The Monterey Group 1
-The University of California San Diego 1
-The University of Florida Sparse Matrix Collection 1
-Third Information Processing Technology Heritage Certification Ceremony 1
-Thompson Sampling 1
-Tikesos 1
-Time Petri Nets 1
-Time Warp 1
-Tohoku Area 1
-TomTom 2
-Toronto Star 1
-Transactive 1
-Transco 1
-Transfer Service 1
-Translatable UML 1
-TreeNetViz 1
-Trinity College 1
-Triple Cloud 1
-Trust Assurance 1
-Trust Authority 1
-Trusted Computing Group 1
-Tsinghua University 1
-Turkish Airlines 1
-Twitter 1
-U.S. Department of Defense 3
-U.S. Department of Homeland Security 1
-U.S. National Institute of Standards and Technology 1
-U.S. Navy 1
-UAM 1
-UBC 1
-UBL 3
-UC Merced 1
-UCAV 1
-UCBO 1
-UCC 7
-UCI 17
-UCLA 1
-UCON 2
-UCSD 2
-UConn 1
-UDA 5
-UDDI 4
-UDM 1
-UDP 6
-UEC 1
-UFTRA 1
-UGC 4
-UGNX 1
-UIMA 1
-UMA 2
-UML 81
-UML Diff 1
-UMTS 6
-UN 1
-UNDP 1
-UNESCO 1
-UNESCO World Heritage Site 1
-UNICEF 1
-UNION 1
-UNSW 1
-UPC 8
-UPMA 1
-UPPAAL 1
-US Army Test 1
-US Curriculum and College Board 1
-US Department of Energy 1
-US Department of State 1
-US FDA 1
-US Military Academy 1
-US National Security Agency 1
-US National Weather Service 1
-US Naval Postgraduate School 1
-US Navy 1
-US Network for Earthquake Engineering Simulation 1
-US Office of Naval Research Global 1
-USA 1
-USC Engineering Audio Visual Room 1
-USSD 1
-UTB 1
-UTP 1
-UTP RT 1
-UVC 2
-UWB 18
-UWE 1
-Ubiquitous Computing 1
-Ubiquitous Life Care Cloud Computing 1
-Ultra-Wideband 1
-Unicon 1
-Unipath 1
-United 1
-United Nations 1
-United Nations Millennium Development Goals 1
-United States Centers for Disease Control and Prevention 1
-United States Patent and Trademark Office 1
-University College London 1
-University Grants Commission 1
-University of 1
-University of Athens 1
-University of Auckland 1
-University of Basilicas 1
-University of British Columbia 1
-University of California 4
-University of California Berkeley 1
-University of Cape Town 1
-University of Chicago 1
-University of Coimbra 2
-University of Connecticut 1
-University of East Anglia 1
-University of Helsinki 1
-University of Houston 1
-University of Illinois 1
-University of Louisville 1
-University of Mannheim 1
-University of Maryland University College 1
-University of Minho 1
-University of Minnesota 4
-University of Notre Dame 1
-University of Oulu 1
-University of Pittsburgh 2
-University of Queens 1
-University of Salerno 1
-University of San Carlos 1
-University of San Diego 1
-University of South California 1
-University of Southampton 1
-University of Southern California 1
-University of Stuttgart 2
-University of Tennessee 2
-University of Texas 6
-University of Tokyo 1
-University of Turku 1
-University of Washington 2
-University of Washington Department of Radiology 1
-University of Wisconsin 2
-University of Wolver Hampton 1
-VADD 3
-VADDI 1
-VAMI 2
-VANET 1
-VAR 1
-VBI 1
-VCC 4
-VCG 1
-VCO 1
-VCP 9
-VDM 5
-VDMA 3
-VDRG 1
-VDS 6
-VDTA 1
-VEUA 1
-VFCPSO 1
-VFOA 1
-VHDL 5
-VHSIC 1
-VIAF 1
-VIDA 1
-VIRCONEL 1
-VIRTEX 1
-VISFAN 1
-VLC 1
-VLIW 7
-VLIW AGU 2
-VLSI 20
-VMA 2
-VMAP 2
-VMOP 1
-VMX 1
-VNS 1
-VOTM 3
-VPC 1
-VPFPAP 1
-VPN 8
-VSN 3
-VSO 1
-VTDF 1
-VTI 1
-VTM 1
-VVAD 1
-VW 1
-Vaccine Preventable Diseases 1
-Vcc 1
-Vehicular Communications 1
-Vehicular Network 1
-Vertex 3
-Vertical Bell Laboratories 1
-Veterans Affairs Medical Center 1
-Video Diary Service 1
-Vienna Consulting Engineers 1
-Viral Systems 1
-Virginia Tech 1
-Virginia Tech Network Dynamics and Simulation Science Laboratory 1
-Virtex 3
-Virtual Lock 1
-Virtual Machine 2
-Virtual Machines 1
-Virtual Rank 1
-Virtual Travel Agency 1
-VisIO 2
-Visual Exchange Network 1
-Voice 3
-Volkswagen 2
-Voronoi Diagram Research Center 1
-WADL 1
-WAFTL 2
-WAM 6
-WBAN 1
-WCA 3
-WCDMA 2
-WCET 1
-WDM 7
-WEC 4
-WEEC 1
-WEKA 3
-WFA 2
-WHMS 2
-WHO 1
-WICSA 1
-WLCG 1
-WMC 1
-WMS 1
-WMSN 1
-WORL 3
-WPCA 1
-WS-BPEL 1
-WSAN 1
-WSAT 1
-WSCN 3
-WSDF 1
-WSDL 7
-WSML 1
-WSMO 1
-WSMP 3
-WSN 58
-WSRD 1
-WSRO 1
-WWAN 1
-Waikato Environment 1
-Washington Post 1
-Washington State University 1
-Wayang Kulit 2
-Web Science Meets Network Science Workshop 1
-Web Service 2
-Web Services Interoperability Organization 1
-Weibull 1
-Weizmann Horse 1
-Whirlpool 1
-White House 1
-WiGipedia 1
-WikiLeaks 2
-Wikipedia 50
-Wikipedia Category Network 3
-Wings 1
-Wireless Communications 1
-Wireless Mesh Network 3
-Wireless Sensor Network 1
-Wireless Sensor Networks 1
-World Health Organisation 1
-World Health Organization 1
-Wyoming Network for Telehealth 1
-XACML 1
-XBRL 5
-XILINX 1
-XMM 1
-Xilinx 30
-Xilinx FPGA 4
-Xilinx Inc. 1
-Xilinx Spartan 1
-Xilinx Vertex 1
-Xilinx Virtex 3
-YAWL 1
-Yahoo 22
-Yahoo Answers 1
-Yale 2
-Yale Image Finder 1
-York University 1
-YouTube 7
-Yucatan Autonomous University 1
-ZKM Centre 1
-ZUC 1
-ZigBee 9
-ZigBee Sensor Network 1
-ZigBee networks 1
-Zigbee 1
-Zila 1
+AAC; 2
+AADL; 2
+AAF; 1
+AASL; 1
+ABB; 5
+ABC; 16
+ABCK; 1
+ABFT; 2
+ABIR; 2
+ABMs; 1
+ABNF; 1
+ABNM; 2
+ABP; 2
+ABS; 1
+ABSS; 1
+AC; 9
+AC-DC; 1
+ACD; 3
+ACME; 2
+ACO; 5
+ACON; 1
+ACP; 6
+ACQ; 1
+ACRP; 2
+ACRUM; 1
+ACSA; 2
+ACSS; 2
+ADA; 1
+ADANA; 1
+ADB; 1
+ADC; 6
+ADEME; 1
+ADG; 3
+ADL; 2
+ADM; 1
+ADP; 1
+ADRC; 2
+ADSM; 1
+ADSP; 4
+ADSR; 2
+ADT; 1
+AEC; 1
+AEP; 1
+AES; 24
+AF; 1
+AFS; 1
+AGRA; 1
+AGRF; 1
+AHK; 1
+AHP; 6
+AIBO; 1
+AIC; 1
+AIK; 1
+AIS; 2
+AJAX; 1
+AJAX MVC; 1
+AJDSD; 1
+ALM; 3
+ALMD; 1
+ALU; 1
+AMBA; 1
+AMD; 16
+AMD Barcelona; 1
+AMD GPU; 4
+AMD Magny-Cours; 1
+AMG; 3
+AML; 3
+AMPR; 1
+AMR; 1
+ANL; 1
+ANN; 11
+ANOVA; 1
+ANP; 3
+ANR; 1
+ANSI; 1
+ANSYS; 11
+AODV; 8
+AOL; 1
+AOP; 5
+AOSE; 1
+AP; 10
+APAC; 3
+APCDA; 1
+APF; 1
+APFN; 1
+APIDQ; 1
+APL; 3
+APMS; 1
+APPI; 2
+APS; 1
+APTI; 1
+APVIS; 1
+AQC; 1
+AQEC; 1
+ARC RDF; 1
+ARCA; 1
+ARDS; 2
+ARMA; 1
+ARPA; 6
+ARS; 4
+ASC; 6
+ASCII; 1
+ASDP; 1
+ASIIN; 1
+ASIP; 1
+ASL; 2
+ASM; 5
+ASML; 3
+ASOM; 3
+ASPF; 2
+ASR; 11
+ASSL; 1
+AST; 1
+ASTC; 1
+ASTORIA; 1
+AT&T; 1
+AT&T Laboratories Cambridge; 1
+ATA; 1
+ATAM; 2
+ATC; 1
+ATCA; 2
+ATDC; 1
+ATEC; 1
+ATI; 3
+ATI Brook; 1
+ATI GPU; 1
+ATI Stream; 2
+ATN; 2
+ATO; 2
+ATP; 1
+ATPB; 1
+ATPG; 8
+ATPRA; 1
+ATSI; 3
+AURORA; 1
+AUTOSAR; 1
+AUVs; 1
+AVCJ; 1
+AVF; 9
+AVIS; 4
+AVS; 3
+AVTR; 1
+AVX; 3
+Aachen University; 2
+Academia Sinica; 1
+Academy of Broadcasting Science SARFT; 1
+Accenture; 1
+Accessible Laboratories Universalizing Education; 1
+Actel; 1
+Adaptive Harris Corner Detector; 1
+Aero Space Integrated Information Network; 1
+Afaceri Transilvania Business Center; 1
+Agencia Regional de Ciencia y Tecnologia; 1
+Agile Movement; 2
+Agile Service Networks; 1
+Agile Software Development R&D Center; 1
+Agilent; 1
+Air Conditioning; 1
+Air Economizer; 1
+Air Touch; 2
+Ajax; 6
+Alibaba; 1
+All India Council for Technical Education; 1
+Altera; 4
+Amazon; 36
+Amazon AWS; 1
+Amazon Cloud Front; 1
+Amazon Elastic Compute Cloud; 2
+Amazon Payments; 2
+Amazon Web Services; 5
+Ambient Intelligence; 2
+Amdahl; 4
+American College of Radiology; 1
+American National Standards Institute; 1
+Amrita University; 1
+Amrita Vishwa Vidyapeetham University; 1
+Analysis and Visualization Environment; 1
+Analysis of Computer Algorithms; 1
+Anisotropic Network; 1
+Ant Colony; 1
+Ant Colony Optimization; 2
+Apache Software Foundation; 1
+Apple; 7
+Applied Laboratory for Interactive Visualization; 1
+ArchiMate; 1
+Archigram; 5
+Argo UML; 1
+Argonne National Laboratory; 6
+Arizona Daily Star; 1
+Armonia; 1
+Army Research Laboratory; 1
+Arnold; 2
+Arpanet Host Table; 1
+Arpanet Network Information Center; 1
+Artemis Cloud; 1
+Artificial Intelligence for Ecosystem Services; 2
+Artificial Neural Network; 1
+Asia Pacific Twentieth Century Conservation Art Research Network; 1
+Asia University; 1
+Associated Link Network; 1
+Associated Press; 2
+Atlys Development Board; 1
+Audi; 1
+Australian Genome Research Foundation; 1
+Australian Taxation Office; 1
+Azure CDN; 1
+BA; 1
+BAA; 3
+BBC; 1
+BBN Byblos OCR; 1
+BCA; 1
+BCAC; 1
+BCC; 1
+BCDC; 1
+BCH; 2
+BDB; 1
+BDI; 11
+BDI Agent-based Service; 1
+BET; 1
+BFC; 2
+BFO; 1
+BFS; 3
+BGA; 2
+BIC; 1
+BICA; 1
+BIL; 1
+BIOTA; 1
+BIS; 3
+BIST; 1
+BLC; 1
+BLEU; 1
+BMB; 1
+BML; 7
+BNL; 1
+BNTRP; 1
+BOINC; 3
+BOV; 1
+BP; 4
+BP Neural Network; 1
+BPA; 1
+BPC; 3
+BPDC; 1
+BPEL; 5
+BPMN; 3
+BPMS; 1
+BRIC; 3
+BRICs; 2
+BRMS; 1
+BSN; 10
+BSNL; 1
+BSTC; 1
+BTC; 1
+BTEX; 2
+BTF; 2
+BTI; 1
+BWCG; 1
+BWT; 1
+BYOB; 1
+Backbone Layer Network and Tidbit Layer Network; 1
+Bahasa Melayu; 1
+Bank; 3
+Battle Management Language; 1
+Bayer; 1
+Bayes Network; 1
+Bayesian Network; 2
+Baylor; 1
+Baylor College of Medicine; 1
+Bell; 1
+Bell Labs; 1
+Belnapian LFI; 1
+BitTorrent; 14
+BitTorrent Mainline DHT; 1
+Bittorrent; 1
+Black Sea Catchment Observation; 1
+Blog Union; 1
+Bloom; 1
+Bloom Filters; 1
+Blue Dove; 2
+Boeing; 1
+BoltzRank; 1
+Bot Network; 1
+Boundary Detection; 1
+British Post Office; 1
+Brookhaven National Laboratory; 1
+Brown University; 1
+Bruce Deitrick Price; 1
+Buddhist; 1
+Buddhist Canon; 1
+Burroughs BSP; 1
+Business Intelligence; 1
+Business Process Management; 1
+C&A; 3
+C&C; 2
+C-MAC; 1
+CACAO; 1
+CACC; 1
+CACI; 3
+CAD; 2
+CADP; 1
+CAE; 2
+CAF; 5
+CAIDA; 1
+CAPTCHA; 1
+CAQR; 1
+CARA; 1
+CAS; 6
+CAUI; 3
+CBC; 1
+CBF; 2
+CBFL; 3
+CBIR; 1
+CBMC; 3
+CBMS; 3
+CBP; 1
+CBR; 2
+CBTC; 2
+CBTF; 1
+CBV; 1
+CCA; 15
+CCAM; 1
+CCCS; 2
+CCE; 1
+CCEA; 2
+CCET; 1
+CCF; 1
+CCI; 1
+CCN; 3
+CCRE; 1
+CCS; 1
+CCSL; 1
+CCSP; 1
+CCTV; 7
+CCWR; 1
+CDA; 8
+CDC; 4
+CDF; 1
+CDL; 7
+CDN; 1
+CDNCA; 2
+CDOI; 2
+CDPF; 1
+CDSA; 1
+CEDA; 3
+CENTRIA; 1
+CERN; 5
+CFAR; 1
+CFB; 1
+CFC; 4
+CFE; 2
+CFI; 3
+CFTL; 2
+CGAL; 1
+CGLX; 4
+CGM; 4
+CGRA; 2
+CHUD; 2
+CHW; 3
+CIES; 1
+CIM; 3
+CIO Corner department; 1
+CIP; 3
+CLA; 2
+CLB; 1
+CLBFT; 1
+CLCS; 1
+CLEM; 5
+CLIO; 1
+CLNS; 1
+CLONALG; 1
+CLSM; 1
+CMA; 2
+CMAC; 2
+CMAS; 2
+CMCD; 2
+CMDB; 1
+CMDP; 1
+CMIL; 1
+CML; 1
+CMM; 1
+CMMI; 1
+CMP; 33
+CMPM; 1
+CMRR; 1
+CMS; 2
+CMU; 4
+CMYK; 1
+CNC; 24
+CNET; 1
+CNF; 1
+CNL; 1
+CNM; 1
+CNN; 1
+CNT; 1
+CO; 1
+COIR; 1
+COKE; 1
+COMSATS Institute of Information Technology Islamabad; 1
+CORIDC; 1
+CPB; 2
+CPC; 2
+CPCI; 1
+CPS; 23
+CRC; 3
+CRD; 3
+CRF; 8
+CRIS; 1
+CRN; 7
+CRP; 4
+CRT; 3
+CS; 2
+CSA; 1
+CSC; 4
+CSCL; 4
+CSCW; 1
+CSE; 8
+CSI; 2
+CSIRO; 1
+CSL; 4
+CSM; 3
+CSMA; 2
+CSN; 1
+CSP; 12
+CSR; 10
+CSS; 1
+CSV; 1
+CTA; 1
+CTC; 1
+CTO; 1
+CTP; 1
+CTU; 4
+CUDA; 40
+CUDA SDK; 2
+CVD; 2
+CVS; 2
+CVSS; 2
+CVT; 8
+CW; 1
+CWA; 1
+CYC; 1
+Call Admission Control; 1
+Caltech; 1
+Camera Smart; 1
+Caribbean Network Operators; 1
+Carnegie Mellon University; 4
+Center for Research in Entertainment &amp; Learning; 1
+Cerberus; 1
+Channel State Information; 1
+Chelsea & Westminster Hospital; 1
+Chemical; 1
+China Medical University Hospital; 1
+China Telecom; 1
+Chinese Academy of Sciences; 3
+Chinese Digital Terrestrial Multimedia Broadcasting; 1
+CiSE; 1
+Cisco; 1
+Citrix Systems; 1
+City University; 3
+Cleft Lips & Palates; 1
+Climatic Research Unit; 1
+Clique Partition Algorithm; 1
+Cloud Broker GmbH; 1
+Cloud Computing; 2
+Cloud Data Management Interface; 1
+Cloud Security Service; 1
+Cloud Service; 2
+Club Time Machine; 1
+CoReL; 5
+Cognitive Radio Sensor Networks; 1
+Collision Detection; 1
+Color Lens; 1
+Colored Petri Nets; 1
+Commerce; 1
+Communication Society; 1
+Communication Technologies; 1
+Communication Technology; 3
+Community Service; 1
+Community Service Phone Platform; 1
+Competitive Intelligence; 2
+Compliance Analytics Tool; 1
+Computational Intelligence; 1
+Computer Science; 1
+Computer Science and Computer Engineering; 1
+Computer Society; 2
+Congnitive Wireless Network in Distaster Information Network; 1
+Conic Spline; 1
+Conic Splines; 1
+Consumer Electronics Manufacturers; 1
+Content-Addressable Network; 1
+Continental; 1
+Control Area Network; 1
+Control Systems; 1
+Controller Area Network; 3
+Copernic; 1
+Core Components; 1
+Cosine; 1
+Cosine Correlation Similarity Measure; 1
+Coventry University Serious Games Institute; 1
+Cox; 2
+Cray; 5
+Cray Gemini Interconnect; 1
+Credit Reference Bureaus; 1
+Credit Suisse; 2
+Cross Domain Random Walk; 1
+Cryptography Research; 2
+Cullinae Database Systems; 1
+Cyber-Physical Society; 1
+D; 1
+DAC; 2
+DACAR; 1
+DACI; 3
+DACS; 1
+DAF; 1
+DAHU; 3
+DANA; 1
+DANN; 1
+DARA; 1
+DARPA; 2
+DBA; 6
+DBCP; 1
+DBF; 1
+DBM; 2
+DBMS; 1
+DBS; 1
+DBTR; 1
+DC; 15
+DCBA; 1
+DCF; 13
+DCQS; 1
+DCR; 1
+DCT; 9
+DDA; 1
+DDI; 8
+DDL; 1
+DDST; 1
+DEA; 3
+DEAM; 1
+DEEC; 1
+DESS; 1
+DEVS; 3
+DEWN; 1
+DFA; 17
+DFS; 2
+DFTM; 1
+DG Home Affairs; 1
+DGVCS; 1
+DIC; 2
+DKEA; 1
+DLA; 2
+DLL; 7
+DLM; 6
+DLP; 1
+DLPT; 1
+DMA; 13
+DML; 1
+DMR; 3
+DMTF; 1
+DNSSEC; 2
+DOF; 9
+DOP; 1
+DPA; 4
+DPAWSC; 1
+DPCM; 1
+DPL; 3
+DPM; 3
+DPPM; 1
+DPS; 2
+DPT; 1
+DRAFT Network; 1
+DRAR; 1
+DREX; 1
+DRT; 1
+DRTM; 1
+DRX; 1
+DSA; 1
+DSBC; 1
+DSC; 4
+DSCA; 2
+DSCC; 1
+DSCF; 1
+DSCM; 1
+DSE; 4
+DSF; 1
+DSLR; 2
+DSM; 16
+DSM-IV; 1
+DSML; 1
+DSMS; 2
+DSO; 2
+DSP; 20
+DSRC; 2
+DSS; 5
+DTI; 3
+DTM; 2
+DTN; 5
+DVC; 1
+DVS; 4
+DYMO; 9
+Dadda CC; 1
+Daimler AG; 1
+Daimler Mercedes; 1
+Daimler Trucks; 1
+Dartmouth Conference on Artificial Intelligence; 1
+Dartmouth Summer Research Project; 1
+Data Acquisition; 1
+Data Acquisition Card; 1
+Data Distribution Service; 1
+Data Grid; 1
+Data Integrity; 1
+Data Placement Service; 1
+Data-as-a-Service; 1
+Datrmouth College; 1
+DeNovo; 3
+Defense; 1
+Defense Communications Agency; 1
+Defense Data Network; 1
+Dell; 1
+Dell Power Edge; 1
+Delphi; 2
+Delta; 3
+Demeter; 4
+Denial of Service; 3
+Department of Computer Science; 1
+Department of Defense; 4
+Department of Defense Information Assurance; 1
+Department of Energy; 2
+Department of Energy NNSA; 1
+Department of Public Health and Environment; 1
+Desafio Sebrae; 1
+Design and Media; 1
+Developmental Turing Machines; 1
+Diamond Search; 1
+Digital; 4
+Digital Asset Protection Association; 1
+Digital Business Ecosystem; 3
+Digital Circuits; 1
+Digital Electronics; 1
+Digital Equipment; 1
+Digital Forensics; 2
+Digital Humanities; 1
+Digital Imaging and Communications; 1
+Digital Libraries; 1
+Digital Manufacturing; 1
+Digital Preservation Cloud Service; 1
+Digital Rights Management; 1
+Digital Television; 1
+Direct Yaw Control; 1
+Directional Broadcast; 1
+Disaster Information Network; 3
+Distance Education College; 1
+Distributed Management Task Force; 1
+Domain Service; 2
+Dominion; 1
+Dow Chemical; 1
+Dream of Red Mansions; 1
+Drexel University; 1
+Drogoul&Ferber; 1
+Dynamic Access Control Infrastructure; 1
+Dynamic Bloom; 1
+Dynamic Bypass Circuit; 2
+Dynamo; 1
+E. Machining; 1
+EA; 17
+EACM; 1
+EAD; 1
+EADS; 1
+EASI; 2
+EBAM; 1
+EBT; 1
+EC; 14
+ECA; 2
+ECB; 1
+ECC; 31
+ECCs; 1
+ECFN; 1
+ECIA; 1
+ECM; 2
+ECMA; 1
+ECP; 1
+ECRS; 1
+EDCA; 5
+EDCF; 1
+EDDL; 1
+EDF; 8
+EDMA; 1
+EDP; 2
+EDRT; 1
+EEOR; 1
+EEPROM; 1
+EFL; 3
+EFM; 2
+EFSM; 3
+EG CTL; 1
+EGMP; 1
+EGNOS Data Collection Network; 1
+EHS; 1
+EIC; 8
+EICA; 1
+ELIAS; 2
+ELN; 2
+EMAA; 2
+EMBRAER; 1
+EMF Trace; 1
+EMFS; 4
+EMG; 3
+EMI; 1
+EMR; 1
+EMRS; 1
+ENISI; 1
+EPC; 15
+EPC Gen; 1
+EPE; 1
+EPL; 1
+EPM; 1
+EPR; 1
+EPSAR; 1
+ERBAC; 1
+ERDAS; 1
+ERDB; 2
+ERL; 2
+ERP; 6
+ERVC; 1
+ESARC; 1
+ESC; 2
+ESI; 1
+ESS; 3
+ESSC; 1
+ESSI; 2
+ETAMR; 2
+ETH Zurich; 1
+ETHZ; 1
+ETPM; 3
+ETS; 1
+ETSI; 2
+EU; 6
+EUCD; 3
+EUROCONTROL; 2
+EWMA; 1
+EXAMCE; 1
+Eastern; 2
+Echo State Networks; 1
+Edinburgh Napier University; 1
+Educational Activities Board; 1
+Elastic Data Organization; 1
+Election Protocol; 1
+Electric Power Systems; 1
+Electrical Engineering Department; 1
+Electronic Control Unit; 2
+Electronic Control Units; 1
+Electronic Frontier Foundation; 1
+Electronic Healthcare Records; 1
+Electronic and Telecommunications Research Institute; 1
+Embla; 2
+Emergency Warning Network; 1
+Emperor Wanli of Ming Dynasty; 1
+Encoding Heritage; 1
+Energy City; 1
+Energy Farm; 1
+Energy and Environmental Technologies Laboratory; 1
+Engineering Projects in Community Service; 1
+Enron; 2
+Enterprise Architecture University Alliance; 1
+Enterprise Data Centers; 1
+Enterprise Service; 1
+Entropia Universe; 2
+Enviro GRIDS; 1
+Environmental Protection Agency; 1
+Epinions; 1
+Erdos; 1
+Ericsson; 4
+Ericsson AB; 1
+Ericsson Research; 1
+Esterel; 2
+European Commission; 5
+European Commission FEDER; 1
+European Network and Information Security Agency; 1
+European Network of Excellence; 1
+European Space Agency Earth Observation Long Term Data Preservation Program; 1
+European Union; 3
+Evaluation Command; 1
+Exformatics A/S; 1
+F-Secure Corporation; 1
+F.C. Williams; 2
+FAA; 1
+FAIRIO; 1
+FANN; 3
+FBG; 4
+FBI; 4
+FBMC; 1
+FCA; 2
+FCC; 4
+FCGI; 1
+FCM; 6
+FCS; 1
+FDA; 3
+FDSR; 1
+FEC; 6
+FEM; 5
+FESMA; 1
+FESTO; 1
+FFDA; 1
+FFS; 2
+FHP; 2
+FICHS; 1
+FIFA; 1
+FIFO; 8
+FIR; 1
+FIS; 1
+FLUOR; 1
+FMA; 1
+FMAC; 1
+FMEA; 3
+FNN; 1
+FOAF; 1
+FODA; 1
+FON; 2
+FORTRAN; 1
+FOSS; 8
+FPA; 2
+FPGA; 402
+FPGA GPU; 1
+FPS; 2
+FPTC; 1
+FPU; 3
+FSM; 9
+FSS; 3
+FTA; 3
+FTAM; 1
+FTC; 1
+FTI; 2
+FTL; 2
+FUJITSU; 2
+Facebook; 17
+Fact Bank; 1
+Federal Communications Commission; 1
+Federal University of Ceará; 1
+Federal University of Rio de Janeiro; 1
+Fem; 2
+Fermi; 5
+Fermi Tesla; 1
+Filter Bank Multi Carrier; 1
+Finite State Automata; 1
+Firaxis Inc; 1
+Fire fox; 1
+Firefox; 1
+Flexible Organization Structure-Based Access Control; 1
+Flexible Radio Kernel; 1
+Forest Degradation; 1
+Fox Mozilla; 1
+Fox News; 1
+France Telecom; 1
+French Environment and Energy Management Agency; 1
+Front Side Bus; 1
+Fujitsu; 1
+Fundacion Seneca; 1
+Fuzzy Logic; 1
+G.H.Raisoni College of Engineering; 1
+GAAA Toolkit Java; 1
+GAC; 1
+GAF; 1
+GAMESS; 1
+GCC; 5
+GCO; 2
+GDF; 2
+GE; 4
+GENI; 1
+GENTORO; 1
+GERC; 1
+GFM; 1
+GFSS; 1
+GGF; 1
+GILI; 1
+GKA; 1
+GLOH; 1
+GM; 2
+GMAC; 1
+GMCM; 1
+GME; 1
+GMP; 1
+GNU General Public License; 1
+GPC; 1
+GPD; 1
+GPGPU; 1
+GPL; 2
+GPMR; 1
+GPP; 2
+GPSR; 1
+GPU; 338
+GPU Accelerators; 1
+GRAL; 1
+GRC; 6
+GRN; 2
+GRNN; 3
+GSC; 1
+GSD; 3
+GSN; 3
+GSR; 4
+GSS; 1
+GTC; 1
+GTM; 1
+GUMO; 1
+GWA; 2
+Galileo; 4
+Gartner; 1
+Gator Tech Smart House; 1
+Gaussian Channel; 1
+Gen; 1
+GenBank; 1
+Gene Ontology; 5
+General High School of Agios Dimitrios; 1
+Generarl Electric; 1
+Genetic Algorithm; 1
+Genetic Algorithms; 1
+Geneva Emotion Wheel; 1
+Geodynamic Institute; 1
+Georgia Tech; 2
+Georgia Wild; 1
+German Research Center for Artificial Intelligence; 1
+German Society for Computer Scientists; 1
+Global Enforcement Of Data Assurance Controls; 1
+Global Environment for Network Innovation; 1
+Global Force Management Data Initiative; 1
+Global Humanitarian Technology Conference; 1
+Global Information Logistics Infrastructure; 1
+Globus Online; 1
+Globus Toolkit; 1
+Golden Eagle; 1
+Google; 71
+Google AJAX; 1
+Google App Engine; 1
+Google Books n-gram Corpus; 1
+Google Buzz; 1
+Google Checkout; 1
+Google Checkout Service; 1
+Google Cloud Services; 1
+Google Distance; 1
+Google Docs; 2
+Google Gears; 1
+Google Map; 1
+Google Maps; 2
+Google Ngram; 1
+Google Translate; 2
+Google Trends; 1
+Greek Education Department; 1
+Green Clouds; 1
+Green Computing Observatory; 1
+Green Data Center; 1
+Green ICT; 4
+HASL; 1
+HBPA; 3
+HBS; 1
+HCA; 3
+HCCA; 4
+HCI; 2
+HDP; 2
+HEMS; 1
+HERMES; 1
+HES; 1
+HETA; 1
+HHC; 2
+HHNEC; 1
+HIPAA; 1
+HIX; 2
+HLC; 2
+HLS; 1
+HMI; 3
+HOLTEK; 1
+HPC Resource Management Systems; 1
+HPL; 5
+HRO; 4
+HSA; 1
+HSF; 1
+HSH; 2
+HSK; 2
+HTC; 1
+HVS; 3
+HYDI; 1
+Handheld Interagency Identity Detection Equipment; 1
+Hannover Messe Industrie; 1
+HapMap; 1
+Hapmap; 1
+Harmonia; 1
+Harris Corner Detector; 1
+Harvard; 1
+Harz University; 1
+Hasselblad; 3
+Hastily Formed Networks; 1
+Hausdorff Voronoi; 2
+Health Management; 1
+Healthcare; 3
+Healthcare Interchange Exchange; 1
+Henry Ford Health System; 1
+Heracles; 3
+Hertz; 1
+Het Nets; 1
+Higher Education Institute; 1
+Hindu & Sikh; 2
+History of Computer Science; 1
+Hoare Logic; 1
+Hoc Network; 2
+Hoc Networks; 1
+Holten & van Wijk; 1
+Honda; 2
+Honeywell; 2
+Honeywell FMS; 1
+Hospital Emergency Department System; 1
+Hospital Episodes Statistics; 1
+Hub Node Reinforcement Method; 1
+Human Computer Interfaces; 1
+Human-Computer Interface; 1
+Human-Machine Interfaces; 1
+IADE; 2
+IAE; 2
+IAM; 6
+IANA; 2
+IB; 3
+IBC; 1
+IBD; 2
+IBDM; 1
+IBFF; 2
+IBM; 58
+IBM Blue Gene/P; 1
+IBM Corp; 1
+IBM Power Edge of Network; 1
+IBM Research; 1
+IBM Roadrunner; 1
+IBM T.J. Watson Research Center; 2
+IBR; 4
+ICA; 9
+ICAA; 1
+ICAO; 1
+ICAP; 9
+ICC; 2
+ICCR; 1
+ICIA; 2
+ICL; 1
+ICMP; 2
+ICQ; 1
+ICSI; 1
+ICT; 33
+ICT Intensive Service; 1
+ICTs; 1
+ICW; 1
+IDC; 1
+IDDI; 1
+IDL Object Graphics; 1
+IDRSA; 1
+IDS; 1
+IDT; 1
+IDX; 3
+IEC; 6
+IEEE; 1
+IEEE Computer Society; 4
+IEEE Computer Society Board of Governors; 1
+IEEE Computer Society Taylor L. Booth Award; 1
+IEEE Computer Society Test Technology Technical Council; 1
+IEEE S&P; 1
+IEEE Security & Privacy; 2
+IEEE Visualization and Graphics Technical Committee; 1
+IETF; 5
+IFC; 2
+IFF; 2
+IFOC; 1
+IIF; 5
+ILP; 1
+ILTP; 1
+ILUT; 1
+IMA; 1
+IMAC; 1
+IMD; 1
+IMDB; 2
+IMEC; 1
+IMF; 5
+IMS; 7
+IMSI; 1
+IMU; 5
+INDA; 2
+INET; 1
+INL; 2
+INP; 3
+IOCW; 1
+IOT; 2
+IPEG; 1
+IPFC; 1
+IPL; 4
+IPTV; 1
+IPU; 1
+IRA; 1
+IRB; 1
+IRN; 2
+IRS; 1
+IRSR; 1
+IRTG; 2
+ISI; 3
+ISIS; 3
+ISO; 7
+ISS; 2
+ISVs; 1
+ISWC; 1
+IT Service Management; 1
+ITC; 7
+ITIL; 5
+ITM; 2
+ITRI; 1
+ITRS; 1
+ITU; 3
+IVI; 2
+IW Object Service; 1
+Illumina; 2
+Image Cube; 1
+Impact India Foundation; 1
+Imperial College London; 6
+Improved Magnetic Equivalent Circuit; 1
+Indian Institute of Technology; 1
+Indian Ministry of Human Resource Development; 1
+Indoleamine; 1
+InfiniBand; 9
+Infiniband; 3
+InfoAge Science Center; 1
+Information Centric Security; 1
+Information Communication Technologies; 1
+Information Education; 1
+Information Processing Society of Japan; 1
+Information Retrieval; 2
+Information Sciences; 1
+Information Security and Privacy Protection; 1
+Information Service Platform; 1
+Information Society; 1
+Information Systems Security; 1
+Information Technology; 2
+Information Technology Communication Society; 1
+Information and Communication Technologies; 1
+Information and Communications Technology; 1
+Institute for Forensic Science; 1
+Institute of Computing Technology; 1
+Integrated Data Store; 1
+Integrated Gaps Model of Service Quality; 1
+Integrated Ocean Drilling Program; 1
+Integrated Services; 1
+Integrated Valuation of Ecosystem Services; 2
+Integrity Management Service; 1
+Intel; 68
+Intel Atom; 2
+Intel Core; 6
+Intel Harpertown; 1
+Intel Labs; 7
+Intel MKL; 2
+Intel Nehalem; 2
+Intel OSD; 1
+Intel PEBS; 1
+Intel Pentium; 2
+Intel SCC; 1
+Intel Xeon Linux; 1
+IntelliDomo; 1
+Intelligence; 1
+Intelligent Transportation Systems; 2
+Inter; 2
+Inter-Vehicle Communications; 1
+Interactive Digital Media IDM; 1
+Interactive Voice Response; 1
+Interco; 1
+Interconnection Network; 1
+Interline Power Flow Controller; 1
+Internal Review Board; 1
+International Certificate Authority; 1
+International Computer Science Institute; 1
+International Conference; 2
+International Conference on Computer Communication; 1
+International Conference on Frontier; 1
+International Conference on Pervasive Computing; 1
+International Conference on Pervasive Computing Technologies for Healthcare; 1
+International Enterprise Computing Conference; 1
+International Organization for Standardization; 3
+International Packet Network Working Group; 1
+International Students; 1
+International Telecommunication Union; 1
+Internet of Services; 1
+Intersil; 1
+Intrusion Detection Systems; 1
+Israel Museum of Jerusalem; 1
+Istituto Nazionale; 1
+Italian Ministry of Health; 1
+Iwate Prefectural University; 1
+JAFFE; 1
+JAUS; 1
+JCD; 1
+JDBC; 1
+JFA; 2
+JIRA; 1
+JREX; 1
+JSC; 1
+JVM; 4
+JXME; 2
+JXTA; 1
+Jaguar; 3
+Jaguar Cray; 1
+Jaguar Supercomputer; 1
+Japan Aerospace Exploration Agency; 1
+Japan Broadcasting Corporation; 1
+Japan Meteorological Agency; 1
+Japanese Ministry of International Trade and Industry; 1
+KAD DHT; 1
+KALN; 2
+KANO; 1
+KAOS; 2
+KASUMI; 1
+KB; 2
+KDD; 5
+KEGG; 1
+KELL; 1
+KMP; 1
+KMR; 1
+KPB; 1
+KPCA; 3
+KPN; 2
+KPPA; 1
+Kagawa Medical; 1
+Kahn Process Network; 3
+Karlsruhe; 1
+Karlsruhe Institute of Technology; 1
+Karush-Kuhn-Tucker; 1
+Kazaa; 1
+Kenting National Park; 1
+Kernel PCA; 1
+Khronos Compute Working Group; 1
+Kingdee International Software Group Company Limited; 1
+Knowledge Visualization; 1
+Kogge-Stone; 1
+Komatsu; 1
+Korea Telecom; 1
+Kyoto Encyclopedia of Genes; 1
+LA; 1
+LAMA; 1
+LANDMARC; 5
+LANL; 1
+LAPP; 3
+LARA; 1
+LBAM; 1
+LBI; 2
+LBJ School; 1
+LBJ School of Public Affairs; 1
+LBLC; 2
+LCA; 3
+LCMS; 2
+LDA; 12
+LDI; 1
+LDMA; 2
+LDP; 4
+LDPC; 11
+LEAR; 3
+LEGO Group; 1
+LEO; 1
+LETSI Foundation; 1
+LFDA; 3
+LFP; 4
+LFSR; 1
+LG; 1
+LGA; 2
+LGC; 2
+LGPL; 1
+LHC; 4
+LHFS; 1
+LIA; 1
+LIC; 3
+LIG; 1
+LIG Learner; 1
+LISA; 1
+LISF; 1
+LLC; 20
+LLCP; 1
+LLNL; 1
+LLS; 1
+LMA; 1
+LMI; 2
+LMS; 16
+LNA; 2
+LNP; 1
+LNS; 1
+LNS ALU; 1
+LNS ALUs; 1
+LONI; 1
+LOS; 3
+LOTUS; 2
+LPA; 1
+LPC; 1
+LPTA; 1
+LR; 8
+LRU; 17
+LSB; 7
+LSDF; 1
+LSE; 1
+LSI; 7
+LSPC; 1
+LSS; 1
+LSU; 2
+LTC; 3
+LTI; 2
+LTSA; 1
+LTV; 1
+LVRM; 1
+Langner Communications; 1
+Lanzhou University; 1
+Laplace Beltrami; 1
+Laplace Transform; 1
+Lattice Boltzmann Method; 1
+Laurent; 1
+Lebesgue; 1
+Lego; 2
+Lehigh University Benchmark; 1
+Leibniz University of Hannover; 1
+Leland K. Whittier Virtual Pediatric Intensive Care Unit; 1
+Lemelson Foundation; 1
+LexRank; 1
+Life Sciences; 1
+Life Technologies; 1
+Light Radio Cubes; 1
+Lijia ZHuang; 1
+Lila Project; 1
+Linden Lab; 1
+Linked Data; 1
+Liquid Limit; 1
+Liu \& Lay; 1
+Lloyd's; 1
+Lloyd-Max; 1
+Loan Approval Service; 1
+Local Interconnect Network; 1
+Local Stores; 1
+Los Alamos National Laboratory; 2
+Low Power Wireless Area Networks; 1
+Ltd; 1
+MADMAC; 1
+MAGA; 4
+MAMPF; 1
+MAPE; 2
+MAR; 1
+MARL; 1
+MATLAB HPC; 1
+MBER; 1
+MBT; 4
+MCB; 3
+MCC; 7
+MCDB; 1
+MCDM; 2
+MCE; 2
+MCGO; 1
+MCIF; 1
+MCMC; 2
+MCNC; 1
+MCPA; 1
+MCT; 2
+MCU; 1
+MCV; 1
+MDA; 10
+MDD; 5
+MDG; 1
+MDLC; 5
+MDP; 6
+MDS; 5
+MEC; 1
+MEDITO; 1
+MEDLINE; 3
+MEF; 1
+MESI; 2
+MFA; 2
+MFC; 1
+MFCG; 1
+MFFV; 1
+MFI; 1
+MGMC; 3
+MHDC; 1
+MHP; 1
+MHS; 1
+MIDF; 1
+MIMEL; 1
+MIMO; 2
+MIPS; 8
+MIRO; 1
+MISO; 1
+MIT; 4
+MIT Lincoln Labs; 1
+MIT Media Lab; 1
+MKBC; 1
+MKI; 2
+MKSVM; 1
+MLE; 6
+MLMVN; 1
+MLP; 6
+MMDA; 5
+MMGR; 1
+MMI; 1
+MML; 1
+MMU; 1
+MNC; 1
+MODGDF; 1
+MOOK; 1
+MOTEC; 1
+MPC; 11
+MPCA; 4
+MPI; 92
+MPI Allreduce; 2
+MPI Bcast; 3
+MPI Ibcast; 1
+MPKI; 1
+MPLD; 1
+MPR; 4
+MPTC; 1
+MPWFPF; 1
+MQDF; 2
+MQLS; 1
+MQLX; 1
+MQM; 2
+MRAC; 1
+MRC; 3
+MRF; 2
+MRIRC; 1
+MRP; 3
+MRQSA; 1
+MRSL; 1
+MRT; 2
+MSA; 5
+MSC; 2
+MSF; 2
+MSN; 3
+MSP; 1
+MSRC; 5
+MSS; 3
+MSSIM; 1
+MSTA; 1
+MSTG; 1
+MSU; 1
+MTBDD; 1
+MTI; 2
+MTM; 1
+MTP; 3
+MTTR; 1
+MUPI; 1
+MVA; 2
+MVC; 4
+MWA; 1
+MXML; 1
+MYOLAP; 1
+Machine Translation; 1
+Mackey Glass; 1
+Macular Degeneration; 1
+Malaysian Institute; 1
+Manna Energy Limited; 1
+MapReduce; 1
+Marine Safety & Security; 1
+Marine Safety & Security Operations; 1
+Markov Chain Monte Carlo; 4
+Markov Chain Monte Carlo Algorithms; 1
+Markov Logic Networks; 1
+Markov Random Field; 1
+Markov Stationary Features; 1
+Marquette University Chapter; 1
+Mary PSK; 1
+Massachusetts General Hospital; 1
+Massachusetts Institute of Technology; 2
+MatLab; 1
+Matlab; 1
+Maxwell; 2
+McGill University; 1
+McMaster University; 6
+Media Services; 1
+MediaBench; 1
+Medium Enterprises; 4
+Medline; 5
+Mellon University; 2
+Memetic Network Algorithms; 1
+Mercy Corps; 1
+Meteorological and Hydrological Institute; 1
+Metro; 1
+Metro Area Network; 1
+Metropolis-Hastings; 1
+Micron; 3
+Microsoft; 47
+Microsoft Azure; 1
+Microsoft Dynamics NAV; 1
+Microsoft Research; 2
+Microsoft Research Asia; 2
+Middlebury; 3
+Minimum Energy Reliable Information Gathering; 1
+Ministry of Culture; 1
+Mobile Communications Networks; 1
+Mobile Social Network System; 1
+MobileMedia SPL; 1
+Model-Predictive Control; 1
+Monash University; 1
+Monte Carlo; 19
+Monte Carlo Filtering; 1
+Monte Carlo Sampling; 1
+Monte Carlo Tree Search; 1
+Moore FSM; 2
+Motorola; 1
+Movie Lens; 1
+Mozilla; 1
+Multicore Association Communications API; 1
+Multilink PPP; 1
+Multiple Interacting Instantiations of Neuronal Dynamics; 1
+Municipality of Santander; 1
+Museum Victoria; 1
+MySQL; 5
+NACA; 3
+NAFS; 2
+NAL; 1
+NAMD; 2
+NAND; 12
+NAND Flash; 1
+NAPT; 3
+NAQC; 3
+NARDA; 1
+NAROUTO; 2
+NAS; 5
+NAS Benchmarks; 1
+NAS Parallel Benchmarks; 3
+NASA; 14
+NASA Goddard Institute for Space Studies; 1
+NASA JPL; 1
+NASIC; 2
+NATO; 2
+NATO Coalition BML; 1
+NATO Software Engineering Conference; 1
+NATs; 1
+NBI; 2
+NBTI; 17
+NC; 2
+NCA; 1
+NCAR; 1
+NCBI; 2
+NCBO; 1
+NCCS; 2
+NCES; 1
+NCHC; 4
+NCI; 3
+NCMA; 2
+NCO; 1
+NCRP; 1
+NCV; 1
+NDA; 1
+NDGF; 1
+NDHC; 5
+NDIR; 2
+NDIS; 1
+NDN; 3
+NDPSO; 2
+NDT; 1
+NDVC; 3
+NEC Labs; 2
+NECTEC; 1
+NEEL; 3
+NEES; 2
+NELL; 3
+NESA; 4
+NETSPEAK; 1
+NFA; 7
+NFC; 1
+NFCs; 2
+NFL; 1
+NFQA; 1
+NFS; 6
+NGSN; 1
+NGVF; 1
+NHK; 3
+NHK Japan; 1
+NHPP; 1
+NHS; 1
+NIC; 2
+NICO & SONIC Complexity Conference; 1
+NICU; 4
+NICs; 3
+NIDS; 7
+NILM; 1
+NIR; 1
+NIRS; 3
+NIST; 24
+NIST USA; 1
+NL; 1
+NLANR; 1
+NLC; 1
+NLP; 5
+NMOS; 2
+NNG; 5
+NOC; 1
+NORMA; 1
+NP; 2
+NPB; 12
+NPC; 3
+NPN; 1
+NPT; 1
+NRA; 1
+NRMINER; 1
+NRT; 1
+NSF; 1
+NSF Press; 1
+NSG; 2
+NSP; 2
+NTC; 1
+NTF; 2
+NTP; 1
+NTRU; 6
+NTSS; 1
+NTT; 5
+NTT DoCoMo; 1
+NUCA; 6
+NUM; 1
+NUMA; 6
+NVE; 1
+NVIDIA; 43
+NVIDIA CSR; 1
+NVIDIA CUDA; 1
+NVIDIA Fermi; 3
+NVIDIA Fermi GPU; 3
+NVIDIA GPU; 2
+NVIDIA Graphics Processing Unit; 1
+NVIDIA Tesla; 4
+NVidia; 1
+Naaive Bayes Kernel Estimation; 1
+Nagoya Institute of Technology; 2
+Nan Gen; 1
+Nash Equilibria; 1
+National Cancer Institute; 3
+National Cancer Institute ALTS; 1
+National Center for Biomedical; 1
+National Center for Biotechnology Information; 1
+National Center for High-Performance Computing; 1
+National Center for Supercomputing Applications; 2
+National Chiao Tung University; 1
+National Electronics and Computer Technology Center; 1
+National Institute of Informatics; 1
+National Institute of Standards and Technology; 5
+National Institutes of Health; 1
+National Library of Medicine; 1
+National Mapping Agency; 1
+National Mission on Education; 1
+National Regulatory Agency; 1
+National Science Foundation; 2
+National Security Council; 2
+National Social Science Foundation Grant; 1
+National Taiwan University; 3
+National Telecommunications Commission; 1
+National Tsing Hua University; 1
+Netflix; 3
+Netherlands Forensic Institute; 1
+Network; 2
+Network Address Translation; 1
+Network Coding; 2
+Network Interface Card; 1
+Network Interfaces; 1
+Network Service Platform; 1
+Network Weather Service; 1
+Network of Workstations; 1
+Neural Network; 1
+Niagara; 1
+Nielson & Hankin; 1
+Nintendo; 4
+Nippon Telegraph and Telephone Public Corporation; 1
+Nixon Administration; 1
+NoC; 1
+Nokia; 5
+Nokia Ovi; 1
+Nokia Push Notification service; 1
+NotificationManagerService; 1
+Nottingham University Hospitals NHS Trust; 1
+Nvidia; 6
+Nvidia GTX; 1
+Nvidia Research; 1
+Nvidia Tesla; 1
+OAASVM; 1
+OAC; 3
+OAMA; 1
+OAPR; 1
+OBS Network; 1
+OBS Networks; 1
+OBU; 4
+OCM; 1
+OCMM; 1
+OCP; 1
+OCR; 40
+OCS; 1
+ODA; 1
+OECD; 3
+OGD; 1
+OGF NSI; 1
+OLAM; 1
+OLAP; 26
+OLC; 1
+OLHFFM; 1
+OLSC; 1
+OLSR; 4
+OM; 1
+OMAP; 2
+OMPA; 2
+OMPi-psth; 1
+ONOE; 1
+OOST; 1
+OOWA; 2
+OPATSI; 1
+OPC; 5
+OPC UA; 4
+OPEX; 1
+OPIRA; 1
+OPL; 1
+OPM; 4
+OPNET; 3
+ORCA; 1
+ORGA; 2
+ORSC; 1
+OSD; 10
+OSG; 1
+OSN; 1
+OSS; 14
+OTV; 1
+OWASP; 1
+OWL; 4
+Oak Ridge National Laboratory; 5
+Oaklands High School; 1
+Oasis; 3
+Oasis XACML; 1
+Object-Oriented Bayesian Network; 1
+Odin Tools; 1
+Ohio State; 1
+Open Cirrus; 2
+Open Networking Foundation; 1
+Optimized Infrastructure Services; 1
+Oracle Data Mining; 1
+Oral Health Hygiene & Dental Care; 1
+Orion; 1
+Oryx; 1
+Osaka University; 1
+Overlay Cloud Computing Service; 2
+P&O; 1
+PA; 10
+PADC; 1
+PAF; 1
+PAIM; 3
+PAIS; 1
+PAKE; 6
+PARAID; 1
+PARSEC; 2
+PATC; 1
+PATRTCM; 1
+PAVD; 1
+PAVM; 1
+PBCA; 1
+PBFS; 1
+PBFTL; 2
+PBL; 3
+PBS; 1
+PCA; 27
+PCB; 5
+PCC; 1
+PCF; 3
+PCI Express; 1
+PCI Express Gen; 1
+PCM; 53
+PCO; 5
+PCRLB; 1
+PCSI; 3
+PCTL; 1
+PDB; 1
+PDB Data Bank; 1
+PDI; 1
+PDL; 3
+PDM; 1
+PDNN; 1
+PEAQ; 1
+PEARL; 3
+PEDF; 1
+PEGASUS; 1
+PELS; 1
+PEPSC; 1
+PESA; 1
+PFA; 2
+PFC; 2
+PGI; 1
+PHM; 4
+PHP; 7
+PHR; 1
+PHT; 1
+PIDX; 2
+PIIH; 1
+PKC; 1
+PKI; 8
+PLA; 1
+PLC; 8
+PLM; 3
+PLR; 1
+PLRS; 1
+PLSA; 1
+PLSR; 1
+PLTCDS; 1
+PMA; 4
+PMBLDCM; 1
+PMC; 1
+PMOS; 1
+PMT; 2
+PNA; 3
+PNFS; 1
+PNN; 1
+PNNL; 2
+PNP; 1
+POI; 1
+POLUS; 4
+PPA; 4
+PPC; 2
+PPF; 1
+PPFT; 1
+PPL; 1
+PPR; 1
+PPSR; 2
+PQMM; 3
+PRC; 9
+PRISMA; 1
+PRM; 1
+PRN; 1
+PSC; 5
+PSD; 4
+PSI; 1
+PSK; 1
+PSL; 5
+PSM; 1
+PSNR; 15
+PSO; 45
+PSPM; 2
+PSSI; 2
+PSSK; 2
+PTM; 4
+PTP; 3
+PTPSC; 1
+PTT; 1
+PUF; 8
+PUM; 1
+PUMA; 5
+PUMG; 1
+PWA; 3
+Pacific Northwest National Laboratory; 1
+Pakistani Army; 2
+Palladio Workbench; 1
+Para Fac; 1
+Parallel Computing Toolbox; 1
+Parametric; 3
+Particle Swarm Optimization; 1
+Passive Network Appliance; 1
+PayPal; 1
+Pedersen Commitment Scheme; 1
+Perceptron; 2
+Perceptron Neural Network; 1
+Peregrine; 1
+Pervasive Healthcare; 1
+Pervavise Computing; 1
+Petri Nets; 1
+Phase Change Memory; 1
+Philips; 1
+Phong Tessellation; 1
+Pistoia Alliance; 1
+Plaid Parliament of Pwning; 1
+PlayGen Ltd; 1
+Pomona College; 1
+Portland State University; 1
+Post Detection Integration; 1
+Poultry Pharm; 1
+Power; 1
+Power Control Mechanism; 1
+Power Delivery Network; 1
+Power Oscillation Damping; 1
+Power System Stabilizer; 1
+Princeton; 7
+Princeton IAS; 1
+ProCom; 1
+Production Reporting and Enterprise Application Integration; 1
+Project Management Institute; 1
+Projects Committee; 1
+Prop Bank; 1
+Property Certification Authority; 1
+Protein Residue Distance & Angle Distribution Database for Secondary Structures; 1
+Proto Kernel; 1
+Public Television Service; 1
+Public Travel Information Systems; 1
+QBE; 1
+QCIF; 1
+QRS; 1
+QSV; 4
+Quake Group; 1
+Qualcomm; 1
+Quality Assurance Unit Service; 1
+Quality of Service; 3
+Quante; 2
+Queuing Network Models; 1
+R & D; 1
+RADF; 1
+RAND Corporation; 1
+RAPM; 1
+RAR; 1
+RBAC; 15
+RBF; 7
+RBM; 3
+RBNN; 1
+RBS; 2
+RCI; 2
+RCM; 2
+RCP; 1
+RDF; 39
+RDMA; 3
+RDO; 4
+RDPC; 2
+REA; 1
+REAM; 1
+RFU; 2
+RGEM; 1
+RIA; 2
+RICC; 2
+RIKEN; 2
+RIR; 1
+RL; 1
+RLA; 1
+RLAA; 3
+RLC; 1
+RMA; 2
+RMAP; 1
+RMI; 12
+RMSE; 1
+RMT; 3
+RNC; 1
+RO PUF; 1
+ROMA; 1
+ROMM; 1
+RPF; 1
+RPP; 1
+RRC; 6
+RRIT; 1
+RRT; 1
+RSA; 1
+RSL; 1
+RSN; 3
+RSSI; 8
+RTAI; 1
+RTCA; 1
+RTCP; 2
+RTD; 1
+RTL; 13
+RTM; 13
+RTOS; 1
+RTR; 1
+RTS; 1
+RVM; 3
+RaVioli; 1
+Rachel ECA; 1
+Radial Basis Function Neural Network; 1
+Radial Basis Neural Network; 1
+Radio Network Controllers; 1
+Radio Occultation; 1
+Random Forest; 2
+Random Geometric Graphs; 1
+Random Search; 1
+Random Subspace Method; 1
+Range Lab; 1
+Rapid Application Development; 1
+Rapid Application Development Framework; 1
+Real-Time Dynamic Voltage; 1
+Real-Time Inter-Network Defense; 1
+Real-Time Transport Protocol; 1
+Recurrent Neural Network; 1
+Red Hat Enterprise Linux; 1
+Region de Murcia; 1
+Reliable Data Transmission; 1
+Renault SAS; 1
+Renmin University of China; 1
+Reps & Wilhelm; 1
+Residual; 1
+Resolute Marine Energy, Inc.; 1
+Resources Committee; 1
+Restricted Boltzmann Machine; 1
+Reuter; 2
+Reuters; 1
+Reverse Time Migration; 1
+Robot Services; 1
+Robotics; 1
+Rochester Institute of Technology; 1
+SAAF; 3
+SACA; 1
+SADEC; 2
+SAHANA; 1
+SAP; 5
+SAPPHIRE; 1
+SAR; 4
+SAS; 1
+SATURN; 2
+SBA; 2
+SBES; 3
+SBFL; 2
+SBGP; 1
+SBI; 1
+SBR; 1
+SBRT; 1
+SBS; 17
+SBSE; 1
+SBVR; 1
+SC; 6
+SCA; 20
+SCAC; 1
+SCAP; 2
+SCC; 7
+SCD; 1
+SCEBSS; 1
+SCIE; 2
+SCM; 12
+SCOP; 1
+SCS; 2
+SDDL; 1
+SDF; 4
+SDK; 3
+SDLC; 1
+SDP; 5
+SDS; 3
+SDSR; 1
+SDT; 1
+SDU; 2
+SEC; 6
+SERS; 2
+SES; 1
+SESA; 1
+SESC; 1
+SFA; 1
+SFAA; 3
+SFI; 1
+SFM; 6
+SFO; 2
+SFTM; 1
+SGN; 3
+SHCR; 1
+SHOC; 1
+SHP; 1
+SIEMENS; 1
+SIES; 2
+SIF; 2
+SIGMICRO; 1
+SIMD; 1
+SINR; 2
+SIOC; 1
+SKG; 1
+SLA; 55
+SLM; 4
+SLN; 1
+SLPA; 1
+SMES; 1
+SMIC; 2
+SMID; 1
+SMM; 1
+SMP; 2
+SMPI; 1
+SMPM; 1
+SMT; 1
+SMTC; 2
+SNA; 2
+SNM; 1
+SNP; 9
+SOA; 113
+SOA Innovation Lab; 1
+SOBE; 8
+SOHO; 7
+SOPC; 1
+SORA; 1
+SOeS; 1
+SPARQL; 1
+SPD; 2
+SPEC OMP; 1
+SPEM; 2
+SPL UML; 1
+SPLE; 1
+SPM; 5
+SPO; 2
+SPORTSBET; 1
+SPRINT; 1
+SPS; 1
+SPSL; 2
+SPSS; 2
+SPUMONE; 2
+SQPR; 1
+SQQL; 2
+SRAA; 1
+SRAM; 7
+SRAR; 1
+SRB; 1
+SRC; 11
+SRGM; 1
+SRM; 1
+SSAM; 1
+SSDs; 3
+SSE; 4
+SSIM; 4
+SSKM Hospital; 1
+SSO; 2
+SSP; 1
+SSPA; 1
+SSS; 2
+SSSA; 1
+ST; 1
+STAAR; 2
+STBDC; 1
+STM; 1
+STMicroelectronics; 1
+STSI; 1
+STSP; 1
+STT; 6
+SUGAL; 1
+SVAR; 1
+SVD; 3
+SVG; 2
+SVM; 8
+SVMS; 1
+SVP; 4
+SWAT; 2
+SWRL; 3
+SYMA; 1
+Saint-Petersburg State University; 1
+Salt&Pepper; 1
+Samsung; 2
+Samsung Electronics; 1
+San Jose Mercury News; 1
+Sandia Lab; 1
+Sandia National Laboratories; 1
+Satish Dhawan Space Center; 1
+Saturn; 2
+Scale Power; 2
+School of Art; 1
+School of Design and Department of Computer Science; 1
+Security & Surveillance; 1
+Security Audit; 1
+Security Service; 2
+Semantic Instrumentation; 1
+Semantic Unity Graph; 1
+Semantic Web Service; 2
+Service; 5
+Service Oriented Computing; 1
+Service Providers; 1
+Sharp Frequency Localization; 1
+Shiva; 1
+Side Channel Attack Resistance; 1
+Side Channel Attacks; 1
+Side-Channel; 1
+Siemens; 6
+Siemens IT Solutions; 1
+Signature Quadratic Form Distance; 1
+Silicon Intellectual Properties; 1
+Similarity Data Storage; 1
+Simulation Interoperability Standardization Organization; 1
+Sine Weibo; 1
+Skype; 10
+Slovenian Armed Forces; 1
+Smart-Phone Digital Evidence Forensics Standard; 1
+Snyder; 1
+SoCo; 1
+Soccer Simulation League; 1
+Social Media Cloud Computing Service Environment; 1
+Social Network Analysis; 1
+Social Network Service; 1
+Social Network Services; 1
+Social Network Systems; 1
+Social Networking Service; 1
+Social Trust; 1
+Socially-Compliant Trust Management Systems; 1
+Software Engineering Center; 1
+Software Engineering Institute of East China Normal University; 1
+Solid State Disk; 1
+Sony; 3
+Sounding Board; 1
+South African Department of Water Affairs; 1
+Space Agency; 1
+Sparse Group Lasso; 1
+Spatial Data Mining; 1
+St. Olav's University Hospital; 1
+Stackelberg; 1
+Stanford Parser; 1
+Stanford Research Institute; 1
+Stanford University Medical; 1
+Stork; 1
+Stork Data Scheduler; 1
+Strasbourg University; 1
+Strategic Electronics Group of C-DAC; 1
+Stream Data Processing; 1
+Sub-Symbolic Robotics Intelligence Control System; 1
+Sumitomo Electric Industries, Ltd.; 1
+Sumitomo Electric Information Systems Co.; 1
+Sun; 1
+Support Vector Machine; 1
+Symbian; 2
+Synopsys; 1
+T-DNA Tagged Rice Service; 1
+TAA; 1
+TACC; 2
+TACLC; 1
+TAEC; 3
+TAPA; 1
+TASA; 5
+TCAM; 3
+TCAS; 1
+TCG; 2
+TCM; 2
+TCO; 3
+TCP; 65
+TCP Hybla; 1
+TCP New Reno; 1
+TCRR; 1
+TDB; 1
+TDC; 3
+TDF; 2
+TDG; 1
+TDMA; 25
+TDOA; 1
+TFC; 3
+TIARA; 1
+TIMS; 2
+TKNN; 1
+TLA; 2
+TLB; 2
+TMB; 3
+TMM; 1
+TMOC; 1
+TOGAF; 1
+TREC; 3
+TREX; 1
+TSMC; 2
+TSQR; 1
+TSS; 3
+TT; 2
+TTA; 3
+TVM; 3
+TVNMHA; 2
+Tactical Information Communication Network; 1
+Tamkang University; 1
+Tarantula; 1
+Tata Consultancy Services Limited; 1
+Tea Party; 1
+Technological Educational Institute; 1
+Technological University; 1
+Technologie de Compiègne; 1
+Telecommunications and Information Policy Institute; 1
+Telugu OCR; 1
+Tensor Spline; 1
+Tesseract; 1
+Texas Instruments; 2
+The Monterey Group; 1
+The University of California San Diego; 1
+The University of Florida Sparse Matrix Collection; 1
+Third Information Processing Technology Heritage Certification Ceremony; 1
+Thompson Sampling; 1
+Tikesos; 1
+Time Petri Nets; 1
+Time Warp; 1
+Tohoku Area; 1
+TomTom; 2
+Toronto Star; 1
+Transactive; 1
+Transco; 1
+Transfer Service; 1
+Translatable UML; 1
+TreeNetViz; 1
+Trinity College; 1
+Triple Cloud; 1
+Trust Assurance; 1
+Trust Authority; 1
+Trusted Computing Group; 1
+Tsinghua University; 1
+Turkish Airlines; 1
+Twitter; 1
+U.S. Department of Defense; 3
+U.S. Department of Homeland Security; 1
+U.S. National Institute of Standards and Technology; 1
+U.S. Navy; 1
+UAM; 1
+UBC; 1
+UBL; 3
+UC Merced; 1
+UCAV; 1
+UCBO; 1
+UCC; 7
+UCI; 17
+UCLA; 1
+UCON; 2
+UCSD; 2
+UConn; 1
+UDA; 5
+UDDI; 4
+UDM; 1
+UDP; 6
+UEC; 1
+UFTRA; 1
+UGC; 4
+UGNX; 1
+UIMA; 1
+UMA; 2
+UML; 81
+UML Diff; 1
+UMTS; 6
+UN; 1
+UNDP; 1
+UNESCO; 1
+UNESCO World Heritage Site; 1
+UNICEF; 1
+UNION; 1
+UNSW; 1
+UPC; 8
+UPMA; 1
+UPPAAL; 1
+US Army Test; 1
+US Curriculum and College Board; 1
+US Department of Energy; 1
+US Department of State; 1
+US FDA; 1
+US Military Academy; 1
+US National Security Agency; 1
+US National Weather Service; 1
+US Naval Postgraduate School; 1
+US Navy; 1
+US Network for Earthquake Engineering Simulation; 1
+US Office of Naval Research Global; 1
+USA; 1
+USC Engineering Audio Visual Room; 1
+USSD; 1
+UTB; 1
+UTP; 1
+UTP RT; 1
+UVC; 2
+UWB; 18
+UWE; 1
+Ubiquitous Computing; 1
+Ubiquitous Life Care Cloud Computing; 1
+Ultra-Wideband; 1
+Unicon; 1
+Unipath; 1
+United; 1
+United Nations; 1
+United Nations Millennium Development Goals; 1
+United States Centers for Disease Control and Prevention; 1
+United States Patent and Trademark Office; 1
+University College London; 1
+University Grants Commission; 1
+University of; 1
+University of Athens; 1
+University of Auckland; 1
+University of Basilicas; 1
+University of British Columbia; 1
+University of California; 4
+University of California Berkeley; 1
+University of Cape Town; 1
+University of Chicago; 1
+University of Coimbra; 2
+University of Connecticut; 1
+University of East Anglia; 1
+University of Helsinki; 1
+University of Houston; 1
+University of Illinois; 1
+University of Louisville; 1
+University of Mannheim; 1
+University of Maryland University College; 1
+University of Minho; 1
+University of Minnesota; 4
+University of Notre Dame; 1
+University of Oulu; 1
+University of Pittsburgh; 2
+University of Queens; 1
+University of Salerno; 1
+University of San Carlos; 1
+University of San Diego; 1
+University of South California; 1
+University of Southampton; 1
+University of Southern California; 1
+University of Stuttgart; 2
+University of Tennessee; 2
+University of Texas; 6
+University of Tokyo; 1
+University of Turku; 1
+University of Washington; 2
+University of Washington Department of Radiology; 1
+University of Wisconsin; 2
+University of Wolver Hampton; 1
+VADD; 3
+VADDI; 1
+VAMI; 2
+VANET; 1
+VAR; 1
+VBI; 1
+VCC; 4
+VCG; 1
+VCO; 1
+VCP; 9
+VDM; 5
+VDMA; 3
+VDRG; 1
+VDS; 6
+VDTA; 1
+VEUA; 1
+VFCPSO; 1
+VFOA; 1
+VHDL; 5
+VHSIC; 1
+VIAF; 1
+VIDA; 1
+VIRCONEL; 1
+VIRTEX; 1
+VISFAN; 1
+VLC; 1
+VLIW; 7
+VLIW AGU; 2
+VLSI; 20
+VMA; 2
+VMAP; 2
+VMOP; 1
+VMX; 1
+VNS; 1
+VOTM; 3
+VPC; 1
+VPFPAP; 1
+VPN; 8
+VSN; 3
+VSO; 1
+VTDF; 1
+VTI; 1
+VTM; 1
+VVAD; 1
+VW; 1
+Vaccine Preventable Diseases; 1
+Vcc; 1
+Vehicular Communications; 1
+Vehicular Network; 1
+Vertex; 3
+Vertical Bell Laboratories; 1
+Veterans Affairs Medical Center; 1
+Video Diary Service; 1
+Vienna Consulting Engineers; 1
+Viral Systems; 1
+Virginia Tech; 1
+Virginia Tech Network Dynamics and Simulation Science Laboratory; 1
+Virtex; 3
+Virtual Lock; 1
+Virtual Machine; 2
+Virtual Machines; 1
+Virtual Rank; 1
+Virtual Travel Agency; 1
+VisIO; 2
+Visual Exchange Network; 1
+Voice; 3
+Volkswagen; 2
+Voronoi Diagram Research Center; 1
+WADL; 1
+WAFTL; 2
+WAM; 6
+WBAN; 1
+WCA; 3
+WCDMA; 2
+WCET; 1
+WDM; 7
+WEC; 4
+WEEC; 1
+WEKA; 3
+WFA; 2
+WHMS; 2
+WHO; 1
+WICSA; 1
+WLCG; 1
+WMC; 1
+WMS; 1
+WMSN; 1
+WORL; 3
+WPCA; 1
+WS-BPEL; 1
+WSAN; 1
+WSAT; 1
+WSCN; 3
+WSDF; 1
+WSDL; 7
+WSML; 1
+WSMO; 1
+WSMP; 3
+WSN; 58
+WSRD; 1
+WSRO; 1
+WWAN; 1
+Waikato Environment; 1
+Washington Post; 1
+Washington State University; 1
+Wayang Kulit; 2
+Web Science Meets Network Science Workshop; 1
+Web Service; 2
+Web Services Interoperability Organization; 1
+Weibull; 1
+Weizmann Horse; 1
+Whirlpool; 1
+White House; 1
+WiGipedia; 1
+WikiLeaks; 2
+Wikipedia; 50
+Wikipedia Category Network; 3
+Wings; 1
+Wireless Communications; 1
+Wireless Mesh Network; 3
+Wireless Sensor Network; 1
+Wireless Sensor Networks; 1
+World Health Organisation; 1
+World Health Organization; 1
+Wyoming Network for Telehealth; 1
+XACML; 1
+XBRL; 5
+XILINX; 1
+XMM; 1
+Xilinx; 30
+Xilinx FPGA; 4
+Xilinx Inc.; 1
+Xilinx Spartan; 1
+Xilinx Vertex; 1
+Xilinx Virtex; 3
+YAWL; 1
+Yahoo; 22
+Yahoo Answers; 1
+Yale; 2
+Yale Image Finder; 1
+York University; 1
+YouTube; 7
+Yucatan Autonomous University; 1
+ZKM Centre; 1
+ZUC; 1
+ZigBee; 9
+ZigBee Sensor Network; 1
+ZigBee networks; 1
+Zigbee; 1
+Zila; 1
