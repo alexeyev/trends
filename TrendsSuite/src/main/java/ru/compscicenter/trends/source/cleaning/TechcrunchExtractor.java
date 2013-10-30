@@ -34,7 +34,7 @@ public class TechcrunchExtractor extends ArticleExtractor {
 
     @Override
     public String getText() {
-        return null;
+        return doc.select("div.article-entry").get(0).text();
     }
 
     @Override

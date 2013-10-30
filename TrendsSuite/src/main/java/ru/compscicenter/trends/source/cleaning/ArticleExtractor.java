@@ -14,11 +14,11 @@ public abstract class ArticleExtractor {
         return new Article(getDate(), getTitle(), getText(), getTags());
     }
 
-    abstract Date getDate();
+    abstract public Date getDate();
 
-    abstract String getTitle();
+    abstract public String getTitle();
 
-    abstract String getText();
+    abstract public String getText();
 
-    abstract Set<String> getTags();
+    abstract public Set<String> getTags();
 }
