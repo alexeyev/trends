@@ -27,7 +27,7 @@ public class HtmlProcessor {
                 p(extractor.getDate());
                 p(extractor.getTags());
                 p(extractor.getTitle());
-                p(extractor.getText());
+                p(extractor.getText().replace("\n", ""));
                 p("---");
             }
         }
