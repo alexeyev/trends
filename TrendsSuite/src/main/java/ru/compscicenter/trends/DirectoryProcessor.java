@@ -9,7 +9,8 @@ import ru.compscicenter.trends.source.IEEEReader;
 import ru.compscicenter.trends.util.CounterWriter;
 
 import java.io.File;
-import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.util.HashMap;
 import java.util.List;
@@ -31,18 +32,18 @@ public class DirectoryProcessor {
         public abstract boolean check(T t);
     }
 
-    private static void printMap(Map<Tag, TreeBag> map, PrintStream out, Filter<Tag> filter) {
+    private static void printMap(Map<Tag, TreeBag> map, FileWriter out, Filter<Tag> filter) throws IOException {
         for (Tag tag : map.keySet()) {
-
             if (filter.check(tag)) {
                 Bag bag = map.get(tag);
-
                 for (Object rawWord : bag.uniqueSet()) {
                     String word = (String) rawWord;
-                    out.println(word + " " + bag.getCount(rawWord));
+                    out.write(word + "; " + bag.getCount(rawWord) + "\n");
                 }
             }
         }
+        //todo: something
+        out.close();
     }
 
     public static void main(String[] args) throws Exception {
@@ -73,7 +74,7 @@ public class DirectoryProcessor {
                     }
 
                     printMap(bags,
-                            new PrintStream(new FileOutputStream("../" + dir.getName() + ".txt")),
+                            new FileWriter("../" + dir.getName() + ".txt"),
                             new Filter<Tag>() {
                                 @Override
                                 public boolean check(Tag tag) {
