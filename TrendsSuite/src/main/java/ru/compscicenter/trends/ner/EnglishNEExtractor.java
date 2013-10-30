@@ -28,8 +28,9 @@ public class EnglishNEExtractor {
         List<NamedEntity> result = new LinkedList<NamedEntity>();
         for (Pair<String, String> pair : FlatTagParser.parseAll(toAnnotatedString(text))) {
             NamedEntity attempt = Conversions.pairToNamedEntity(pair);
-            if (attempt != null)
+            if (attempt != null) {
                 result.add(attempt);
+            }
         }
         return result;
     }

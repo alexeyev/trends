@@ -10,7 +10,7 @@ import java.io.PrintWriter;
  */
 public class CounterWriter {
 
-    private long counter;
+    private volatile long counter;
     private PrintStream out;
     private String pattern;
     private int step;

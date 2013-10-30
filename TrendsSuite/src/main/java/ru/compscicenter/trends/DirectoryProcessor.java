@@ -19,7 +19,7 @@ import java.util.Map;
 public class DirectoryProcessor {
 
     private static final PrintStream log = System.out;
-    private static final CounterWriter tickLog = new CounterWriter(log, 50, "Processed: %s");
+    private static final CounterWriter tickLog = new CounterWriter(log, 10000, "Processed: %s");
 
     private static void updateMap(Map<Tag, TreeBag> map, NamedEntity ne) {
         if (!map.containsKey(ne.getTag())) {
@@ -57,6 +57,8 @@ public class DirectoryProcessor {
 
                 for (File dir : dirs) {
 
+                    log.println("Managing dir: " + dir.getName());
+
                     Map<Tag, TreeBag> bags = new HashMap<Tag, TreeBag>();
 
                     if (dir.isDirectory()) {
@@ -74,7 +76,7 @@ public class DirectoryProcessor {
                     }
 
                     printMap(bags,
-                            new FileWriter("../" + dir.getName() + ".txt"),
+                            new FileWriter("../aggregation/" + dir.getName() + ".txt"),
                             new Filter<Tag>() {
                                 @Override
                                 public boolean check(Tag tag) {
