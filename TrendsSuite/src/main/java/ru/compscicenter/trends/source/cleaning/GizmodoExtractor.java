@@ -16,18 +16,12 @@ import java.util.Set;
  *
  * @author alexeyev
  */
-public class GizmodoExtractor implements ArticleExtractor {
+public class GizmodoExtractor extends ArticleExtractor {
 
     private final Document doc;
 
     GizmodoExtractor(final String html) {
-        //todo: consider using InputStream
         doc = Jsoup.parse(html);
-    }
-
-    @Override
-    public Article getArticle() {
-        return null;
     }
 
     @Override

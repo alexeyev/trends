@@ -1,20 +1,24 @@
 package ru.compscicenter.trends.source.cleaning;
 
+import ru.compscicenter.trends.source.model.Article;
+
 import java.util.Date;
 import java.util.Set;
 
 /**
  * @author alexeyev
  */
-public interface ArticleExtractor {
+public abstract class ArticleExtractor {
 
-    public ru.compscicenter.trends.source.model.Article getArticle();
+    public Article getArticle() {
+        return new Article(getDate(), getTitle(), getText(), getTags());
+    }
 
-    Date getDate();
+    abstract Date getDate();
 
-    String getTitle();
+    abstract String getTitle();
 
-    String getText();
+    abstract String getText();
 
-    Set<String> getTags();
+    abstract Set<String> getTags();
 }
