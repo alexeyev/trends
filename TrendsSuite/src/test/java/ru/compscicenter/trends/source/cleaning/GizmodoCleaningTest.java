@@ -4,24 +4,27 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
 /**
  * @author alexeyev
  */
-public class GizmodoCleaningTest {
+public class GizmodoCleaningTest implements HtmlSourceCleaningTestable {
+
+    @Test
+    public void testDate() throws IOException {
+        final Date date = extractor.getDate();
+        //assert (date != null);
+        //todo
+    }
 
     @Test
     public void testTitle() throws IOException {
-
-//        System.out.println(getClass().getClassLoader().
-//                getResourceAsStream("/ru/compscicenter/trends/source/cleaning/gizmodo_html_test"));
-
-
-//        assert (new GizmodoExtractor(html).getTitle() != null);
-//        assert (!new GizmodoExtractor(html).getTitle().isEmpty());
-        //todo
+        final String title = extractor.getTitle();
+        assert (title != null);
+        assert (title.equals("Air Force Developing Spy Planes That Can Recharge on Power Lines"));
     }
 
     @Test
@@ -33,15 +36,15 @@ public class GizmodoCleaningTest {
                 "spy plane", "mav",
                 "power lines", "micro air vehicle",
                 "telephone lines", "Gizmodo", "Spy", "mav on a wire"));
-        assert(returnedSet.equals(testSet));
+        assert (returnedSet.equals(testSet));
     }
-//
-//    @Test
-//    public void testBody() throws IOException {
+    @Test
+    public void testText() throws IOException {
+        final String text = extractor.getText();
 //        assert (new GizmodoExtractor(html).getText() != null);
-//        assert (!new GizmodoExtractor(html).getText().matches(".*</?\\w+.*>.*"));
-//        //todo
-//    }
+//        assert (!text.matches(".*</?\\w+.*>.*"));
+        //todo
+    }
 
 
     //todo: move to resources

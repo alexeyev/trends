@@ -20,10 +20,9 @@ public class GizmodoExtractor implements ArticleExtractor {
 
     private final Document doc;
 
-    public GizmodoExtractor(final String html) {
+    GizmodoExtractor(final String html) {
         //todo: consider using InputStream
         doc = Jsoup.parse(html);
-        //todo: rewrite to serialized xpath-like notation\
     }
 
     @Override
@@ -38,7 +37,7 @@ public class GizmodoExtractor implements ArticleExtractor {
 
     @Override
     public String getTitle() {
-        return null;
+        return doc.select("title").get(0).text();
     }
 
     @Override
@@ -48,12 +47,6 @@ public class GizmodoExtractor implements ArticleExtractor {
 
     @Override
     public Set<String> getTags() {
-        /*
-        "<meta content=\"" +
-                "mav on a wire, " +
-                "mav, micro air vehicle, " +
-                "power lines, Spy, spy plane, telephone lines, Gizmodo\" name=\"keywords\">"
-                */
         for (Element e : doc.select("meta")) {
             if (e.attr("name").equalsIgnoreCase("keywords")) {
                 String[] rawKeys = e.attr("content").replace(", ", ",").split(",");

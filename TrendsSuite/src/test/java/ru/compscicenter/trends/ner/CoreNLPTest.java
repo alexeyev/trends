@@ -20,7 +20,6 @@ public class CoreNLPTest {
         String out = EnglishNEExtractor.toAnnotatedString(tryText);
     }
 
-
     @Test
     public void testExtractor() {
         List result = EnglishNEExtractor.getNamedEntities(tryText);
