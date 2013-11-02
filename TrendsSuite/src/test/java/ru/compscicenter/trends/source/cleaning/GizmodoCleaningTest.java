@@ -3,10 +3,9 @@ package ru.compscicenter.trends.source.cleaning;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+import java.net.URI;
+import java.net.URL;
+import java.util.*;
 
 /**
  * @author alexeyev
@@ -16,8 +15,16 @@ public class GizmodoCleaningTest implements HtmlSourceCleaningTestable {
     @Test
     public void testDate() throws IOException {
         final Date date = extractor.getDate();
-        //assert (date != null);
-        //todo
+        assert (date != null);
+        final Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.MONTH, Calendar.JULY);
+        cal.set(Calendar.DAY_OF_MONTH, 18);
+        cal.set(Calendar.YEAR, 2012);
+        cal.set(Calendar.HOUR, 0);
+        cal.set(Calendar.MINUTE, 0);
+        cal.set(Calendar.SECOND, 0);
+        cal.set(Calendar.MILLISECOND, 0);
+        assert (cal.getTime().equals(date));
     }
 
     @Test
@@ -38,12 +45,24 @@ public class GizmodoCleaningTest implements HtmlSourceCleaningTestable {
                 "telephone lines", "Gizmodo", "Spy", "mav on a wire"));
         assert (returnedSet.equals(testSet));
     }
+
     @Test
     public void testText() throws IOException {
         final String text = extractor.getText();
-//        assert (new GizmodoExtractor(html).getText() != null);
-//        assert (!text.matches(".*</?\\w+.*>.*"));
-        //todo
+        assert (text != null);
+        assert (!text.matches(".*</?\\w+.*>.*"));
+    }
+
+    @Test
+    public void testLinks() throws IOException {
+        final Set<String> links = extractor.getLinks();
+
+        System.out.println(links);
+        for (String link : links) {
+            // validity check
+            final URL tryUrl = new URL(link);
+        }
+        assert (!links.isEmpty());
     }
 
 

@@ -3,10 +3,16 @@ package ru.compscicenter.trends.source.cleaning;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
+ * TODO
+ *
  * @author alexeyev
  */
 public class TechcrunchExtractor extends ArticleExtractor {
@@ -18,11 +24,30 @@ public class TechcrunchExtractor extends ArticleExtractor {
         doc = Jsoup.parse(html);
     }
 
+    private final Pattern datePattern = Pattern.compile("(\\d+-\\d+-\\d+)");
+
     @Override
     public Date getDate() {
-        //todo
         //<meta name='sailthru.date' content='2007-12-07 18:28:47' />
-        return null;
+        try {
+            //todo: fix
+            final String rawDate =
+                    doc.select("meta").attr("name", "sailthru.date").get(0).attr("content");
+            System.out.println(rawDate);
+            final Matcher matcher = datePattern.matcher(rawDate);
+            if (matcher.find()) {
+                try {
+                    return new SimpleDateFormat("yyyy-MM-dd").parse(matcher.group(1));
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                    return null;
+                }
+            }
+            return null;
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override
@@ -40,6 +65,11 @@ public class TechcrunchExtractor extends ArticleExtractor {
     @Override
     public Set<String> getTags() {
         //<meta name='sailthru.tags' content='Activision, Nintendo, Wii, Guitar Hero, CrunchArcade, Headline' />
+        return null;
+    }
+
+    @Override
+    public Set<String> getLinks() {
         return null;
     }
 }

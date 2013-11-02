@@ -11,7 +11,7 @@ import java.util.Set;
 public abstract class ArticleExtractor {
 
     public Article getArticle() {
-        return new Article(getDate(), getTitle(), getText(), getTags());
+        return new Article(getDate(), getTitle(), getText(), getTags(), getLinks());
     }
 
     abstract public Date getDate();
@@ -21,4 +21,6 @@ public abstract class ArticleExtractor {
     abstract public String getText();
 
     abstract public Set<String> getTags();
+
+    abstract public Set<String> getLinks();
 }

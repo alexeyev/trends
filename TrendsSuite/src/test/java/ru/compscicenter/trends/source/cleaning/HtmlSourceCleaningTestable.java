@@ -14,4 +14,6 @@ interface HtmlSourceCleaningTestable {
     abstract public void testTags() throws IOException;
 
     abstract public void testText() throws IOException;
+
+    abstract public void testLinks() throws IOException;
 }
