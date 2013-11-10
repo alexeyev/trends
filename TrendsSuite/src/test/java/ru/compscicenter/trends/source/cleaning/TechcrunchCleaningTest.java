@@ -3,8 +3,8 @@ package ru.compscicenter.trends.source.cleaning;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.util.Calendar;
-import java.util.Date;
+import java.net.URL;
+import java.util.*;
 
 /**
  * @author alexeyev
@@ -29,23 +29,38 @@ public class TechcrunchCleaningTest implements HtmlSourceCleaningTestable {
 
     @Test
     public void testTitle() throws IOException {
-        //todo
+        final String title = extractor.getTitle();
+        assert (title != null);
+        assert (title.equals("Ask and Wii shall receive: Guitar Hero 3 in Stereo"));
     }
 
     @Test
     public void testTags() throws IOException {
-        //todo
+        Set<String> returnedSet = extractor.getTags();
+        assert (returnedSet != null);
+        assert (!returnedSet.isEmpty());
+        Set<String> testSet = new HashSet<String>(Arrays.asList(
+                "Activision", "Nintendo", "Wii", "Guitar Hero", "CrunchArcade", "Headline"));
+        assert (returnedSet.equals(testSet));
     }
 
     @Test
     public void testText() throws IOException {
-        //todo
+        String text = extractor.getText();
+        assert (text != null);
+        assert (!text.matches(".*</?\\w+.*>.*"));
     }
 
     @Test
     public void testLinks() throws IOException {
+        final Set<String> links = extractor.getLinks();
 
-
+        System.out.println(links);
+        for (String link : links) {
+            // validity check
+            final URL tryUrl = new URL(link);
+        }
+        assert (!links.isEmpty());
     }
 
     private final String html = "<!DOCTYPE html>\n" +

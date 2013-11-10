@@ -2,10 +2,13 @@ package ru.compscicenter.trends.source.cleaning;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -28,33 +31,40 @@ public class TechcrunchExtractor extends ArticleExtractor {
 
     @Override
     public Date getDate() {
-        //<meta name='sailthru.date' content='2007-12-07 18:28:47' />
         try {
-            //todo: fix
-            final String rawDate =
-                    doc.select("meta").attr("name", "sailthru.date").get(0).attr("content");
-            System.out.println(rawDate);
-            final Matcher matcher = datePattern.matcher(rawDate);
-            if (matcher.find()) {
-                try {
-                    return new SimpleDateFormat("yyyy-MM-dd").parse(matcher.group(1));
-                } catch (ParseException e) {
-                    e.printStackTrace();
-                    return null;
+            for (Element e : doc.select("meta")) {
+                if (e.attr("name").equalsIgnoreCase("sailthru.date")) {
+                    String rawDate = e.attr("content");
+                    final Matcher matcher = datePattern.matcher(rawDate);
+                    if (matcher.find()) {
+                        try {
+                            return new SimpleDateFormat("yyyy-MM-dd").parse(matcher.group(1));
+                        } catch (ParseException ex) {
+                            ex.printStackTrace();
+                            return null;
+                        }
+                    }
                 }
             }
             return null;
         } catch (NullPointerException e) {
-            e.printStackTrace();
             return null;
         }
     }
 
     @Override
     public String getTitle() {
-        //todo
-        //<title>Ask and Wii shall receive: Guitar Hero 3 in Stereo  |  TechCrunch</title>
-        return null;
+        try {
+            for (Element e : doc.select("meta")) {
+                if (e.attr("name").equalsIgnoreCase("sailthru.title")) {
+                    String result = e.attr("content").replaceAll("\u00a0", " "); // replace &nbsp;
+                    return result;
+                }
+            }
+            return null;
+        } catch (NullPointerException e) {
+            return null;
+        }
     }
 
     @Override
@@ -64,12 +74,33 @@ public class TechcrunchExtractor extends ArticleExtractor {
 
     @Override
     public Set<String> getTags() {
-        //<meta name='sailthru.tags' content='Activision, Nintendo, Wii, Guitar Hero, CrunchArcade, Headline' />
-        return null;
+        try {
+            for (Element e : doc.select("meta")) {
+                if (e.attr("name").equalsIgnoreCase("sailthru.tags")) {
+                    String[] rawKeys = e.attr("content").replace(", ", ",").split(",");
+                    return new HashSet<String>(Arrays.asList(rawKeys));
+                }
+            }
+            return null;
+        } catch (NullPointerException e) {
+            return null;
+        }
     }
 
     @Override
     public Set<String> getLinks() {
-        return null;
+        try {
+            final HashSet<String> links = new HashSet<String>();
+            for (Element e : doc.select("div.article-entry")) {
+                for (Element a : e.select("a")) {
+                    if (a.hasAttr("href")) {
+                        links.add(a.attr("href"));
+                    }
+                }
+            }
+            return links;
+        } catch (NullPointerException e) {
+            return null;
+        }
     }
 }
