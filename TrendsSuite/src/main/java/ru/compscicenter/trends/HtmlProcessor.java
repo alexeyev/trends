@@ -1,6 +1,7 @@
 package ru.compscicenter.trends;
 
 import org.apache.commons.io.IOUtils;
+import ru.compscicenter.trends.source.Source;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractor;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractorFactory;
 
@@ -17,7 +18,7 @@ public class HtmlProcessor {
         System.out.println(s);
     }
 
-    private static void printDirectory(String dirPath, String type) throws IOException {
+    private static void printDirectory(String dirPath, Source type) throws IOException {
         p("dir: " + dirPath);
         File dir = new File(dirPath);
         if (dir.isDirectory()) {
@@ -35,8 +36,8 @@ public class HtmlProcessor {
 
     public static void main(String[] args) throws IOException {
         //gizmodo
-        printDirectory("../new_gizmodo/sample/", "gizmodo");
+        printDirectory("../new_gizmodo/sample/", Source.GIZMODO);
         //techcrunch
-        printDirectory("../techcrunch/sample/", "techcrunch");
+        printDirectory("../techcrunch/sample/", Source.TECHCRUNCH);
     }
 }

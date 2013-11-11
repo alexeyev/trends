@@ -1,6 +1,7 @@
 package ru.compscicenter.trends.source.cleaning;
 
 import org.junit.Test;
+import ru.compscicenter.trends.source.Source;
 
 import java.io.IOException;
 import java.net.URL;
@@ -21,9 +22,11 @@ public class TechcrunchCleaningTest implements HtmlSourceCleaningTestable {
         cal.set(Calendar.DAY_OF_MONTH, 7);
         cal.set(Calendar.YEAR, 2007);
         cal.set(Calendar.HOUR, 0);
+        cal.set(Calendar.AM_PM, Calendar.AM);
         cal.set(Calendar.MINUTE, 0);
         cal.set(Calendar.SECOND, 0);
         cal.set(Calendar.MILLISECOND, 0);
+        System.out.println(cal.getTime());
         assert (cal.getTime().equals(date));
     }
 
@@ -771,6 +774,6 @@ public class TechcrunchCleaningTest implements HtmlSourceCleaningTestable {
             "</body>\n" +
             "</html>";
 
-    private final ArticleExtractor extractor = ArticleExtractorFactory.newExtractor("techcrunch", html);
+    private final ArticleExtractor extractor = ArticleExtractorFactory.newExtractor(Source.TECHCRUNCH, html);
 
 }

@@ -20,6 +20,7 @@ public class GizmodoCleaningTest implements HtmlSourceCleaningTestable {
         cal.set(Calendar.MONTH, Calendar.JULY);
         cal.set(Calendar.DAY_OF_MONTH, 18);
         cal.set(Calendar.YEAR, 2012);
+        cal.set(Calendar.AM_PM, Calendar.AM);
         cal.set(Calendar.HOUR, 0);
         cal.set(Calendar.MINUTE, 0);
         cal.set(Calendar.SECOND, 0);
