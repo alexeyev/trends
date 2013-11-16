@@ -47,46 +47,69 @@ public class DirectoryProcessor {
         out.close();
     }
 
+    private static void recursiveExtractor(final File srcDir, final FileWriter destFile) throws IOException {
+        if (!srcDir.isDirectory()) {
+            throw new IllegalArgumentException();
+        }
+        for (final File file : srcDir.listFiles()) {
+            if (file.isFile()) {
+                final String text = IOUtils.slurpFile(file);
+                final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
+                for (final NamedEntity ne : nes) {
+                    if (ne.getTag().equals(Tag.ORGANIZATION)) {
+                        destFile.write(ne.getWords() + "\n");
+                    }
+                }
+            } else if (file.isDirectory()) {
+                recursiveExtractor(file, destFile);
+            }
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         final String sourceDirectoryPath = "/home/alexeyev/hp/workspace/new_gizmodo/corpus/";
         final File headDir = new File(sourceDirectoryPath);
 
-        if (headDir.isDirectory()) {
-            // listing all year-aware subdirs
-            final File[] dirs = headDir.listFiles();
-            if (dirs != null) {
-                for (final File dir : dirs) {
+        final FileWriter fw = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/all_nes.txt");
+        recursiveExtractor(headDir, fw);
+        fw.close();
 
-                    log.println("Managing dir: " + dir.getName());
-
-                    final Map<Tag, TreeBag> bags = new HashMap<Tag, TreeBag>();
-
-                    if (dir.isDirectory()) {
-                        final File[] files = dir.listFiles();
-                        if (files != null) {
-                            for (final File file : files) {
-                                final String text = IOUtils.slurpFile(file);
-                                final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
-                                for (final NamedEntity ne : nes) {
-                                    updateMap(bags, ne);
-                                }
-                                tickLog.tick();
-                            }
-                        }
-                    }
-
-                    printMap(bags,
-                            new FileWriter("../aggregation/" + dir.getName() + ".txt"),
-                            new Filter<Tag>() {
-                                @Override
-                                public boolean check(Tag tag) {
-                                    return tag.equals(Tag.ORGANIZATION);
-                                }
-                            });
-                }
-            }
-        } else {
-            throw new IllegalArgumentException();
-        }
+//        if (headDir.isDirectory()) {
+//            // listing all year-aware subdirs
+//            final File[] dirs = headDir.listFiles();
+//            if (dirs != null) {
+//                for (final File dir : dirs) {
+//
+//                    log.println("Managing dir: " + dir.getName());
+//
+//                    final Map<Tag, TreeBag> bags = new HashMap<Tag, TreeBag>();
+//
+//                    if (dir.isDirectory()) {
+//                        final File[] files = dir.listFiles();
+//                        if (files != null) {
+//                            for (final File file : files) {
+//                                final String text = IOUtils.slurpFile(file);
+//                                final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
+//                                for (final NamedEntity ne : nes) {
+//                                    updateMap(bags, ne);
+//                                }
+//                                tickLog.tick();
+//                            }
+//                        }
+//                    }
+//
+//                    printMap(bags,
+//                            new FileWriter("../aggregation/" + dir.getName() + ".txt"),
+//                            new Filter<Tag>() {
+//                                @Override
+//                                public boolean check(Tag tag) {
+//                                    return tag.equals(Tag.ORGANIZATION);
+//                                }
+//                            });
+//                }
+//            }
+//        } else {
+//            throw new IllegalArgumentException();
+//        }
     }
 }
