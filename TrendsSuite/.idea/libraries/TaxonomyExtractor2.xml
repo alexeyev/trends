@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TaxonomyExtractor2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../trends/TaxonomyExtractor2.jar!/" />
+      <root url="file://$PROJECT_DIR$/../trends/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../trends/lib" recursive="false" />
+  </library>
+</component>

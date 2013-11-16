@@ -30,21 +30,17 @@ public class GizmodoExtractor extends ArticleExtractor {
 
     @Override
     public Date getDate() {
-        try {
             final String rawDate =
                     doc.select(".post-container").select(".publish-time").select(".show-on-hover").text();
             final Matcher matcher = datePattern.matcher(rawDate);
             if (matcher.find()) {
                 try {
-                    return new SimpleDateFormat("yy/dd/MM").parse(matcher.group(1));
+                    return new SimpleDateFormat("MM/dd/yy").parse(matcher.group(1));
                 } catch (ParseException e) {
                     return null;
                 }
             }
             return null;
-        } catch (NullPointerException e) {
-            return null;
-        }
     }
 
     @Override
