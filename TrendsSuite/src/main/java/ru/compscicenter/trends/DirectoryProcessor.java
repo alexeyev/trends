@@ -1,8 +1,6 @@
 package ru.compscicenter.trends;
 
 import edu.stanford.nlp.io.IOUtils;
-import org.apache.commons.collections.Bag;
-import org.apache.commons.collections.bag.TreeBag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.compscicenter.trends.ner.EnglishNEExtractor;
@@ -14,11 +12,9 @@ import ru.compscicenter.trends.util.FilesCollector;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Date;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.*;
 
 /**
@@ -30,30 +26,30 @@ public class DirectoryProcessor {
     private static final Logger log = LoggerFactory.getLogger("script");
     private static final CounterWriter tickLog = new CounterWriter(System.out, 1000, "Processed: %s");
 
-    private static void updateMap(Map<Tag, TreeBag> map, NamedEntity ne) {
-        if (!map.containsKey(ne.getTag())) {
-            map.put(ne.getTag(), new TreeBag());
-        }
-        map.get(ne.getTag()).add(ne.getWords());
-    }
+//    private static void updateMap(Map<Tag, TreeBag> map, NamedEntity ne) {
+//        if (!map.containsKey(ne.getTag())) {
+//            map.put(ne.getTag(), new TreeBag());
+//        }
+//        map.get(ne.getTag()).add(ne.getWords());
+//    }
 
     abstract private static class Filter<T> {
         public abstract boolean check(T t);
     }
 
-    private static void printMap(Map<Tag, TreeBag> map, FileWriter out, Filter<Tag> filter) throws IOException {
-        for (Tag tag : map.keySet()) {
-            if (filter.check(tag)) {
-                Bag bag = map.get(tag);
-                for (Object rawWord : bag.uniqueSet()) {
-                    String word = (String) rawWord;
-                    out.write(word + "; " + bag.getCount(rawWord) + "\n");
-                }
-            }
-        }
-        //todo: something
-        out.close();
-    }
+//    private static void printMap(Map<Tag, TreeBag> map, FileWriter out, Filter<Tag> filter) throws IOException {
+//        for (Tag tag : map.keySet()) {
+//            if (filter.check(tag)) {
+//                Bag bag = map.get(tag);
+//                for (Object rawWord : bag.uniqueSet()) {
+//                    String word = (String) rawWord;
+//                    out.write(word + "; " + bag.getCount(rawWord) + "\n");
+//                }
+//            }
+//        }
+//        //todo: something
+//        out.close();
+//    }
 
     private static void extractFromFile(final File textFile, final BlockingQueue<NamedEntity> destination)
             throws IOException {
@@ -82,18 +78,23 @@ public class DirectoryProcessor {
 
         @Override
         public void run() {
-            try {
-                tickLog.tick();
-                final File target = queue.take();
-                extractFromFile(target, destQueue);
-            } catch (Exception e) {
-                log.error("Exception!" + e.getMessage());
+            while (!queue.isEmpty()) {
+                try {
+                    tickLog.tick();
+                    final File target = queue.take();
+                    extractFromFile(target, destQueue);
+                } catch (Exception e) {
+                    log.error("Exception!" + e.getMessage());
+                }
             }
         }
     }
 
 
     public static void main(String[] args) throws Exception {
+
+        final Date start = new Date();
+
         final String sourceDirectoryPath = "/home/alexeyev/hp/workspace/new_gizmodo/corpus/";
         final File headDir = new File(sourceDirectoryPath);
         final FileWriter dest = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/nes.txt");
@@ -103,9 +104,9 @@ public class DirectoryProcessor {
 
         log.info("Files obtained.");
 
-        final ExecutorService pool = Executors.newFixedThreadPool(4);
+        final ExecutorService pool = Executors.newFixedThreadPool(3);
 
-        for (int i = 0; i < 300300; i++) {
+        for (int i = 0; i < 4; i++) {
             pool.execute(new Extractor(queue, entities));
         }
 
@@ -115,13 +116,13 @@ public class DirectoryProcessor {
         final ArrayList<NamedEntity> buffer = new ArrayList<NamedEntity>();
         while (!pool.isTerminated()) {
             if (entities.size() > 1000) {
-                log.info("Flushing...");
+                log.info(TimeUnit.MILLISECONDS.toSeconds(new Date().getTime() - start.getTime()) + " secs");
                 size += entities.drainTo(buffer);
                 for (final NamedEntity ne : buffer) {
                     dest.write(ne.getWords() + "\n");
                 }
                 buffer.clear();
-                log.info("Flushed " + size);
+                log.info("Flushed entities: " + size);
             }
         }
 
