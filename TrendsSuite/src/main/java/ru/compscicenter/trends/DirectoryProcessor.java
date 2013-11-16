@@ -32,11 +32,10 @@ public class DirectoryProcessor {
 //        }
 //        map.get(ne.getTag()).add(ne.getWords());
 //    }
-
-    abstract private static class Filter<T> {
-        public abstract boolean check(T t);
-    }
-
+//
+//    abstract private static class Filter<T> {
+//        public abstract boolean check(T t);
+//    }
 //    private static void printMap(Map<Tag, TreeBag> map, FileWriter out, Filter<Tag> filter) throws IOException {
 //        for (Tag tag : map.keySet()) {
 //            if (filter.check(tag)) {
@@ -90,23 +89,24 @@ public class DirectoryProcessor {
         }
     }
 
-
     public static void main(String[] args) throws Exception {
 
         final Date start = new Date();
 
-        final String sourceDirectoryPath = "/home/alexeyev/hp/workspace/new_gizmodo/corpus/";
-        final File headDir = new File(sourceDirectoryPath);
-        final FileWriter dest = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/nes.txt");
+        final File sourceDirectory = new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus/");
+        final FileWriter destinationFile = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/nes.txt");
 
-        final BlockingQueue<File> queue = FilesCollector.getAllFiles(headDir);
+        // all texts
+        final BlockingQueue<File> queue = FilesCollector.getAllFiles(sourceDirectory);
+        // all NEs
         final BlockingQueue<NamedEntity> entities = new LinkedBlockingDeque<NamedEntity>();
 
         log.info("Files obtained.");
 
-        final ExecutorService pool = Executors.newFixedThreadPool(3);
+        final int NUMBER_OF_THREADS = 3;
+        final ExecutorService pool = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < NUMBER_OF_THREADS; i++) {
             pool.execute(new Extractor(queue, entities));
         }
 
@@ -115,11 +115,11 @@ public class DirectoryProcessor {
 
         final ArrayList<NamedEntity> buffer = new ArrayList<NamedEntity>();
         while (!pool.isTerminated()) {
-            if (entities.size() > 1000) {
+            if (entities.size() > 5000) {
                 log.info(TimeUnit.MILLISECONDS.toSeconds(new Date().getTime() - start.getTime()) + " secs");
                 size += entities.drainTo(buffer);
                 for (final NamedEntity ne : buffer) {
-                    dest.write(ne.getWords() + "\n");
+                    destinationFile.write(ne.getWords() + "\n");
                 }
                 buffer.clear();
                 log.info("Flushed entities: " + size);
@@ -128,20 +128,19 @@ public class DirectoryProcessor {
 
         size += entities.drainTo(buffer);
         for (final NamedEntity ne : buffer) {
-            dest.write(ne.getWords() + "\n");
+            destinationFile.write(ne.getWords() + "\n");
         }
         buffer.clear();
 
-        dest.close();
+        destinationFile.close();
         log.info("Done.");
-
 //        final FileWriter fw = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/all_nes.txt");
-//        extractFromFile(headDir, fw);
+//        extractFromFile(sourceDirectory, fw);
 //        fw.close();
 
-//        if (headDir.isDirectory()) {
+//        if (sourceDirectory.isDirectory()) {
 //            // listing all year-aware subdirs
-//            final File[] dirs = headDir.listFiles();
+//            final File[] dirs = sourceDirectory.listFiles();
 //            if (dirs != null) {
 //                for (final File dir : dirs) {
 //
