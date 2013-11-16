@@ -3,24 +3,32 @@ package ru.compscicenter.trends;
 import edu.stanford.nlp.io.IOUtils;
 import org.apache.commons.collections.Bag;
 import org.apache.commons.collections.bag.TreeBag;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import ru.compscicenter.trends.ner.EnglishNEExtractor;
 import ru.compscicenter.trends.ner.model.NamedEntity;
 import ru.compscicenter.trends.ner.model.Tag;
-import ru.compscicenter.trends.source.IEEEReader;
 import ru.compscicenter.trends.util.CounterWriter;
+import ru.compscicenter.trends.util.FilesCollector;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintStream;
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.*;
 
+/**
+ * Style is horrible, logic is mixed.
+ * Yet this is a script, so I don't care too much.
+ */
 public class DirectoryProcessor {
 
-    private static final PrintStream log = System.out;
-    private static final CounterWriter tickLog = new CounterWriter(log, 10000, "Processed: %s");
+    private static final Logger log = LoggerFactory.getLogger("script");
+    private static final CounterWriter tickLog = new CounterWriter(System.out, 1000, "Processed: %s");
 
     private static void updateMap(Map<Tag, TreeBag> map, NamedEntity ne) {
         if (!map.containsKey(ne.getTag())) {
@@ -47,32 +55,88 @@ public class DirectoryProcessor {
         out.close();
     }
 
-    private static void recursiveExtractor(final File srcDir, final FileWriter destFile) throws IOException {
-        if (!srcDir.isDirectory()) {
+    private static void extractFromFile(final File textFile, final BlockingQueue<NamedEntity> destination)
+            throws IOException {
+
+        if (!textFile.isFile()) {
             throw new IllegalArgumentException();
         }
-        for (final File file : srcDir.listFiles()) {
-            if (file.isFile()) {
-                final String text = IOUtils.slurpFile(file);
-                final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
-                for (final NamedEntity ne : nes) {
-                    if (ne.getTag().equals(Tag.ORGANIZATION)) {
-                        destFile.write(ne.getWords() + "\n");
-                    }
-                }
-            } else if (file.isDirectory()) {
-                recursiveExtractor(file, destFile);
+        final String text = IOUtils.slurpFile(textFile);
+        final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
+        for (final NamedEntity ne : nes) {
+            if (ne.getTag().equals(Tag.ORGANIZATION)) {
+                destination.add(ne);
             }
         }
     }
 
+    private static class Extractor implements Runnable {
+
+        final BlockingQueue<File> queue;
+        final BlockingQueue<NamedEntity> destQueue;
+
+        public Extractor(final BlockingQueue<File> q, final BlockingQueue<NamedEntity> destQ) {
+            queue = q;
+            destQueue = destQ;
+        }
+
+        @Override
+        public void run() {
+            try {
+                tickLog.tick();
+                final File target = queue.take();
+                extractFromFile(target, destQueue);
+            } catch (Exception e) {
+                log.error("Exception!" + e.getMessage());
+            }
+        }
+    }
+
+
     public static void main(String[] args) throws Exception {
         final String sourceDirectoryPath = "/home/alexeyev/hp/workspace/new_gizmodo/corpus/";
         final File headDir = new File(sourceDirectoryPath);
+        final FileWriter dest = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/nes.txt");
 
-        final FileWriter fw = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/all_nes.txt");
-        recursiveExtractor(headDir, fw);
-        fw.close();
+        final BlockingQueue<File> queue = FilesCollector.getAllFiles(headDir);
+        final BlockingQueue<NamedEntity> entities = new LinkedBlockingDeque<NamedEntity>();
+
+        log.info("Files obtained.");
+
+        final ExecutorService pool = Executors.newFixedThreadPool(4);
+
+        for (int i = 0; i < 300300; i++) {
+            pool.execute(new Extractor(queue, entities));
+        }
+
+        log.info("Runners added.");
+        int size = 0;
+
+        final ArrayList<NamedEntity> buffer = new ArrayList<NamedEntity>();
+        while (!pool.isTerminated()) {
+            if (entities.size() > 1000) {
+                log.info("Flushing...");
+                size += entities.drainTo(buffer);
+                for (final NamedEntity ne : buffer) {
+                    dest.write(ne.getWords() + "\n");
+                }
+                buffer.clear();
+                log.info("Flushed " + size);
+            }
+        }
+
+        size += entities.drainTo(buffer);
+        for (final NamedEntity ne : buffer) {
+            dest.write(ne.getWords() + "\n");
+        }
+        buffer.clear();
+
+        dest.close();
+        log.info("Done.");
+
+//        final FileWriter fw = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/all_nes.txt");
+//        extractFromFile(headDir, fw);
+//        fw.close();
 
 //        if (headDir.isDirectory()) {
 //            // listing all year-aware subdirs
