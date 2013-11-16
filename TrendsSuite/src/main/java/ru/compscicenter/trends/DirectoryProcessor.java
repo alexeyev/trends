@@ -1,5 +1,6 @@
 package ru.compscicenter.trends;
 
+import edu.stanford.nlp.io.IOUtils;
 import org.apache.commons.collections.Bag;
 import org.apache.commons.collections.bag.TreeBag;
 import ru.compscicenter.trends.ner.EnglishNEExtractor;
@@ -47,27 +48,26 @@ public class DirectoryProcessor {
     }
 
     public static void main(String[] args) throws Exception {
-        String sourceDirectoryPath = "/home/alexeyev/hp/data/ieee_parsed/";
+        final String sourceDirectoryPath = "/home/alexeyev/hp/workspace/new_gizmodo/corpus/";
         final File headDir = new File(sourceDirectoryPath);
 
         if (headDir.isDirectory()) {
             // listing all year-aware subdirs
-            File[] dirs = headDir.listFiles();
+            final File[] dirs = headDir.listFiles();
             if (dirs != null) {
-
-                for (File dir : dirs) {
+                for (final File dir : dirs) {
 
                     log.println("Managing dir: " + dir.getName());
 
-                    Map<Tag, TreeBag> bags = new HashMap<Tag, TreeBag>();
+                    final Map<Tag, TreeBag> bags = new HashMap<Tag, TreeBag>();
 
                     if (dir.isDirectory()) {
-                        File[] files = dir.listFiles();
+                        final File[] files = dir.listFiles();
                         if (files != null) {
-                            for (File file : files) {
-                                String text = new IEEEReader().readFile(file);
-                                List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
-                                for (NamedEntity ne : nes) {
+                            for (final File file : files) {
+                                final String text = IOUtils.slurpFile(file);
+                                final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
+                                for (final NamedEntity ne : nes) {
                                     updateMap(bags, ne);
                                 }
                                 tickLog.tick();
@@ -85,6 +85,8 @@ public class DirectoryProcessor {
                             });
                 }
             }
+        } else {
+            throw new IllegalArgumentException();
         }
     }
 }
