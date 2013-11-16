@@ -47,7 +47,7 @@ public class GizmodoExtractor extends ArticleExtractor {
     public String getTitle() {
         try {
             return doc.select("title").get(0).text();
-        } catch (NullPointerException e) {
+        } catch (Exception e) {
             return null;
         }
     }
