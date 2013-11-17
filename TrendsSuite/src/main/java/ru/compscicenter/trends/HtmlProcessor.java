@@ -1,6 +1,8 @@
 package ru.compscicenter.trends;
 
 import org.apache.commons.io.IOUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import ru.compscicenter.trends.source.Source;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractor;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractorFactory;
@@ -21,6 +23,8 @@ import java.util.Date;
  */
 public class HtmlProcessor {
 
+    private final static Logger log = LoggerFactory.getLogger("html-processor");
+
     //hacks
     private static String removeS(final String s) {
         return s.replaceAll("\\sS\\s", "").replaceAll("^S\\s", "");
@@ -31,20 +35,20 @@ public class HtmlProcessor {
     }
 
     private static void printDirectory(String dirPath, Source type) throws IOException {
-        p("dir: " + dirPath);
+        log.info("dir: " + dirPath);
         File dir = new File(dirPath);
         if (dir.isDirectory()) {
             for (File file : dir.listFiles()) {
                 try {
                     String data = IOUtils.toString(new FileInputStream(file));
                     ArticleExtractor extractor = ArticleExtractorFactory.newExtractor(type, data);
-                    p(new SimpleDateFormat("yyyy.MM").format(extractor.getDate()));
+                    log.info(new SimpleDateFormat("yyyy.MM").format(extractor.getDate()));
                     //p(extractor.getTags());
                     //p(extractor.getTitle());
-                    p(removeS(extractor.getText().replace("\n", "")));
-                    p("---");
+                    log.info(removeS(extractor.getText().replace("\n", "")));
+                    log.info("---");
                 } catch (NullPointerException e) {
-                    p("---no data---");
+                    log.info("---no data---");
                 }
             }
         }
@@ -70,12 +74,12 @@ public class HtmlProcessor {
                             new File(dest.getAbsolutePath() + "/" +
                                     new SimpleDateFormat("yyyy.MM").format(extractor.getDate()) + "/");
                     subDir.mkdirs();
-                    final FileWriter fw = new FileWriter(subDir + "/" + titleHash + new Date().getTime());
+                    final FileWriter fw = new FileWriter(subDir + "/" + titleHash);
                     fw.write(removeS(extractor.getText().replace("\n", "")));
                     fw.close();
                     writer.tick();
                 } catch (NullPointerException e) {
-                    p("No data!");
+                    log.error("No data!");
                 }
             }
         }
