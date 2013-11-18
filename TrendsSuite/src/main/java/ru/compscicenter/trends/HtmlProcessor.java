@@ -7,6 +7,7 @@ import ru.compscicenter.trends.source.Source;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractor;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractorFactory;
 import ru.compscicenter.trends.util.CounterWriter;
+import ru.compscicenter.trends.util.FilesCollector;
 
 import java.awt.geom.IllegalPathStateException;
 import java.io.File;
@@ -87,9 +88,12 @@ public class HtmlProcessor {
 
     public static void main(String[] args) throws IOException {
         //gizmodo
-        writeToDirectory(
-                "/home/alexeyev/hp/workspace/new_gizmodo/raw/",
-                Source.GIZMODO,
-                "/home/alexeyev/hp/workspace/new_gizmodo/corpus/");
+//        writeToDirectory(
+//                "/home/alexeyev/hp/workspace/new_gizmodo/raw/",
+//                Source.GIZMODO,
+//                "/home/alexeyev/hp/workspace/new_gizmodo/corpus2/");
+        log.info(
+                FilesCollector.getAllFiles(
+                        new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus2/")).size() + "");
     }
 }

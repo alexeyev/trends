@@ -93,7 +93,7 @@ public class DirectoryProcessor {
 
         final Date start = new Date();
 
-        final File sourceDirectory = new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus/");
+        final File sourceDirectory = new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus2/");
         final FileWriter destinationFile = new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/nes.txt");
 
         // all texts
