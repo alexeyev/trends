@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import ru.compscicenter.trends.ner.EnglishNEExtractor;
 import ru.compscicenter.trends.ner.model.NamedEntity;
 import ru.compscicenter.trends.ner.model.Tag;
-import ru.compscicenter.trends.util.CounterWriter;
+import ru.compscicenter.trends.util.CounterLogger;
 import ru.compscicenter.trends.util.FilesCollector;
 
 import java.io.File;
@@ -24,7 +24,7 @@ import java.util.concurrent.*;
 public class DirectoryProcessor {
 
     private static final Logger log = LoggerFactory.getLogger("script");
-    private static final CounterWriter tickLog = new CounterWriter(System.out, 1000, "Processed: %s");
+    private static final CounterLogger tickLog = new CounterLogger(log, 1000, "Processed: %s");
 
 //    private static void updateMap(Map<Tag, TreeBag> map, NamedEntity ne) {
 //        if (!map.containsKey(ne.getTag())) {

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import ru.compscicenter.trends.source.Source;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractor;
 import ru.compscicenter.trends.source.cleaning.ArticleExtractorFactory;
-import ru.compscicenter.trends.util.CounterWriter;
+import ru.compscicenter.trends.util.CounterLogger;
 import ru.compscicenter.trends.util.FilesCollector;
 
 import java.awt.geom.IllegalPathStateException;
@@ -15,7 +15,6 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * This is a temporary script for blog articles processing.
@@ -57,7 +56,7 @@ public class HtmlProcessor {
 
     private static void writeToDirectory(String sourceDirPath, Source type, String destPath) throws IOException {
 
-        final CounterWriter writer = new CounterWriter(System.out, 500, "%s docs processed.");
+        final CounterLogger writer = new CounterLogger(log, 500, "%s docs processed.");
 
         final File dest = new File(destPath);
         dest.mkdirs();
