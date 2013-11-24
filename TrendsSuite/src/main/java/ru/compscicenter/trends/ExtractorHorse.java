@@ -2,7 +2,7 @@ package ru.compscicenter.trends;
 
 import org.slf4j.Logger;
 import ru.compscicenter.trends.ner.model.NamedEntity;
-import ru.compscicenter.trends.trends.TrendsPerDirectoryExtractor;
+import ru.compscicenter.trends.trends.TrendsExtractor;
 import ru.compscicenter.trends.util.CounterLogger;
 
 import java.io.File;
@@ -19,7 +19,7 @@ class ExtractorHorse implements Runnable {
     final CounterLogger ticker;
     final Logger log;
 
-    final static TrendsPerDirectoryExtractor extractor = new TrendsPerDirectoryExtractor();
+    final static TrendsExtractor extractor = new TrendsExtractor();
 
     public ExtractorHorse(final BlockingQueue<File> q,
                           final BlockingQueue<NamedEntity> destQ,

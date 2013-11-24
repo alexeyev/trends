@@ -14,14 +14,14 @@ import java.util.List;
 /**
  * @author alexeyev
  */
-public class TrendsPerDirectoryExtractor {
+public class TrendsExtractor {
 
     private final static Logger log =
-            LoggerFactory.getLogger(TrendsPerDirectoryExtractor.class);
+            LoggerFactory.getLogger(TrendsExtractor.class);
 
     private final TaxonomyExtractor extractor;
 
-    public TrendsPerDirectoryExtractor() {
+    public TrendsExtractor() {
         try {
             extractor = new TaxonomyExtractorBasic();
         } catch (IOException e) {
