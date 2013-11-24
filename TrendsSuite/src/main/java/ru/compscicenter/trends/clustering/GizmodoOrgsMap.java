@@ -44,11 +44,15 @@ public class GizmodoOrgsMap extends OrgsMap {
 
         // one can't just split by comma
         while (br.ready()) {
+
             line = br.readLine();
             final Matcher matcher = mapPattern.matcher(clean(line));
+
+            //todo: put to private method
             if (matcher.find()) {
                 String name = matcher.group(2);
                 Long id = Long.parseLong(matcher.group(1));
+
                 if (collectingMap.containsKey(name)) {
                     collectingMap.get(name).add(id);
                 } else {
