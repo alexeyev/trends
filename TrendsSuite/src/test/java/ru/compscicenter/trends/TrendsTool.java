@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 
 /**
+ * Example of TrendsExtractor library usage.
  * @author alexeyev
  */
 public class TrendsTool {
