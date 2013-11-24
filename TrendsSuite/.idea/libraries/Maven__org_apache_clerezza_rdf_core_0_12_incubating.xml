@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.clerezza:rdf.core:0.12-incubating">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/rdf.core/0.12-incubating/rdf.core-0.12-incubating.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/rdf.core/0.12-incubating/rdf.core-0.12-incubating-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/rdf.core/0.12-incubating/rdf.core-0.12-incubating-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
