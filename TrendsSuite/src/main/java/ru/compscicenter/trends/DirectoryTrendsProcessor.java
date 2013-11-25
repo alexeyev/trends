@@ -78,6 +78,15 @@ public class DirectoryTrendsProcessor {
                 }
             }
         }
+
+        /**
+         * BUT:
+         * $ wc -l 2005.07.tsv
+             44873 2005.07.tsv
+         * $ cat 2005.07.tsv | sort | uniq | wc -l
+            30458
+         */
+
         writer.close();
     }
 
