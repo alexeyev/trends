@@ -19,8 +19,8 @@ public class TrendsTool {
 
     private static String topicToString(final Topic topic) {
         return String.format(
-                "[%d %s | %s]",
-                topic.id(), topic.name(), topic.getTermNames().toString());
+                "[%d v(%s)=%f | %s]",
+                topic.id(), topic.name(), topic.score, topic.getTermNames().toString());
     }
 
     public static void main(String[] args) {

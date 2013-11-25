@@ -36,7 +36,7 @@ class ExtractorHorse implements Runnable {
             try {
                 ticker.tick();
                 final File target = queue.take();
-                DirectoryProcessor.extractFromFile(target, destQueue);
+                DirectoryNEProcessor.extractFromFile(target, destQueue);
             } catch (Exception e) {
                 log.error("Exception!" + e.getMessage());
             }

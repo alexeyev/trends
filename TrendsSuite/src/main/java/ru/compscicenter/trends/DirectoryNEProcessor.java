@@ -21,7 +21,7 @@ import java.util.concurrent.*;
  * Style is horrible, logic is mixed.
  * Yet this is a script, so I don't care too much.
  */
-public class DirectoryProcessor {
+public class DirectoryNEProcessor {
 
     private static final Logger log = LoggerFactory.getLogger("script");
     private static final CounterLogger tickLog = new CounterLogger(log, 1000, "Processed: %s");
