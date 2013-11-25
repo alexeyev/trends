@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import ru.compscicenter.trends.ner.model.NamedEntity;
 import ru.compscicenter.trends.trends.TrendsExtractor;
 import ru.compscicenter.trends.util.CounterLogger;
+import ru.compscicenter.trends.util.Pair;
 
 import java.io.File;
 import java.util.concurrent.BlockingQueue;
@@ -15,14 +16,14 @@ import java.util.concurrent.BlockingQueue;
 class ExtractorHorse implements Runnable {
 
     final BlockingQueue<File> queue;
-    final BlockingQueue<NamedEntity> destQueue;
+    final BlockingQueue<Pair<NamedEntity,String>> destQueue;
     final CounterLogger ticker;
     final Logger log;
 
     final static TrendsExtractor extractor = new TrendsExtractor();
 
     public ExtractorHorse(final BlockingQueue<File> q,
-                          final BlockingQueue<NamedEntity> destQ,
+                          final BlockingQueue<Pair<NamedEntity,String>> destQ,
                           CounterLogger tickLog, Logger log) {
         queue = q;
         destQueue = destQ;

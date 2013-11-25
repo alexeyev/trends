@@ -8,6 +8,7 @@ import ru.compscicenter.trends.ner.model.NamedEntity;
 import ru.compscicenter.trends.ner.model.Tag;
 import ru.compscicenter.trends.util.CounterLogger;
 import ru.compscicenter.trends.util.FilesCollector;
+import ru.compscicenter.trends.util.Pair;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -27,16 +28,18 @@ public class DirectoryNEProcessor {
     private static final CounterLogger tickLog = new CounterLogger(log, 1000, "Processed: %s");
 
     static void extractFromFile
-            (final File textFile, final BlockingQueue<NamedEntity> destination) throws IOException {
+            (final File textFile, final BlockingQueue<Pair<NamedEntity,String>> destination)
+            throws IOException {
 
         if (!textFile.isFile()) {
             throw new IllegalArgumentException();
         }
         final String text = IOUtils.slurpFile(textFile);
+        final String year = textFile.getParentFile().getName();
         final List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
         for (final NamedEntity ne : nes) {
             if (ne.getTag().equals(Tag.ORGANIZATION)) {
-                destination.add(ne);
+                destination.add(new Pair<NamedEntity, String>(ne, year));
             }
         }
     }
@@ -50,14 +53,15 @@ public class DirectoryNEProcessor {
 
         final Date start = new Date();
         final File sourceDirectory =
-                new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus2/");
+                new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus3/");
         final FileWriter destinationFile =
                 new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_nes.txt");
 
         // all texts
         final BlockingQueue<File> queue = FilesCollector.getAllFiles(sourceDirectory);
         // all NEs
-        final BlockingQueue<NamedEntity> entities = new LinkedBlockingDeque<NamedEntity>();
+        final BlockingQueue<Pair<NamedEntity,String>> entities =
+                new LinkedBlockingDeque<Pair<NamedEntity,String>>();
 
         log.info("Files obtained.");
 
@@ -71,13 +75,13 @@ public class DirectoryNEProcessor {
         log.info("Runners added.");
         int size = 0;
 
-        final ArrayList<NamedEntity> buffer = new ArrayList<NamedEntity>();
+        final ArrayList<Pair<NamedEntity,String>> buffer = new ArrayList<Pair<NamedEntity,String>>();
         while (!pool.isTerminated()) {
             if (entities.size() > 5000) {
                 log.info(TimeUnit.MILLISECONDS.toSeconds(new Date().getTime() - start.getTime()) + " secs");
                 size += entities.drainTo(buffer);
-                for (final NamedEntity ne : buffer) {
-                    destinationFile.write(ne.getWords() + "\n");
+                for (final Pair<NamedEntity,String> pair : buffer) {
+                    destinationFile.write(pair.second() + "\t" + pair.first().getWords() + "\n");
                 }
                 buffer.clear();
                 log.info("Flushed entities: " + size);
@@ -85,8 +89,8 @@ public class DirectoryNEProcessor {
         }
 
         size += entities.drainTo(buffer);
-        for (final NamedEntity ne : buffer) {
-            destinationFile.write(ne.getWords() + "\n");
+        for (final Pair<NamedEntity,String> pair : buffer) {
+            destinationFile.write(pair.second() + "\t" + pair.first().getWords() + "\n");
         }
         buffer.clear();
 
