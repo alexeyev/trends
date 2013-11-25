@@ -2,7 +2,6 @@ package ru.compscicenter.trends;
 
 import org.slf4j.Logger;
 import ru.compscicenter.trends.ner.model.NamedEntity;
-import ru.compscicenter.trends.trends.TrendsExtractor;
 import ru.compscicenter.trends.util.CounterLogger;
 import ru.compscicenter.trends.util.Pair;
 
@@ -19,8 +18,6 @@ class ExtractorHorse implements Runnable {
     final BlockingQueue<Pair<NamedEntity,String>> destQueue;
     final CounterLogger ticker;
     final Logger log;
-
-    final static TrendsExtractor extractor = new TrendsExtractor();
 
     public ExtractorHorse(final BlockingQueue<File> q,
                           final BlockingQueue<Pair<NamedEntity,String>> destQ,

@@ -55,7 +55,7 @@ public class DirectoryNEProcessor {
         final File sourceDirectory =
                 new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus3/");
         final FileWriter destinationFile =
-                new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_nes.txt");
+                new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_aware_nes.txt");
 
         // all texts
         final BlockingQueue<File> queue = FilesCollector.getAllFiles(sourceDirectory);
