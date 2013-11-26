@@ -39,5 +39,6 @@ class ExtractorHorse implements Runnable {
                 log.error("Exception!" + e.getMessage());
             }
         }
+        log.info("Done.");
     }
 }

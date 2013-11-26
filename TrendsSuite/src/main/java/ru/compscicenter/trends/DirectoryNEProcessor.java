@@ -15,6 +15,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.*;
 
@@ -44,6 +45,14 @@ public class DirectoryNEProcessor {
         }
     }
 
+    private static boolean ready(List<Future<?>> fs) {
+        boolean ready = true;
+        for (Future f: fs) {
+            ready = ready && f.isDone();
+        }
+        return ready;
+    }
+
     /**
      * Well, i decided to do it in parallel.
      * @param args
@@ -53,9 +62,9 @@ public class DirectoryNEProcessor {
 
         final Date start = new Date();
         final File sourceDirectory =
-                new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus3/");
+                new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus4/");
         final FileWriter destinationFile =
-                new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_aware_nes.txt");
+                new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_aware_nes_test.txt");
 
         // all texts
         final BlockingQueue<File> queue = FilesCollector.getAllFiles(sourceDirectory);
@@ -68,15 +77,17 @@ public class DirectoryNEProcessor {
         final int NUMBER_OF_THREADS = 3;
         final ExecutorService pool = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
+        List<Future<?>> futures = new LinkedList<>();
+
         for (int i = 0; i < NUMBER_OF_THREADS; i++) {
-            pool.execute(new ExtractorHorse(queue, entities, tickLog, log));
+            futures.add(pool.submit(new ExtractorHorse(queue, entities, tickLog, log)));
         }
 
         log.info("Runners added.");
         int size = 0;
 
         final ArrayList<Pair<NamedEntity,String>> buffer = new ArrayList<Pair<NamedEntity,String>>();
-        while (!pool.isTerminated()) {
+        while (!ready(futures)) {
             if (entities.size() > 5000) {
                 log.info(TimeUnit.MILLISECONDS.toSeconds(new Date().getTime() - start.getTime()) + " secs");
                 size += entities.drainTo(buffer);
@@ -86,6 +97,7 @@ public class DirectoryNEProcessor {
                 buffer.clear();
                 log.info("Flushed entities: " + size);
             }
+
         }
 
         size += entities.drainTo(buffer);
@@ -96,5 +108,6 @@ public class DirectoryNEProcessor {
 
         destinationFile.close();
         log.info("Done.");
+        pool.shutdown();
     }
 }
