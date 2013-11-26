@@ -29,7 +29,7 @@ public class DirectoryNEProcessor {
     private static final CounterLogger tickLog = new CounterLogger(log, 1000, "Processed: %s");
 
     static void extractFromFile
-            (final File textFile, final BlockingQueue<Pair<NamedEntity,String>> destination)
+            (final File textFile, final BlockingQueue<Pair<NamedEntity, String>> destination)
             throws IOException {
 
         if (!textFile.isFile()) {
@@ -47,7 +47,7 @@ public class DirectoryNEProcessor {
 
     private static boolean ready(List<Future<?>> fs) {
         boolean ready = true;
-        for (Future f: fs) {
+        for (Future f : fs) {
             ready = ready && f.isDone();
         }
         return ready;
@@ -55,6 +55,7 @@ public class DirectoryNEProcessor {
 
     /**
      * Well, i decided to do it in parallel.
+     *
      * @param args
      * @throws Exception
      */
@@ -62,15 +63,15 @@ public class DirectoryNEProcessor {
 
         final Date start = new Date();
         final File sourceDirectory =
-                new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus4/");
+                new File("/home/alexeyev/hp/workspace/new_gizmodo/corpus3/");
         final FileWriter destinationFile =
-                new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_aware_nes_test.txt");
+                new FileWriter("/home/alexeyev/hp/workspace/new_gizmodo/date_aware_nes_2.txt");
 
         // all texts
         final BlockingQueue<File> queue = FilesCollector.getAllFiles(sourceDirectory);
         // all NEs
-        final BlockingQueue<Pair<NamedEntity,String>> entities =
-                new LinkedBlockingDeque<Pair<NamedEntity,String>>();
+        final BlockingQueue<Pair<NamedEntity, String>> entities =
+                new LinkedBlockingDeque<Pair<NamedEntity, String>>();
 
         log.info("Files obtained.");
 
@@ -83,27 +84,26 @@ public class DirectoryNEProcessor {
             futures.add(pool.submit(new ExtractorHorse(queue, entities, tickLog, log)));
         }
 
-        log.info("Runners added.");
         int size = 0;
-
-        final ArrayList<Pair<NamedEntity,String>> buffer = new ArrayList<Pair<NamedEntity,String>>();
+        final ArrayList<Pair<NamedEntity, String>> buffer = new ArrayList<Pair<NamedEntity, String>>();
         while (!ready(futures)) {
             if (entities.size() > 5000) {
                 log.info(TimeUnit.MILLISECONDS.toSeconds(new Date().getTime() - start.getTime()) + " secs");
                 size += entities.drainTo(buffer);
-                for (final Pair<NamedEntity,String> pair : buffer) {
+                for (final Pair<NamedEntity, String> pair : buffer) {
                     destinationFile.write(pair.second() + "\t" + pair.first().getWords() + "\n");
                 }
-                buffer.clear();
                 log.info("Flushed entities: " + size);
+                buffer.clear();
             }
-
         }
 
         size += entities.drainTo(buffer);
-        for (final Pair<NamedEntity,String> pair : buffer) {
+        for (final Pair<NamedEntity, String> pair : buffer) {
             destinationFile.write(pair.second() + "\t" + pair.first().getWords() + "\n");
         }
+
+        log.info("Flushed entities: " + size);
         buffer.clear();
 
         destinationFile.close();
