@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /**
+ * Choosing the shortest string as the cluster representative name.
  * @author alexeyev
  */
 public class DumbStrategy implements RepresentativeNameChoosingStrategy {
@@ -47,6 +48,7 @@ public class DumbStrategy implements RepresentativeNameChoosingStrategy {
     private static Logger log = LoggerFactory.getLogger("dumb-strategy");
 
     public static void main(String[] args) {
+        //todo: remove
         new DumbStrategy().getRepresentativesMap(new GizmodoOrgsMap().getMap());
     }
 }

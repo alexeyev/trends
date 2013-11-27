@@ -17,7 +17,7 @@ public class FlatTagParser {
 
     private final static Pattern pattern = Pattern.compile("<(\\w+)>([^<]+)</\\w+>");
 
-    public static List<Pair<String, String>> parseAll(final String text) {
+    static List<Pair<String, String>> parseAll(final String text) {
         final Matcher matcher = pattern.matcher(text);
         final LinkedList<Pair<String, String>> results = new LinkedList<Pair<String, String>>();
 

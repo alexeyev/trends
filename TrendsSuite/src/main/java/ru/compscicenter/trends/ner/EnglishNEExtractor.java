@@ -19,11 +19,18 @@ public class EnglishNEExtractor {
     private final static AbstractSequenceClassifier<CoreLabel> classifier =
             CRFClassifier.getClassifierNoExceptions(classifiersPath);
 
+    /**
+     * @param text raw text
+     * @return text with xml-ne-annoting tags
+     */
     public static String toAnnotatedString(final String text) {
         String normalizedText = text.replace("\n", " ");
         return classifier.classifyWithInlineXML(normalizedText);
     }
 
+    /**
+     * @param text raw text
+     */
     public static List<NamedEntity> getNamedEntities(final String text) {
         List<NamedEntity> result = new LinkedList<NamedEntity>();
         for (Pair<String, String> pair : FlatTagParser.parseAll(toAnnotatedString(text))) {
@@ -35,6 +42,6 @@ public class EnglishNEExtractor {
         return result;
     }
 
-    private EnglishNEExtractor() {  }
-
+    private EnglishNEExtractor() {
+    }
 }

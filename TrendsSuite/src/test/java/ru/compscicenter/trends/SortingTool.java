@@ -13,7 +13,7 @@ import java.util.*;
 import java.util.concurrent.*;
 
 /**
- * Раскладка по значимым организациям.
+ * Copying articles from older corpus to organizations' folders.
  *
  * @author alexeyev
  */

@@ -18,6 +18,7 @@ public class IEEEReader implements Reader {
         while (br.ready()) {
             sb.append(br.readLine());
         }
+
         br.close();
         return sb.toString();
     }

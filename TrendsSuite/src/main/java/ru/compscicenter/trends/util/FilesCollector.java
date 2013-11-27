@@ -5,6 +5,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
+ * Tool dealing with files acquisition.
  * @author alexeyev
  */
 public class FilesCollector {

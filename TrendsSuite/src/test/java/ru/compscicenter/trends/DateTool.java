@@ -9,13 +9,14 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
+/**
+ * corpus2 (monthly articles) to corpus3 (yearly)
+ */
 public class DateTool {
 
     private static Logger log = LoggerFactory.getLogger("");
 
     /**
-     * corpus2 (monthly articles) to corpus3 (yearly)
-     *
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {

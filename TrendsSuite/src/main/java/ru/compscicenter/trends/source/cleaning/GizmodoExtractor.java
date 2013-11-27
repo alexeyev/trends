@@ -14,8 +14,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * TODO
- *
  * @author alexeyev
  */
 public class GizmodoExtractor extends ArticleExtractor {

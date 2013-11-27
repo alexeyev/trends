@@ -7,7 +7,7 @@ import java.util.Set;
  * @author alexeyev
  */
 public class Article {
-    //todo: think about factory
+    //todo: how about a factory?
     private String text;
     private String title;
     private Date date;

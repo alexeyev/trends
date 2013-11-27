@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.concurrent.BlockingQueue;
 
 /**
+ * See SortingTool.
  * @author alexeyev
  */
 public class SorterExecutor implements Runnable {

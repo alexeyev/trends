@@ -20,6 +20,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * Tool for mining trends programmatically.
  * @author alexeyev
  */
 public class DirectoryTrendsProcessor {
