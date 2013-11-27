@@ -25,7 +25,7 @@ public class SortingTool {
     // yeahs, i know this should not be done,
     // i have very little time left
     static OrgsMap map = new GizmodoOrgsMap();
-    static List<Long> interestingCompanies = new LinkedList<Long>();
+    static Set<Long> interestingCompanies = new HashSet<Long>();
 
 
     private static boolean ready(List<Future<?>> fs) {
