@@ -16,6 +16,7 @@ import java.util.*;
 
 /**
  * Раскладка по значимым организациям.
+ *
  * @author alexeyev
  */
 public class NEDateTool {
@@ -65,17 +66,22 @@ public class NEDateTool {
         File destDirectory = new File("../new_gizmodo/corpus4/");
         destDirectory.mkdirs();
 
+        // yearly folders
         for (File year : years) {
             log.info(year.getAbsolutePath());
+            // articles
             for (File article : year.listFiles()) {
-                //log.info(article.getAbsolutePath());
                 String text = FileUtils.readFileToString(article);
+                // NER
                 List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
                 for (NamedEntity ne : nes) {
+                    // filtering organizations
                     if (ne.getTag().equals(Tag.ORGANIZATION)) {
                         Long orgId = map.getMap().get(ne.getWords());
+                        // only known organizations
                         if (orgId == null) {
                             //do nothing
+                            // only companies that are mentioned often
                         } else if (interestingCompanies.contains(orgId)) {
                             File destYearDir = new File(
                                     String.format(
