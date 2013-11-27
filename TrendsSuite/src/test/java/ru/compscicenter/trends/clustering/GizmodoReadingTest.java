@@ -19,14 +19,11 @@ public class GizmodoReadingTest {
 
     @Test
     public void test() throws IOException {
-        final Map<String, ArrayList<Long>> map = new GizmodoOrgsMap().getMap();
+        final Map<String, Long> map = new GizmodoOrgsMap().getMap();
 
         log.info("Strings: " + map.size());
 
-        int count = 0;
-        for (ArrayList a : map.values()) {
-           count += a.size();
-        }
+        int count = map.entrySet().size();
 
         log.info("Longs: " + count);
 

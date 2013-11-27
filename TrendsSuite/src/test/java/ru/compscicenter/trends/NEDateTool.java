@@ -9,18 +9,19 @@ import ru.compscicenter.trends.clustering.OrgsMap;
 import ru.compscicenter.trends.ner.EnglishNEExtractor;
 import ru.compscicenter.trends.ner.model.NamedEntity;
 import ru.compscicenter.trends.ner.model.Tag;
+import ru.compscicenter.trends.util.CounterLogger;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.*;
 
 /**
- * Раскладка по папкам с
+ * Раскладка по значимым организациям.
  * @author alexeyev
  */
 public class NEDateTool {
 
     private static Logger log = LoggerFactory.getLogger("local");
+    private static CounterLogger clog = new CounterLogger(LoggerFactory.getLogger("counter"), 100, "%s articles processed");
 
     public static void main(String[] args) throws Exception {
 
@@ -28,17 +29,16 @@ public class NEDateTool {
 
         OrgsMap map = new GizmodoOrgsMap();
         LineIterator lines = FileUtils.lineIterator(new File("../new_gizmodo/dan_2.txt"));
-        HashMap<Long, Set<Integer>> companyToYears = new HashMap<Long,Set<Integer>>();
+        HashMap<Long, Set<Integer>> companyToYears = new HashMap<Long, Set<Integer>>();
 
         // getting map companyid -> years
 
         while (lines.hasNext()) {
-            String line = (String)lines.next();
+            String line = (String) lines.next();
             Long id = map.getMap().get(line.split("\t")[1]);
             if (id == null) {
                 log.error("No id for company " + line.split("\t")[1]);
-            }
-            else {
+            } else {
                 if (!companyToYears.containsKey(id)) {
                     companyToYears.put(id, new HashSet<Integer>());
                 }
@@ -51,26 +51,44 @@ public class NEDateTool {
 
         int threshold = 5;
         int counter = 0;
-        for (Map.Entry<Long,Set<Integer>> entry : companyToYears.entrySet()) {
+        for (Map.Entry<Long, Set<Integer>> entry : companyToYears.entrySet()) {
             if (entry.getValue().size() > threshold) {
-                counter +=  1;
+                counter += 1;
                 log.info(entry.toString());
             }
         }
-        log.info("Total: " + counter  + " companies.");
+        log.info("Total: " + counter + " companies.");
 
-        //-----------------splitting-by-folders--------------
+        //-----------------splitting-by-folders---wish it was scala-----------
 
         File[] years = new File("../new_gizmodo/corpus3/").listFiles();
-        for (File year: years) {
-            for (File article: year.listFiles()) {
+        File destDirectory = new File("../new_gizmodo/corpus4/");
+        destDirectory.mkdirs();
+
+        for (File year : years) {
+            log.info(year.getAbsolutePath());
+            for (File article : year.listFiles()) {
+                //log.info(article.getAbsolutePath());
                 String text = FileUtils.readFileToString(article);
                 List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
                 for (NamedEntity ne : nes) {
                     if (ne.getTag().equals(Tag.ORGANIZATION)) {
-
+                        Long orgId = map.getMap().get(ne.getWords());
+                        if (orgId == null) {
+                            //do nothing
+                        } else if (interestingCompanies.contains(orgId)) {
+                            File destYearDir = new File(
+                                    String.format(
+                                            "%s/%s/%s/",
+                                            destDirectory.getAbsolutePath(),
+                                            orgId.toString(),
+                                            year.getName()));
+                            destYearDir.mkdirs();
+                            FileUtils.copyFileToDirectory(article, destYearDir);
+                        }
                     }
                 }
+                clog.tick();
             }
         }
     }
