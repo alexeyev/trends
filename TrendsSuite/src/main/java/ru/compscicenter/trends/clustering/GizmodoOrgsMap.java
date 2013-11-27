@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -26,7 +25,7 @@ public class GizmodoOrgsMap extends OrgsMap {
      */
 
     private final String pathToMap = "gizmodo/sort_uniq.txt";
-    private Map<String, ArrayList<Long>> orgs;
+    private Map<String, Long> orgs;
     private final Pattern mapPattern = Pattern.compile("(\\d+),\"(.*)\"");
     private final static Logger log = LoggerFactory.getLogger(GizmodoOrgsMap.class);
 
@@ -44,8 +43,8 @@ public class GizmodoOrgsMap extends OrgsMap {
 
             final BufferedReader br = new BufferedReader(new FileReader(mapFile));
             String line = null;
-            HashMap<String, ArrayList<Long>> collectingMap =
-                    new HashMap<String, ArrayList<Long>>();
+            HashMap<String, Long> collectingMap =
+                    new HashMap<String, Long>();
 
             // one can't just split by comma
             while (br.ready()) {
@@ -57,14 +56,7 @@ public class GizmodoOrgsMap extends OrgsMap {
                 if (matcher.find()) {
                     String name = matcher.group(2);
                     Long id = Long.parseLong(matcher.group(1));
-
-                    if (collectingMap.containsKey(name)) {
-                        collectingMap.get(name).add(id);
-                    } else {
-                        ArrayList<Long> tempList = new ArrayList<Long>();
-                        tempList.add(id);
-                        collectingMap.put(name, tempList);
-                    }
+                    collectingMap.put(name, id);
                 } else {
                     throw new IOException("Line did not match pattern: [" + line + "]");
                 }
@@ -77,7 +69,7 @@ public class GizmodoOrgsMap extends OrgsMap {
         }
     }
 
-    public final Map<String, ArrayList<Long>> getMap() {
+    public final Map<String, Long> getMap() {
         return orgs;
     }
 }
