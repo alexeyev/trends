@@ -6,29 +6,39 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.compscicenter.trends.clustering.GizmodoOrgsMap;
 import ru.compscicenter.trends.clustering.OrgsMap;
-import ru.compscicenter.trends.ner.EnglishNEExtractor;
-import ru.compscicenter.trends.ner.model.NamedEntity;
-import ru.compscicenter.trends.ner.model.Tag;
 import ru.compscicenter.trends.util.CounterLogger;
 
 import java.io.File;
 import java.util.*;
+import java.util.concurrent.*;
 
 /**
  * Раскладка по значимым организациям.
  *
  * @author alexeyev
  */
-public class NEDateTool {
+public class SortingTool {
 
     private static Logger log = LoggerFactory.getLogger("local");
     private static CounterLogger clog = new CounterLogger(LoggerFactory.getLogger("counter"), 100, "%s articles processed");
 
+    // yeahs, i know this should not be done,
+    // i have very little time left
+    static OrgsMap map = new GizmodoOrgsMap();
+    static List<Long> interestingCompanies = new LinkedList<Long>();
+
+
+    private static boolean ready(List<Future<?>> fs) {
+        boolean ready = true;
+        for (Future f : fs) {
+            ready = ready && f.isDone();
+        }
+        return ready;
+    }
+
     public static void main(String[] args) throws Exception {
 
         // whole pipeline here
-
-        OrgsMap map = new GizmodoOrgsMap();
         LineIterator lines = FileUtils.lineIterator(new File("../new_gizmodo/dan_2.txt"));
         HashMap<Long, Set<Integer>> companyToYears = new HashMap<Long, Set<Integer>>();
 
@@ -48,7 +58,6 @@ public class NEDateTool {
             }
         }
 
-        List<Long> interestingCompanies = new LinkedList<Long>();
 
         int threshold = 5;
         int counter = 0;
@@ -56,6 +65,7 @@ public class NEDateTool {
             if (entry.getValue().size() > threshold) {
                 counter += 1;
                 log.info(entry.toString());
+                interestingCompanies.add(entry.getKey());
             }
         }
         log.info("Total: " + counter + " companies.");
@@ -63,39 +73,19 @@ public class NEDateTool {
         //-----------------splitting-by-folders---wish it was scala-----------
 
         File[] years = new File("../new_gizmodo/corpus3/").listFiles();
-        File destDirectory = new File("../new_gizmodo/corpus4/");
-        destDirectory.mkdirs();
 
-        // yearly folders
-        for (File year : years) {
-            log.info(year.getAbsolutePath());
-            // articles
-            for (File article : year.listFiles()) {
-                String text = FileUtils.readFileToString(article);
-                // NER
-                List<NamedEntity> nes = EnglishNEExtractor.getNamedEntities(text);
-                for (NamedEntity ne : nes) {
-                    // filtering organizations
-                    if (ne.getTag().equals(Tag.ORGANIZATION)) {
-                        Long orgId = map.getMap().get(ne.getWords());
-                        // only known organizations
-                        if (orgId == null) {
-                            //do nothing
-                            // only companies that are mentioned often
-                        } else if (interestingCompanies.contains(orgId)) {
-                            File destYearDir = new File(
-                                    String.format(
-                                            "%s/%s/%s/",
-                                            destDirectory.getAbsolutePath(),
-                                            orgId.toString(),
-                                            year.getName()));
-                            destYearDir.mkdirs();
-                            FileUtils.copyFileToDirectory(article, destYearDir);
-                        }
-                    }
-                }
-                clog.tick();
-            }
+        // parallel stuff
+        final int NUMBER_OF_THREADS = 3;
+        final BlockingQueue<File> queue = new LinkedBlockingDeque<File>(Arrays.asList(years));
+        final ExecutorService pool = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
+
+        List<Future<?>> futures = new LinkedList<Future<?>>();
+        for (int i = 0; i < NUMBER_OF_THREADS; i++) {
+            futures.add(pool.submit(new SorterExecutor(queue, clog)));
         }
+
+        while (!ready(futures)) ;
+        pool.shutdown();
+        log.info("Done");
     }
 }
