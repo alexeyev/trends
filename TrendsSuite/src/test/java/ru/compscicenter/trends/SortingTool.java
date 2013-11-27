@@ -58,7 +58,6 @@ public class SortingTool {
             }
         }
 
-
         int threshold = 5;
         int counter = 0;
         for (Map.Entry<Long, Set<Integer>> entry : companyToYears.entrySet()) {
