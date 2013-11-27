@@ -14,6 +14,7 @@ public class DumbStrategy implements RepresentativeNameChoosingStrategy {
     public Map<Long, String> getRepresentativesMap(final Map<String, Long> clusteredNames) {
 
         Map<Long, Set<String>> clusters = new HashMap<Long, Set<String>>();
+
         for (Map.Entry<String, Long> e : clusteredNames.entrySet()) {
             if (!clusters.containsKey(e.getValue())) {
                 clusters.put(
@@ -30,15 +31,15 @@ public class DumbStrategy implements RepresentativeNameChoosingStrategy {
             clusters.get(e.getValue()).add(e.getKey());
         }
 
-        log.info(clusters.toString());
-        log.info(clusters.size() + "");
+        log.debug(clusters.toString());
+        log.debug(clusters.size() + "");
 
         Map<Long, String> representatives = new TreeMap<Long, String>();
 
         for (Map.Entry<Long, Set<String>> e : clusters.entrySet()) {
             String shortestName = e.getValue().iterator().next();
             representatives.put(e.getKey(), shortestName);
-            log.info(" " + e.getKey() + " " + shortestName);
+            log.debug(" " + e.getKey() + " " + shortestName);
         }
         return representatives;
     }
