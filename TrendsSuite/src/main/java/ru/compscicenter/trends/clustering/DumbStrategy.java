@@ -3,10 +3,13 @@ package ru.compscicenter.trends.clustering;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 /**
  * Choosing the shortest string as the cluster representative name.
+ *
  * @author alexeyev
  */
 public class DumbStrategy implements RepresentativeNameChoosingStrategy {
@@ -21,7 +24,7 @@ public class DumbStrategy implements RepresentativeNameChoosingStrategy {
                 clusters.put(
                         e.getValue(),
                         new TreeSet<String>(
-                                // a treeset sorted buy length
+                                // a treeset sorted by length
                                 new Comparator<String>() {
                                     @Override
                                     public int compare(String o1, String o2) {
@@ -40,15 +43,21 @@ public class DumbStrategy implements RepresentativeNameChoosingStrategy {
         for (Map.Entry<Long, Set<String>> e : clusters.entrySet()) {
             String shortestName = e.getValue().iterator().next();
             representatives.put(e.getKey(), shortestName);
-            log.debug(" " + e.getKey() + " " + shortestName);
+            log.info(" " + e.getKey() + " " + e.getValue().size() + " " + e.getValue().toString());
+//            log.info(" " + e.getKey() + " " + shortestName);
         }
         return representatives;
     }
 
     private static Logger log = LoggerFactory.getLogger("dumb-strategy");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //todo: remove
-        new DumbStrategy().getRepresentativesMap(new GizmodoOrgsMap().getMap());
+        FileWriter fw = new FileWriter("../id-to-representative.tsv");
+        Map<Long, String> map = new DumbStrategy().getRepresentativesMap(new GizmodoOrgsMap().getMap());
+        for (Map.Entry<Long, String> e : map.entrySet()) {
+            fw.write(e.getKey() + "\t" + e.getValue() + "\n");
+        }
+        fw.close();
     }
 }
