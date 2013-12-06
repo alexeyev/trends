@@ -42,7 +42,7 @@
         <p class="small">
           М.Коржеманова
           <br> А.Алексеев
-          <br> Руководители: С.Серебряков, А.Уланов
+          <br><br> Руководители: С.Серебряков, А.Уланов
           <br><br> CSC, 18 дек. 2013
         </p>
       </article>
@@ -62,7 +62,7 @@
         </h3>
         <p>
           Цепочка действий по пунктам
-	<ol>
+	<ol class="build">
 	<li>Выбрать корпусы</li>
 	<li>Научиться вынимать тренды</li>
 	<li>Научиться вынимать именованные сущности</li>
@@ -73,47 +73,9 @@
 
       <article>
 	<h3>Работы -- на час!</h3>
-        <img class="build" src="http://risovach.ru/upload/2013/09/mem/lol_29321186_orig_.jpg"/>
-      </article>
-
-      <article>
-        <h3>
-          Slide with bullet points that builds
-        </h3>
-        <ul class="build">
-          <li>
-            This is an example of a list
-          </li>
-          <li>
-            The list items fade in
-          </li>
-          <li>
-            Last one!
-          </li>
-        </ul>
-
-        <div class="build">
-          <p>Any element with child nodes can build.</p>
-          <p>It doesn't have to be a list.</p>
+	<div class="build">
+           <img  src="http://risovach.ru/upload/2013/09/mem/lol_29321186_orig_.jpg"/>
         </div>
-      </article>
-
-      <article class='smaller'>
-        <h3>
-          Slide with bullet points (small font)
-        </h3>
-        <ul>
-          <li>
-            Use this template to create your presentation
-          <li>
-            Use the provided color palette, box and arrow graphics, and
-            chart styles
-          <li>
-            Instructions are provided to assist you in using this
-            presentation template effectively
-          <li>
-            At all times strive to maintain Google's corporate look and feel
-        </ul>
       </article>
 
       <article>
@@ -297,7 +259,7 @@
       
       <article class='nobackground'>
         <h3>
-          Демо
+          Демонстрация красоты
         </h3>
         
         <iframe src='http://math.spbu.ru/'></iframe>
@@ -305,13 +267,17 @@
       
       <article>
         <h3>
-          Thank you!
+          Спасибо!
         </h3>
         
         <ul>
-          <li>
-            <a href='http://www.google.com'>google.com</a>
+          <li> Если вдруг надумаете скачать TechCrunch -- feel free to fork:
+            <a href='https://github.com/alexeyev/trends'>TrendsSuite & scripts</a>
         </ul>
+      </article>
+
+      <article>
+          <h1>Время коварных вопросов</h1>      
       </article>
 
     </section>
