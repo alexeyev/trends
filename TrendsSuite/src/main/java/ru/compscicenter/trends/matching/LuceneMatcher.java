@@ -19,6 +19,8 @@ import org.apache.lucene.search.TopScoreDocCollector;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -39,6 +41,7 @@ import java.util.List;
 public class LuceneMatcher {
     //todo: decomposition
 
+    private Logger log = LoggerFactory.getLogger("lucene-matcher");
     private String companyField = "name";
     private Version luceneVersion = Version.LUCENE_46;
 
@@ -66,11 +69,10 @@ public class LuceneMatcher {
 
     public LuceneMatcher(File companies) throws IOException {
         fillIndex(companies);
+        log.info("Index built.");
     }
 
-
     public Collection<String> magicSearch(String query, Float threshold) throws IOException, ParseException {
-
         IndexReader reader = IndexReader.open(index);
         IndexSearcher searcher = new IndexSearcher(reader);
         QueryParser qp = new QueryParser(luceneVersion, companyField, analyzer);
@@ -107,6 +109,4 @@ public class LuceneMatcher {
         }
         return results;
     }
-
-
 }
