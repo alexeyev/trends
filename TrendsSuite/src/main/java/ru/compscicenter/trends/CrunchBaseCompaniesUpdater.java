@@ -8,8 +8,10 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.compscicenter.trends.util.Pair;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -32,21 +34,22 @@ public class CrunchBaseCompaniesUpdater {
 
     private static String key = "9tntveu599j2wun8r9wz99mp";
 
-    private static List<String> parseCompanies(String src) {
+    private static List<Pair<String, String>> parseCompanies(String src) {
 
         JSONArray compRecords = new JSONArray(src);
         int size = compRecords.length();
-        List<String> results = new LinkedList<>();
+        List<Pair<String, String>> results = new LinkedList<>();
         for (int i = 0; i < size; i++) {
-            results.add(compRecords.getJSONObject(i).getString("name"));
+            JSONObject json = compRecords.getJSONObject(i);
+            results.add(new Pair<String, String>(json.getString("name"), json.getString("permalink")));
         }
         return results;
     }
 
-    private static void writeCompanies(List<String> companies) throws IOException {
-        FileWriter writer = new FileWriter("crunchbase-companies.tsv");
-        for (String company : companies) {
-            writer.write(String.format("%s\n", company));
+    private static void writeCompanies(List<Pair<String, String>> companies) throws IOException {
+        FileWriter writer = new FileWriter("crunchbase-companies.csv");
+        for (Pair company : companies) {
+            writer.write(String.format("%s\t%s\n", company.first(), company.second()));
         }
         writer.close();
     }
@@ -62,7 +65,7 @@ public class CrunchBaseCompaniesUpdater {
 
         log.debug(result);
 
-        List<String> companiesNames = parseCompanies(result);
+        List<Pair<String, String>> companiesNames = parseCompanies(result);
         writeCompanies(companiesNames);
 
         log.debug(companiesNames.toString());
