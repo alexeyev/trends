@@ -26,15 +26,10 @@ public class MatchingTool {
                 Collection<String> results = matcher.magicSearch(query, 3f);
                 log.info(results.toString());
                 if (results.isEmpty()) {
-                    String[] shortQuery = query.split("\\s");
-                    int len = shortQuery.length;
-                    int i = 0;
-                    while (results.isEmpty() && i < len) {
-                        if (!shortQuery[i].equals("")) {
-                            results = matcher.magicSearch(shortQuery[i], 3f);
-                            log.info("==> " + results.toString());
-                        }
-                        i++;
+                    String shortQuery = query.split("\\s")[0];
+                    if (!shortQuery.equals("")) {
+                        results = matcher.magicSearch(shortQuery, 3f);
+                        log.info("==> " + results.toString());
                     }
                 }
             }
