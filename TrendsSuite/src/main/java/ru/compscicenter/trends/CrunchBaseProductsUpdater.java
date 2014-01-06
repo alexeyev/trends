@@ -55,7 +55,7 @@ public class CrunchBaseProductsUpdater {
         BufferedReader br =
                 new BufferedReader(
                         new InputStreamReader(
-                                new FileInputStream("crunchbase-companies.tsv")));
+                                new FileInputStream("crunchbase-companies.csv")));
         List<Pair<String, String>> companies = new LinkedList<>();
         while (br.ready()) {
             String[] line = br.readLine().split("\t");
