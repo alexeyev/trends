@@ -10,12 +10,16 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.compscicenter.trends.util.CounterLogger;
 import ru.compscicenter.trends.util.Pair;
 
 import java.io.*;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * @author alexeyev
@@ -23,6 +27,7 @@ import java.util.List;
 public class CrunchBaseProductsUpdater {
 
     private static Logger log = LoggerFactory.getLogger("updater");
+    private static final CounterLogger clog = new CounterLogger(log, 10, "ATTENTION! [%s] COMPANIES PROCESSED!");
 
     private CrunchBaseProductsUpdater() {
     }
@@ -44,18 +49,20 @@ public class CrunchBaseProductsUpdater {
 
     private static void writeProds(String company, List<String> prods) throws IOException {
         for (String prod : prods) {
-            writer.write(String.format("%s\t%s\n", prod, company));
+            synchronized (writer) {
+                writer.write(String.format("%s\t%s\n", prod, company));
+            }
         }
     }
 
     /**
      * @return a list of pairs: name, permalink
      */
-    private static List<Pair<String, String>> getPermalinksAndCompaniesFromFile() throws IOException {
+    private static List<Pair<String, String>> getPermalinksAndCompaniesFromFile(File file) throws IOException {
         BufferedReader br =
                 new BufferedReader(
                         new InputStreamReader(
-                                new FileInputStream("crunchbase-companies.csv")));
+                                new FileInputStream(file)));
         List<Pair<String, String>> companies = new LinkedList<>();
         while (br.ready()) {
             String[] line = br.readLine().split("\t");
@@ -69,7 +76,6 @@ public class CrunchBaseProductsUpdater {
                 "http://api.crunchbase.com/v/1/company/%s.js?api_key=%s",
                 company.second(),
                 key);
-        log.info("Requesting data... ");
         HttpResponse response = client.execute(new HttpGet(url));
         String result = IOUtils.toString(response.getEntity().getContent(), "utf8");
         EntityUtils.consumeQuietly(response.getEntity());
@@ -79,21 +85,21 @@ public class CrunchBaseProductsUpdater {
         if (!result.matches("\\s*")) {
             List<String> prodsNames = parseProds(result);
             writeProds(company.first(), prodsNames);
-            log.info(String.format("A total of %d products: %s", prodsNames.size(), prodsNames.toString()));
+//            log.info(String.format("A total of %d products: %s", prodsNames.size(), prodsNames.toString()));
         } else {
             log.info("No products.");
         }
     }
 
-    private static void updateStuff() throws IOException {
+    static void updateStuff(File file) throws IOException {
         log.info("Starting...\n" + new Date());
 
         HttpClient client = new DefaultHttpClient();
 
-        int counter = 1;
-        for (Pair<String, String> company : getPermalinksAndCompaniesFromFile()) {
-            log.info(String.format("%d %s", counter, company.first()));
-            counter++;
+        for (Pair<String, String> company : getPermalinksAndCompaniesFromFile(file)) {
+            clog.tick();
+            log.info(String.format("%s", company.first()));
+
             //todo: rewrite as a loop
             //todo: or, better, get names for requests from companies list API
             try {
@@ -108,9 +114,35 @@ public class CrunchBaseProductsUpdater {
         log.info("Done.\n" + new Date());
     }
 
+    private static boolean ready(List<Future<?>> fs) {
+        boolean ready = true;
+        for (Future f : fs) {
+            ready = ready && f.isDone();
+        }
+        return ready;
+    }
+
     public static void main(String[] args) throws IOException {
-        writer = new FileWriter("crunchbase-products.tsv");
-        updateStuff();
+        writer = new FileWriter("crunchbase-products-new.tsv");
+
+        File[] fileArray =
+                {new File("companies0.csv"), new File("companies1.csv"), new File("companies2.csv")};
+
+//        updateStuff(new File("crunchbase-companies.csv"));
+
+        int threads = 3;
+        final ExecutorService pool = Executors.newFixedThreadPool(threads);
+        List<Future<?>> futures = new LinkedList<>();
+
+        for (int i = 0; i < 3; i++) {
+            futures.add(pool.submit(new RequesterHorse(fileArray[i], log)));
+        }
+
+        while (!ready(futures)) {
+        }
+
+        log.info("Done.");
+        pool.shutdown();
         writer.close();
     }
 }
