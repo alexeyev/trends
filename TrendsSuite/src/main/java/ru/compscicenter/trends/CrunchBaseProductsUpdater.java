@@ -28,6 +28,8 @@ public class CrunchBaseProductsUpdater {
 
     private static Logger log = LoggerFactory.getLogger("updater");
     private static final CounterLogger clog = new CounterLogger(log, 10, "ATTENTION! [%s] COMPANIES PROCESSED!");
+    private static final CounterLogger plog = new CounterLogger(log, 10, "ATTENTION! [%s] PRODUCTS FOUND!");
+
 
     private CrunchBaseProductsUpdater() {
     }
@@ -85,6 +87,7 @@ public class CrunchBaseProductsUpdater {
         if (!result.matches("\\s*")) {
             List<String> prodsNames = parseProds(result);
             writeProds(company.first(), prodsNames);
+            plog.tick(prodsNames.size());
 //            log.info(String.format("A total of %d products: %s", prodsNames.size(), prodsNames.toString()));
         } else {
             log.info("No products.");
@@ -131,10 +134,11 @@ public class CrunchBaseProductsUpdater {
 //        updateStuff(new File("crunchbase-companies.csv"));
 
         int threads = 3;
+
         final ExecutorService pool = Executors.newFixedThreadPool(threads);
         List<Future<?>> futures = new LinkedList<>();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < threads; i++) {
             futures.add(pool.submit(new RequesterHorse(fileArray[i], log)));
         }
 

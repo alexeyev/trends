@@ -11,6 +11,7 @@ public class CounterLogger {
     private final Logger log;
     private final int step;
     private final String pattern;
+    private volatile long prevCounter = 0;
 
     public CounterLogger(final Logger log, final int step, final String pattern) {
         if (step < 1)
@@ -24,6 +25,15 @@ public class CounterLogger {
         counter++;
         if (counter % step == 0) {
             log.info(String.format(pattern, counter));
+            prevCounter = counter;
+        }
+    }
+
+    public void tick(int up) {
+        counter += up;
+        if (counter - prevCounter >= step) {
+            log.info(String.format(pattern, counter));
+            prevCounter = counter;
         }
     }
 }
