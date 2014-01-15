@@ -38,6 +38,7 @@ import java.util.List;
  *
  * @author alexeyev
  */
+@Deprecated
 public class LuceneMatcher {
     //todo: decomposition
 

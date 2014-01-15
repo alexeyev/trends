@@ -17,6 +17,9 @@ public class MatchingTool {
     private static Logger log = LoggerFactory.getLogger("matching");
 
     public static void main(String[] args) {
+        //todo: UIMA + wiki OR crunchbase
+        //todo: redirect pages
+        //todo: filter wikiGraph
         try {
             LuceneMatcher matcher = new LuceneMatcher(new File("techcrunch.txt"));
             List<String> lines = FileUtils.readLines(new File("test_companies.tsv"));

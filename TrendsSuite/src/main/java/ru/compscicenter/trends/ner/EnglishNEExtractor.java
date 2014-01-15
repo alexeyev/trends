@@ -13,6 +13,7 @@ import java.util.List;
 /**
  * @author alexeyev
  */
+@Deprecated
 public class EnglishNEExtractor {
 
     private final static String classifiersPath = "classifiers/english.all.3class.distsim.crf.ser.gz";
