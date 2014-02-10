@@ -13,11 +13,12 @@ import java.util.List;
  *
  * @author alexeyev
  */
-public class MatchingTool {
+public class OldMatchingTool {
     private static Logger log = LoggerFactory.getLogger("matching");
 
     public static void main(String[] args) {
         //todo: UIMA + wiki OR crunchbase
+        //billion(VARIANTS=bln;bln.;billion;billione)
         //todo: redirect pages
         //todo: filter wikiGraph
         try {
